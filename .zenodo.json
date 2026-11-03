@@ -1,0 +1,19 @@
+{
+  "title": "BP-TD: code and cached data for \"Where Is the Truth When AI Agents Disagree? Dependence-Aware Belief Propagation for Unsupervised Truth Discovery\" (IEEE BigData 2026)",
+  "upload_type": "software",
+  "version": "2.0.0",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Berti-Equille, Laure",
+      "affiliation": "IRD, ESPACE-DEV, Montpellier, France",
+      "orcid": "0000-0002-8046-0570"
+    }
+  ],
+  "description": "<p>Code and cached agent answers for the paper <em>Where Is the Truth When AI Agents Disagree? Dependence-Aware Belief Propagation for Unsupervised Truth Discovery</em> by Laure Berti-Equille, accepted at the 2026 IEEE International Conference on Big Data (IEEE BigData 2026), short paper.</p><p>BP-TD infers the true answers of disagreeing LLM agents and each agent's reliability without labels, using mean-field variational inference on a one-coin Dawid-Skene model with per-agent decorrelation weights (from base-model provenance or answer co-occurrence). Every number in the paper recomputes on CPU from the bundled answers; the result CSVs behind the paper are included.</p><p>Source repository: <a href=\"https://github.com/LaureBerti/BPTD\">https://github.com/LaureBerti/BPTD</a></p>",
+  "keywords": ["truth discovery", "LLM agents", "source dependence", "variational inference", "data quality", "ensembling"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/LaureBerti/BPTD", "relation": "isSupplementTo", "scheme": "url"}
+  ],
+  "notes": "Paper accepted at IEEE BigData 2026. Add the proceedings DOI as a related identifier (relation: isSupplementTo) once it is assigned."
+}

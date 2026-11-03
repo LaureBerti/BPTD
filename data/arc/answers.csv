@@ -1,0 +1,2241 @@
+qid,agent,raw,value,parse_ok,latency_s,agent_type,base_model
+arc-0,direct:qwen2.5:14b,C,C,1,127.943,direct,qwen2.5
+arc-0,direct:qwen2.5:7b,C,C,1,24.735,direct,qwen2.5
+arc-0,direct:mistral:7b, C,C,1,58.037,direct,mistral
+arc-0,direct:llama3.2:latest,C.,C,1,13.342,direct,llama3.2
+arc-0,direct:phi3.5:latest,C,C,1,46.836,direct,phi3.5
+arc-0,direct:gemma2:2b,C  ,C,1,50.474,direct,gemma2
+arc-0,sc:llama3.2:latest,vote C 4/5,C,1,1.952,self_consistency,llama3.2
+arc-0,sc:qwen2.5:7b,vote C 5/5,C,1,18.063,self_consistency,qwen2.5
+arc-0,persona:expert,C.,C,1,5.772,persona,llama3.2
+arc-0,persona:skeptic,C.,C,1,0.456,persona,llama3.2
+arc-0,persona:cautious,C.,C,1,0.457,persona,llama3.2
+arc-0,rag:llama3.2:latest,C.,C,1,0.454,rag,llama3.2
+arc-0,rag:qwen2.5:7b,C,C,1,0.336,rag,qwen2.5
+arc-0,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-1,direct:qwen2.5:14b,B,B,1,51.82,direct,qwen2.5
+arc-1,direct:qwen2.5:7b,B,B,1,6.337,direct,qwen2.5
+arc-1,direct:mistral:7b, B,B,1,25.305,direct,mistral
+arc-1,direct:llama3.2:latest,B.,B,1,11.795,direct,llama3.2
+arc-1,direct:phi3.5:latest,B,B,1,2.258,direct,phi3.5
+arc-1,direct:gemma2:2b,B  ,B,1,8.262,direct,gemma2
+arc-1,sc:llama3.2:latest,vote B 5/5,B,1,1.967,self_consistency,llama3.2
+arc-1,sc:qwen2.5:7b,vote B 5/5,B,1,13.369,self_consistency,qwen2.5
+arc-1,persona:expert,B,B,1,2.969,persona,llama3.2
+arc-1,persona:skeptic,B,B,1,0.45,persona,llama3.2
+arc-1,persona:cautious,B,B,1,0.471,persona,llama3.2
+arc-1,rag:llama3.2:latest,B.,B,1,0.455,rag,llama3.2
+arc-1,rag:qwen2.5:7b,B,B,1,0.336,rag,qwen2.5
+arc-1,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-2,direct:qwen2.5:14b,C,C,1,50.562,direct,qwen2.5
+arc-2,direct:qwen2.5:7b,C,C,1,6.558,direct,qwen2.5
+arc-2,direct:mistral:7b, C,C,1,25.262,direct,mistral
+arc-2,direct:llama3.2:latest,B.,B,1,11.774,direct,llama3.2
+arc-2,direct:phi3.5:latest,C,C,1,6.855,direct,phi3.5
+arc-2,direct:gemma2:2b,C  ,C,1,8.528,direct,gemma2
+arc-2,sc:llama3.2:latest,vote B 4/5,B,1,2.097,self_consistency,llama3.2
+arc-2,sc:qwen2.5:7b,vote C 5/5,C,1,8.779,self_consistency,qwen2.5
+arc-2,persona:expert,B,B,1,3.226,persona,llama3.2
+arc-2,persona:skeptic,B,B,1,0.46,persona,llama3.2
+arc-2,persona:cautious,B,B,1,0.456,persona,llama3.2
+arc-2,rag:llama3.2:latest,B.,B,1,0.452,rag,llama3.2
+arc-2,rag:qwen2.5:7b,C,C,1,0.331,rag,qwen2.5
+arc-2,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-3,direct:qwen2.5:14b,D,D,1,45.406,direct,qwen2.5
+arc-3,direct:qwen2.5:7b,D,D,1,6.667,direct,qwen2.5
+arc-3,direct:mistral:7b, D,D,1,25.285,direct,mistral
+arc-3,direct:llama3.2:latest,C.,C,1,3.216,direct,llama3.2
+arc-3,direct:phi3.5:latest,D,D,1,7.352,direct,phi3.5
+arc-3,direct:gemma2:2b,D  ,D,1,3.237,direct,gemma2
+arc-3,sc:llama3.2:latest,vote C 4/5,C,1,5.107,self_consistency,llama3.2
+arc-3,sc:qwen2.5:7b,vote D 5/5,D,1,13.405,self_consistency,qwen2.5
+arc-3,persona:expert,D,D,1,2.663,persona,llama3.2
+arc-3,persona:skeptic,D,D,1,0.458,persona,llama3.2
+arc-3,persona:cautious,D,D,1,0.451,persona,llama3.2
+arc-3,rag:llama3.2:latest,C.,C,1,0.455,rag,llama3.2
+arc-3,rag:qwen2.5:7b,D,D,1,0.346,rag,qwen2.5
+arc-3,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-4,direct:qwen2.5:14b,C,C,1,47.525,direct,qwen2.5
+arc-4,direct:qwen2.5:7b,C,C,1,6.521,direct,qwen2.5
+arc-4,direct:mistral:7b, B,B,1,25.324,direct,mistral
+arc-4,direct:llama3.2:latest,C.,C,1,2.932,direct,llama3.2
+arc-4,direct:phi3.5:latest,C,C,1,7.064,direct,phi3.5
+arc-4,direct:gemma2:2b,C  ,C,1,8.523,direct,gemma2
+arc-4,sc:llama3.2:latest,vote B 3/5,B,1,1.939,self_consistency,llama3.2
+arc-4,sc:qwen2.5:7b,vote C 5/5,C,1,8.62,self_consistency,qwen2.5
+arc-4,persona:expert,B,B,1,2.936,persona,llama3.2
+arc-4,persona:skeptic,B,B,1,0.475,persona,llama3.2
+arc-4,persona:cautious,B,B,1,0.456,persona,llama3.2
+arc-4,rag:llama3.2:latest,C.,C,1,0.468,rag,llama3.2
+arc-4,rag:qwen2.5:7b,C,C,1,0.349,rag,qwen2.5
+arc-4,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-5,direct:qwen2.5:14b,D,D,1,51.712,direct,qwen2.5
+arc-5,direct:qwen2.5:7b,B,B,1,6.595,direct,qwen2.5
+arc-5,direct:mistral:7b, B,B,1,25.315,direct,mistral
+arc-5,direct:llama3.2:latest,B.,B,1,11.817,direct,llama3.2
+arc-5,direct:phi3.5:latest,B,B,1,18.677,direct,phi3.5
+arc-5,direct:gemma2:2b,D  ,D,1,5.012,direct,gemma2
+arc-5,sc:llama3.2:latest,vote B 5/5,B,1,9.885,self_consistency,llama3.2
+arc-5,sc:qwen2.5:7b,vote B 5/5,B,1,18.229,self_consistency,qwen2.5
+arc-5,persona:expert,B.,B,1,2.968,persona,llama3.2
+arc-5,persona:skeptic,B,B,1,0.486,persona,llama3.2
+arc-5,persona:cautious,B.,B,1,0.48,persona,llama3.2
+arc-5,rag:llama3.2:latest,B.,B,1,0.491,rag,llama3.2
+arc-5,rag:qwen2.5:7b,B,B,1,0.326,rag,qwen2.5
+arc-5,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-6,direct:qwen2.5:14b,C,C,1,45.164,direct,qwen2.5
+arc-6,direct:qwen2.5:7b,C,C,1,6.451,direct,qwen2.5
+arc-6,direct:mistral:7b, C,C,1,25.337,direct,mistral
+arc-6,direct:llama3.2:latest,C.,C,1,2.959,direct,llama3.2
+arc-6,direct:phi3.5:latest,C,C,1,2.005,direct,phi3.5
+arc-6,direct:gemma2:2b,C  ,C,1,8.511,direct,gemma2
+arc-6,sc:llama3.2:latest,vote C 5/5,C,1,1.887,self_consistency,llama3.2
+arc-6,sc:qwen2.5:7b,vote C 5/5,C,1,13.567,self_consistency,qwen2.5
+arc-6,persona:expert,C,C,1,2.709,persona,llama3.2
+arc-6,persona:skeptic,C,C,1,0.459,persona,llama3.2
+arc-6,persona:cautious,C,C,1,0.478,persona,llama3.2
+arc-6,rag:llama3.2:latest,C.,C,1,0.46,rag,llama3.2
+arc-6,rag:qwen2.5:7b,C,C,1,0.342,rag,qwen2.5
+arc-6,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-7,direct:qwen2.5:14b,C,C,1,54.61,direct,qwen2.5
+arc-7,direct:qwen2.5:7b,C,C,1,6.643,direct,qwen2.5
+arc-7,direct:mistral:7b, A,A,1,25.287,direct,mistral
+arc-7,direct:llama3.2:latest,C.,C,1,11.51,direct,llama3.2
+arc-7,direct:phi3.5:latest,C,C,1,7.306,direct,phi3.5
+arc-7,direct:gemma2:2b,A  ,A,1,3.244,direct,gemma2
+arc-7,sc:llama3.2:latest,vote C 5/5,C,1,9.767,self_consistency,llama3.2
+arc-7,sc:qwen2.5:7b,vote C 5/5,C,1,18.044,self_consistency,qwen2.5
+arc-7,persona:expert,C,C,1,2.934,persona,llama3.2
+arc-7,persona:skeptic,A,A,1,0.45,persona,llama3.2
+arc-7,persona:cautious,C,C,1,0.442,persona,llama3.2
+arc-7,rag:llama3.2:latest,C.,C,1,0.469,rag,llama3.2
+arc-7,rag:qwen2.5:7b,C,C,1,0.36,rag,qwen2.5
+arc-7,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-8,direct:qwen2.5:14b,B,B,1,45.187,direct,qwen2.5
+arc-8,direct:qwen2.5:7b,B,B,1,6.393,direct,qwen2.5
+arc-8,direct:mistral:7b, B,B,1,25.328,direct,mistral
+arc-8,direct:llama3.2:latest,A.,A,1,2.691,direct,llama3.2
+arc-8,direct:phi3.5:latest,A,A,1,2.002,direct,phi3.5
+arc-8,direct:gemma2:2b,C  ,C,1,8.521,direct,gemma2
+arc-8,sc:llama3.2:latest,vote A 4/5,A,1,1.934,self_consistency,llama3.2
+arc-8,sc:qwen2.5:7b,vote B 5/5,B,1,13.592,self_consistency,qwen2.5
+arc-8,persona:expert,A,A,1,2.673,persona,llama3.2
+arc-8,persona:skeptic,A,A,1,0.473,persona,llama3.2
+arc-8,persona:cautious,A,A,1,0.475,persona,llama3.2
+arc-8,rag:llama3.2:latest,A.,A,1,0.448,rag,llama3.2
+arc-8,rag:qwen2.5:7b,B,B,1,0.336,rag,qwen2.5
+arc-8,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-9,direct:qwen2.5:14b,A,A,1,46.553,direct,qwen2.5
+arc-9,direct:qwen2.5:7b,A,A,1,6.696,direct,qwen2.5
+arc-9,direct:mistral:7b, A,A,1,25.232,direct,mistral
+arc-9,direct:llama3.2:latest,A.,A,1,11.001,direct,llama3.2
+arc-9,direct:phi3.5:latest,A,A,1,2.271,direct,phi3.5
+arc-9,direct:gemma2:2b,A  ,A,1,8.22,direct,gemma2
+arc-9,sc:llama3.2:latest,vote A 5/5,A,1,1.933,self_consistency,llama3.2
+arc-9,sc:qwen2.5:7b,vote A 5/5,A,1,13.461,self_consistency,qwen2.5
+arc-9,persona:expert,A,A,1,2.93,persona,llama3.2
+arc-9,persona:skeptic,A,A,1,0.443,persona,llama3.2
+arc-9,persona:cautious,A,A,1,0.452,persona,llama3.2
+arc-9,rag:llama3.2:latest,A,A,1,0.423,rag,llama3.2
+arc-9,rag:qwen2.5:7b,A,A,1,0.338,rag,qwen2.5
+arc-9,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-10,direct:qwen2.5:14b,C,C,1,50.022,direct,qwen2.5
+arc-10,direct:qwen2.5:7b,B,B,1,6.347,direct,qwen2.5
+arc-10,direct:mistral:7b, C,C,1,25.226,direct,mistral
+arc-10,direct:llama3.2:latest,C.,C,1,2.696,direct,llama3.2
+arc-10,direct:phi3.5:latest,B,B,1,2.019,direct,phi3.5
+arc-10,direct:gemma2:2b,C  ,C,1,8.232,direct,gemma2
+arc-10,sc:llama3.2:latest,vote C 5/5,C,1,1.979,self_consistency,llama3.2
+arc-10,sc:qwen2.5:7b,vote B 5/5,B,1,8.396,self_consistency,qwen2.5
+arc-10,persona:expert,C,C,1,2.954,persona,llama3.2
+arc-10,persona:skeptic,C,C,1,0.446,persona,llama3.2
+arc-10,persona:cautious,C.,C,1,0.482,persona,llama3.2
+arc-10,rag:llama3.2:latest,C.,C,1,0.457,rag,llama3.2
+arc-10,rag:qwen2.5:7b,B,B,1,0.341,rag,qwen2.5
+arc-10,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-11,direct:qwen2.5:14b,A,A,1,50.492,direct,qwen2.5
+arc-11,direct:qwen2.5:7b,A,A,1,6.382,direct,qwen2.5
+arc-11,direct:mistral:7b, A,A,1,25.248,direct,mistral
+arc-11,direct:llama3.2:latest,A.,A,1,9.513,direct,llama3.2
+arc-11,direct:phi3.5:latest,A,A,1,2.245,direct,phi3.5
+arc-11,direct:gemma2:2b,A  ,A,1,8.224,direct,gemma2
+arc-11,sc:llama3.2:latest,vote A 5/5,A,1,1.957,self_consistency,llama3.2
+arc-11,sc:qwen2.5:7b,vote A 5/5,A,1,13.306,self_consistency,qwen2.5
+arc-11,persona:expert,A,A,1,2.946,persona,llama3.2
+arc-11,persona:skeptic,A,A,1,0.441,persona,llama3.2
+arc-11,persona:cautious,A,A,1,0.444,persona,llama3.2
+arc-11,rag:llama3.2:latest,A.,A,1,0.459,rag,llama3.2
+arc-11,rag:qwen2.5:7b,A,A,1,0.334,rag,qwen2.5
+arc-11,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-12,direct:qwen2.5:14b,C,C,1,45.301,direct,qwen2.5
+arc-12,direct:qwen2.5:7b,C,C,1,6.677,direct,qwen2.5
+arc-12,direct:mistral:7b, C,C,1,25.267,direct,mistral
+arc-12,direct:llama3.2:latest,C.,C,1,2.945,direct,llama3.2
+arc-12,direct:phi3.5:latest,C,C,1,2.005,direct,phi3.5
+arc-12,direct:gemma2:2b,B  ,B,1,8.256,direct,gemma2
+arc-12,sc:llama3.2:latest,vote C 5/5,C,1,1.93,self_consistency,llama3.2
+arc-12,sc:qwen2.5:7b,vote C 5/5,C,1,13.54,self_consistency,qwen2.5
+arc-12,persona:expert,C.,C,1,3.192,persona,llama3.2
+arc-12,persona:skeptic,C,C,1,0.437,persona,llama3.2
+arc-12,persona:cautious,C.,C,1,0.467,persona,llama3.2
+arc-12,rag:llama3.2:latest,C.,C,1,0.437,rag,llama3.2
+arc-12,rag:qwen2.5:7b,C,C,1,0.349,rag,qwen2.5
+arc-12,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-13,direct:qwen2.5:14b,C,C,1,54.835,direct,qwen2.5
+arc-13,direct:qwen2.5:7b,C,C,1,6.776,direct,qwen2.5
+arc-13,direct:mistral:7b, D,D,1,25.266,direct,mistral
+arc-13,direct:llama3.2:latest,D.,D,1,9.777,direct,llama3.2
+arc-13,direct:phi3.5:latest,C,C,1,2.001,direct,phi3.5
+arc-13,direct:gemma2:2b,D  ,D,1,8.519,direct,gemma2
+arc-13,sc:llama3.2:latest,vote D 4/5,D,1,2.18,self_consistency,llama3.2
+arc-13,sc:qwen2.5:7b,vote C 5/5,C,1,14.116,self_consistency,qwen2.5
+arc-13,persona:expert,D,D,1,3.235,persona,llama3.2
+arc-13,persona:skeptic,D,D,1,0.488,persona,llama3.2
+arc-13,persona:cautious,D,D,1,0.477,persona,llama3.2
+arc-13,rag:llama3.2:latest,D.,D,1,0.505,rag,llama3.2
+arc-13,rag:qwen2.5:7b,C,C,1,0.403,rag,qwen2.5
+arc-13,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-14,direct:qwen2.5:14b,C,C,1,50.635,direct,qwen2.5
+arc-14,direct:qwen2.5:7b,C,C,1,6.578,direct,qwen2.5
+arc-14,direct:mistral:7b, C,C,1,25.251,direct,mistral
+arc-14,direct:llama3.2:latest,D.,D,1,3.195,direct,llama3.2
+arc-14,direct:phi3.5:latest,C,C,1,2.25,direct,phi3.5
+arc-14,direct:gemma2:2b,C  ,C,1,8.484,direct,gemma2
+arc-14,sc:llama3.2:latest,vote C 4/5,C,1,1.964,self_consistency,llama3.2
+arc-14,sc:qwen2.5:7b,vote C 5/5,C,1,13.548,self_consistency,qwen2.5
+arc-14,persona:expert,C,C,1,2.945,persona,llama3.2
+arc-14,persona:skeptic,C,C,1,0.446,persona,llama3.2
+arc-14,persona:cautious,D,D,1,0.464,persona,llama3.2
+arc-14,rag:llama3.2:latest,D.,D,1,0.439,rag,llama3.2
+arc-14,rag:qwen2.5:7b,C,C,1,0.354,rag,qwen2.5
+arc-14,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-15,direct:qwen2.5:14b,A,A,1,46.77,direct,qwen2.5
+arc-15,direct:qwen2.5:7b,A,A,1,6.467,direct,qwen2.5
+arc-15,direct:mistral:7b, A,A,1,25.248,direct,mistral
+arc-15,direct:llama3.2:latest,A,A,1,9.727,direct,llama3.2
+arc-15,direct:phi3.5:latest,A,A,1,7.036,direct,phi3.5
+arc-15,direct:gemma2:2b,A  ,A,1,3.46,direct,gemma2
+arc-15,sc:llama3.2:latest,vote A 5/5,A,1,9.83,self_consistency,llama3.2
+arc-15,sc:qwen2.5:7b,vote A 5/5,A,1,13.302,self_consistency,qwen2.5
+arc-15,persona:expert,A,A,1,2.924,persona,llama3.2
+arc-15,persona:skeptic,A,A,1,0.442,persona,llama3.2
+arc-15,persona:cautious,A,A,1,0.424,persona,llama3.2
+arc-15,rag:llama3.2:latest,A,A,1,0.459,rag,llama3.2
+arc-15,rag:qwen2.5:7b,A,A,1,0.363,rag,qwen2.5
+arc-15,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-16,direct:qwen2.5:14b,C,C,1,50.393,direct,qwen2.5
+arc-16,direct:qwen2.5:7b,C,C,1,6.66,direct,qwen2.5
+arc-16,direct:mistral:7b, C,C,1,25.287,direct,mistral
+arc-16,direct:llama3.2:latest,C.,C,1,2.985,direct,llama3.2
+arc-16,direct:phi3.5:latest,C,C,1,2.263,direct,phi3.5
+arc-16,direct:gemma2:2b,C  ,C,1,8.217,direct,gemma2
+arc-16,sc:llama3.2:latest,vote C 5/5,C,1,1.967,self_consistency,llama3.2
+arc-16,sc:qwen2.5:7b,vote C 5/5,C,1,13.468,self_consistency,qwen2.5
+arc-16,persona:expert,C,C,1,2.982,persona,llama3.2
+arc-16,persona:skeptic,C,C,1,0.492,persona,llama3.2
+arc-16,persona:cautious,C,C,1,0.474,persona,llama3.2
+arc-16,rag:llama3.2:latest,C.,C,1,0.464,rag,llama3.2
+arc-16,rag:qwen2.5:7b,C,C,1,0.331,rag,qwen2.5
+arc-16,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-17,direct:qwen2.5:14b,B,B,1,45.395,direct,qwen2.5
+arc-17,direct:qwen2.5:7b,B,B,1,6.665,direct,qwen2.5
+arc-17,direct:mistral:7b, B,B,1,25.304,direct,mistral
+arc-17,direct:llama3.2:latest,A.,A,1,9.549,direct,llama3.2
+arc-17,direct:phi3.5:latest,B,B,1,2.271,direct,phi3.5
+arc-17,direct:gemma2:2b,B  ,B,1,8.222,direct,gemma2
+arc-17,sc:llama3.2:latest,vote A 5/5,A,1,1.903,self_consistency,llama3.2
+arc-17,sc:qwen2.5:7b,vote B 5/5,B,1,13.492,self_consistency,qwen2.5
+arc-17,persona:expert,A,A,1,2.965,persona,llama3.2
+arc-17,persona:skeptic,A,A,1,0.504,persona,llama3.2
+arc-17,persona:cautious,A,A,1,0.462,persona,llama3.2
+arc-17,rag:llama3.2:latest,A.,A,1,0.476,rag,llama3.2
+arc-17,rag:qwen2.5:7b,B,B,1,0.356,rag,qwen2.5
+arc-17,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-18,direct:qwen2.5:14b,A,A,1,45.517,direct,qwen2.5
+arc-18,direct:qwen2.5:7b,A,A,1,6.666,direct,qwen2.5
+arc-18,direct:mistral:7b, A,A,1,25.288,direct,mistral
+arc-18,direct:llama3.2:latest,A.,A,1,2.994,direct,llama3.2
+arc-18,direct:phi3.5:latest,A. the price of boards will increase,A,1,2.399,direct,phi3.5
+arc-18,direct:gemma2:2b,A  ,A,1,8.519,direct,gemma2
+arc-18,sc:llama3.2:latest,vote A 5/5,A,1,1.962,self_consistency,llama3.2
+arc-18,sc:qwen2.5:7b,vote A 5/5,A,1,13.164,self_consistency,qwen2.5
+arc-18,persona:expert,A,A,1,2.972,persona,llama3.2
+arc-18,persona:skeptic,A,A,1,0.441,persona,llama3.2
+arc-18,persona:cautious,A,A,1,0.454,persona,llama3.2
+arc-18,rag:llama3.2:latest,A.,A,1,0.465,rag,llama3.2
+arc-18,rag:qwen2.5:7b,A,A,1,0.332,rag,qwen2.5
+arc-18,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-19,direct:qwen2.5:14b,D,D,1,54.763,direct,qwen2.5
+arc-19,direct:qwen2.5:7b,D,D,1,6.41,direct,qwen2.5
+arc-19,direct:mistral:7b, C,C,1,25.277,direct,mistral
+arc-19,direct:llama3.2:latest,D.,D,1,9.033,direct,llama3.2
+arc-19,direct:phi3.5:latest,D,D,1,7.302,direct,phi3.5
+arc-19,direct:gemma2:2b,D  ,D,1,3.545,direct,gemma2
+arc-19,sc:llama3.2:latest,vote D 5/5,D,1,9.534,self_consistency,llama3.2
+arc-19,sc:qwen2.5:7b,vote D 5/5,D,1,13.343,self_consistency,qwen2.5
+arc-19,persona:expert,D.,D,1,2.962,persona,llama3.2
+arc-19,persona:skeptic,D.,D,1,0.459,persona,llama3.2
+arc-19,persona:cautious,D.,D,1,0.453,persona,llama3.2
+arc-19,rag:llama3.2:latest,D.,D,1,0.446,rag,llama3.2
+arc-19,rag:qwen2.5:7b,D,D,1,0.356,rag,qwen2.5
+arc-19,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-20,direct:qwen2.5:14b,B,B,1,45.246,direct,qwen2.5
+arc-20,direct:qwen2.5:7b,B,B,1,6.653,direct,qwen2.5
+arc-20,direct:mistral:7b, B,B,1,25.276,direct,mistral
+arc-20,direct:llama3.2:latest,B.,B,1,2.964,direct,llama3.2
+arc-20,direct:phi3.5:latest,B,B,1,2.007,direct,phi3.5
+arc-20,direct:gemma2:2b,B  ,B,1,8.248,direct,gemma2
+arc-20,sc:llama3.2:latest,vote B 5/5,B,1,1.875,self_consistency,llama3.2
+arc-20,sc:qwen2.5:7b,vote B 5/5,B,1,17.796,self_consistency,qwen2.5
+arc-20,persona:expert,B,B,1,2.975,persona,llama3.2
+arc-20,persona:skeptic,B,B,1,0.433,persona,llama3.2
+arc-20,persona:cautious,B.,B,1,0.478,persona,llama3.2
+arc-20,rag:llama3.2:latest,B.,B,1,0.438,rag,llama3.2
+arc-20,rag:qwen2.5:7b,B,B,1,0.342,rag,qwen2.5
+arc-20,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-21,direct:qwen2.5:14b,B,B,1,49.19,direct,qwen2.5
+arc-21,direct:qwen2.5:7b,B,B,1,6.813,direct,qwen2.5
+arc-21,direct:mistral:7b, B,B,1,25.381,direct,mistral
+arc-21,direct:llama3.2:latest,B.,B,1,9.079,direct,llama3.2
+arc-21,direct:phi3.5:latest,B,B,1,2.059,direct,phi3.5
+arc-21,direct:gemma2:2b,B  ,B,1,8.274,direct,gemma2
+arc-21,sc:llama3.2:latest,vote B 5/5,B,1,1.972,self_consistency,llama3.2
+arc-21,sc:qwen2.5:7b,vote B 5/5,B,1,18.106,self_consistency,qwen2.5
+arc-21,persona:expert,B,B,1,2.963,persona,llama3.2
+arc-21,persona:skeptic,B,B,1,0.51,persona,llama3.2
+arc-21,persona:cautious,B,B,1,0.524,persona,llama3.2
+arc-21,rag:llama3.2:latest,B.,B,1,0.5,rag,llama3.2
+arc-21,rag:qwen2.5:7b,B,B,1,0.359,rag,qwen2.5
+arc-21,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-22,direct:qwen2.5:14b,A,A,1,45.12,direct,qwen2.5
+arc-22,direct:qwen2.5:7b,A,A,1,6.601,direct,qwen2.5
+arc-22,direct:mistral:7b, A,A,1,25.238,direct,mistral
+arc-22,direct:llama3.2:latest,A,A,1,2.966,direct,llama3.2
+arc-22,direct:phi3.5:latest,A,A,1,2.231,direct,phi3.5
+arc-22,direct:gemma2:2b,A  ,A,1,8.23,direct,gemma2
+arc-22,sc:llama3.2:latest,vote A 5/5,A,1,1.95,self_consistency,llama3.2
+arc-22,sc:qwen2.5:7b,vote A 5/5,A,1,8.561,self_consistency,qwen2.5
+arc-22,persona:expert,A,A,1,2.916,persona,llama3.2
+arc-22,persona:skeptic,A,A,1,0.431,persona,llama3.2
+arc-22,persona:cautious,A,A,1,0.447,persona,llama3.2
+arc-22,rag:llama3.2:latest,A,A,1,0.443,rag,llama3.2
+arc-22,rag:qwen2.5:7b,A,A,1,0.335,rag,qwen2.5
+arc-22,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-23,direct:qwen2.5:14b,C,C,1,45.844,direct,qwen2.5
+arc-23,direct:qwen2.5:7b,C,C,1,6.669,direct,qwen2.5
+arc-23,direct:mistral:7b, B,B,1,25.341,direct,mistral
+arc-23,direct:llama3.2:latest,B.,B,1,8.78,direct,llama3.2
+arc-23,direct:phi3.5:latest,C,C,1,2.288,direct,phi3.5
+arc-23,direct:gemma2:2b,A  ,A,1,8.535,direct,gemma2
+arc-23,sc:llama3.2:latest,vote B 2/5,B,1,1.924,self_consistency,llama3.2
+arc-23,sc:qwen2.5:7b,vote C 5/5,C,1,13.436,self_consistency,qwen2.5
+arc-23,persona:expert,B.,B,1,2.956,persona,llama3.2
+arc-23,persona:skeptic,B.,B,1,0.484,persona,llama3.2
+arc-23,persona:cautious,A.,A,1,0.459,persona,llama3.2
+arc-23,rag:llama3.2:latest,C,C,1,0.428,rag,llama3.2
+arc-23,rag:qwen2.5:7b,C,C,1,0.346,rag,qwen2.5
+arc-23,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-24,direct:qwen2.5:14b,B,B,1,45.461,direct,qwen2.5
+arc-24,direct:qwen2.5:7b,B,B,1,6.638,direct,qwen2.5
+arc-24,direct:mistral:7b, B,B,1,25.21,direct,mistral
+arc-24,direct:llama3.2:latest,B.,B,1,2.938,direct,llama3.2
+arc-24,direct:phi3.5:latest,B,B,1,2.007,direct,phi3.5
+arc-24,direct:gemma2:2b,B  ,B,1,8.484,direct,gemma2
+arc-24,sc:llama3.2:latest,vote B 5/5,B,1,1.901,self_consistency,llama3.2
+arc-24,sc:qwen2.5:7b,vote B 5/5,B,1,13.637,self_consistency,qwen2.5
+arc-24,persona:expert,B.,B,1,2.973,persona,llama3.2
+arc-24,persona:skeptic,B.,B,1,0.472,persona,llama3.2
+arc-24,persona:cautious,B.,B,1,0.472,persona,llama3.2
+arc-24,rag:llama3.2:latest,B.,B,1,0.444,rag,llama3.2
+arc-24,rag:qwen2.5:7b,B,B,1,0.35,rag,qwen2.5
+arc-24,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-25,direct:qwen2.5:14b,D,D,1,53.946,direct,qwen2.5
+arc-25,direct:qwen2.5:7b,D,D,1,6.526,direct,qwen2.5
+arc-25,direct:mistral:7b, D,D,1,25.28,direct,mistral
+arc-25,direct:llama3.2:latest,A.,A,1,9.0,direct,llama3.2
+arc-25,direct:phi3.5:latest,D,D,1,2.041,direct,phi3.5
+arc-25,direct:gemma2:2b,D  ,D,1,8.232,direct,gemma2
+arc-25,sc:llama3.2:latest,vote A 5/5,A,1,1.905,self_consistency,llama3.2
+arc-25,sc:qwen2.5:7b,vote D 5/5,D,1,13.675,self_consistency,qwen2.5
+arc-25,persona:expert,A.,A,1,2.948,persona,llama3.2
+arc-25,persona:skeptic,D,D,1,0.431,persona,llama3.2
+arc-25,persona:cautious,A.,A,1,0.465,persona,llama3.2
+arc-25,rag:llama3.2:latest,A.,A,1,0.445,rag,llama3.2
+arc-25,rag:qwen2.5:7b,D,D,1,0.362,rag,qwen2.5
+arc-25,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-26,direct:qwen2.5:14b,B,B,1,45.216,direct,qwen2.5
+arc-26,direct:qwen2.5:7b,B,B,1,6.401,direct,qwen2.5
+arc-26,direct:mistral:7b, B,B,1,25.349,direct,mistral
+arc-26,direct:llama3.2:latest,B.,B,1,3.23,direct,llama3.2
+arc-26,direct:phi3.5:latest,B. It is a seasonal weather feature with irregular occurrences.,B,1,12.331,direct,phi3.5
+arc-26,direct:gemma2:2b,D  ,D,1,3.496,direct,gemma2
+arc-26,sc:llama3.2:latest,vote B 5/5,B,1,9.929,self_consistency,llama3.2
+arc-26,sc:qwen2.5:7b,vote B 5/5,B,1,13.497,self_consistency,qwen2.5
+arc-26,persona:expert,B,B,1,2.981,persona,llama3.2
+arc-26,persona:skeptic,B,B,1,0.49,persona,llama3.2
+arc-26,persona:cautious,B,B,1,0.486,persona,llama3.2
+arc-26,rag:llama3.2:latest,B.,B,1,0.488,rag,llama3.2
+arc-26,rag:qwen2.5:7b,B,B,1,0.369,rag,qwen2.5
+arc-26,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-27,direct:qwen2.5:14b,B,B,1,45.719,direct,qwen2.5
+arc-27,direct:qwen2.5:7b,B,B,1,7.137,direct,qwen2.5
+arc-27,direct:mistral:7b, D,D,1,25.36,direct,mistral
+arc-27,direct:llama3.2:latest,B.,B,1,3.315,direct,llama3.2
+arc-27,direct:phi3.5:latest,A,A,1,2.42,direct,phi3.5
+arc-27,direct:gemma2:2b,B  ,B,1,8.274,direct,gemma2
+arc-27,sc:llama3.2:latest,vote B 5/5,B,1,1.925,self_consistency,llama3.2
+arc-27,sc:qwen2.5:7b,vote B 5/5,B,1,13.722,self_consistency,qwen2.5
+arc-27,persona:expert,B,B,1,2.96,persona,llama3.2
+arc-27,persona:skeptic,B,B,1,0.508,persona,llama3.2
+arc-27,persona:cautious,B,B,1,0.474,persona,llama3.2
+arc-27,rag:llama3.2:latest,B.,B,1,0.484,rag,llama3.2
+arc-27,rag:qwen2.5:7b,B,B,1,0.345,rag,qwen2.5
+arc-27,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-28,direct:qwen2.5:14b,C,C,1,50.337,direct,qwen2.5
+arc-28,direct:qwen2.5:7b,C,C,1,6.682,direct,qwen2.5
+arc-28,direct:mistral:7b, C,C,1,25.296,direct,mistral
+arc-28,direct:llama3.2:latest,C.,C,1,3.235,direct,llama3.2
+arc-28,direct:phi3.5:latest,C,C,1,1.998,direct,phi3.5
+arc-28,direct:gemma2:2b,C  ,C,1,8.254,direct,gemma2
+arc-28,sc:llama3.2:latest,vote C 5/5,C,1,1.944,self_consistency,llama3.2
+arc-28,sc:qwen2.5:7b,vote C 5/5,C,1,13.061,self_consistency,qwen2.5
+arc-28,persona:expert,C,C,1,2.966,persona,llama3.2
+arc-28,persona:skeptic,C,C,1,0.456,persona,llama3.2
+arc-28,persona:cautious,C,C,1,0.459,persona,llama3.2
+arc-28,rag:llama3.2:latest,C.,C,1,0.46,rag,llama3.2
+arc-28,rag:qwen2.5:7b,C,C,1,0.352,rag,qwen2.5
+arc-28,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-29,direct:qwen2.5:14b,B,B,1,45.453,direct,qwen2.5
+arc-29,direct:qwen2.5:7b,B,B,1,6.796,direct,qwen2.5
+arc-29,direct:mistral:7b, B,B,1,25.238,direct,mistral
+arc-29,direct:llama3.2:latest,B.,B,1,3.237,direct,llama3.2
+arc-29,direct:phi3.5:latest,B,B,1,2.209,direct,phi3.5
+arc-29,direct:gemma2:2b,B  ,B,1,8.209,direct,gemma2
+arc-29,sc:llama3.2:latest,vote B 2/5,B,1,1.967,self_consistency,llama3.2
+arc-29,sc:qwen2.5:7b,vote B 5/5,B,1,13.556,self_consistency,qwen2.5
+arc-29,persona:expert,C,C,1,2.913,persona,llama3.2
+arc-29,persona:skeptic,C,C,1,0.427,persona,llama3.2
+arc-29,persona:cautious,C,C,1,0.444,persona,llama3.2
+arc-29,rag:llama3.2:latest,B.,B,1,0.453,rag,llama3.2
+arc-29,rag:qwen2.5:7b,B,B,1,0.336,rag,qwen2.5
+arc-29,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-30,direct:qwen2.5:14b,D,D,1,45.365,direct,qwen2.5
+arc-30,direct:qwen2.5:7b,D,D,1,6.451,direct,qwen2.5
+arc-30,direct:mistral:7b, D,D,1,25.026,direct,mistral
+arc-30,direct:llama3.2:latest,A.,A,1,3.244,direct,llama3.2
+arc-30,direct:phi3.5:latest,D,D,1,2.244,direct,phi3.5
+arc-30,direct:gemma2:2b,D  ,D,1,8.481,direct,gemma2
+arc-30,sc:llama3.2:latest,vote A 5/5,A,1,1.941,self_consistency,llama3.2
+arc-30,sc:qwen2.5:7b,vote D 5/5,D,1,13.409,self_consistency,qwen2.5
+arc-30,persona:expert,A,A,1,3.222,persona,llama3.2
+arc-30,persona:skeptic,A,A,1,0.473,persona,llama3.2
+arc-30,persona:cautious,A,A,1,0.446,persona,llama3.2
+arc-30,rag:llama3.2:latest,A.,A,1,0.472,rag,llama3.2
+arc-30,rag:qwen2.5:7b,D,D,1,0.349,rag,qwen2.5
+arc-30,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-31,direct:qwen2.5:14b,C,C,1,50.274,direct,qwen2.5
+arc-31,direct:qwen2.5:7b,C,C,1,6.64,direct,qwen2.5
+arc-31,direct:mistral:7b, C,C,1,25.266,direct,mistral
+arc-31,direct:llama3.2:latest,C.,C,1,3.257,direct,llama3.2
+arc-31,direct:phi3.5:latest,C,C,1,2.219,direct,phi3.5
+arc-31,direct:gemma2:2b,C  ,C,1,8.233,direct,gemma2
+arc-31,sc:llama3.2:latest,vote C 5/5,C,1,1.991,self_consistency,llama3.2
+arc-31,sc:qwen2.5:7b,vote C 5/5,C,1,13.278,self_consistency,qwen2.5
+arc-31,persona:expert,C,C,1,2.937,persona,llama3.2
+arc-31,persona:skeptic,C,C,1,0.45,persona,llama3.2
+arc-31,persona:cautious,C,C,1,0.464,persona,llama3.2
+arc-31,rag:llama3.2:latest,C.,C,1,0.474,rag,llama3.2
+arc-31,rag:qwen2.5:7b,C,C,1,0.336,rag,qwen2.5
+arc-31,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-32,direct:qwen2.5:14b,A,A,1,50.535,direct,qwen2.5
+arc-32,direct:qwen2.5:7b,A,A,1,6.656,direct,qwen2.5
+arc-32,direct:mistral:7b, A,A,1,25.278,direct,mistral
+arc-32,direct:llama3.2:latest,A.,A,1,2.93,direct,llama3.2
+arc-32,direct:phi3.5:latest,A,A,1,7.046,direct,phi3.5
+arc-32,direct:gemma2:2b,A  ,A,1,8.765,direct,gemma2
+arc-32,sc:llama3.2:latest,vote D 3/5,D,1,2.084,self_consistency,llama3.2
+arc-32,sc:qwen2.5:7b,vote A 5/5,A,1,18.311,self_consistency,qwen2.5
+arc-32,persona:expert,A,A,1,2.947,persona,llama3.2
+arc-32,persona:skeptic,A,A,1,0.442,persona,llama3.2
+arc-32,persona:cautious,A,A,1,0.443,persona,llama3.2
+arc-32,rag:llama3.2:latest,D.,D,1,0.444,rag,llama3.2
+arc-32,rag:qwen2.5:7b,A,A,1,0.344,rag,qwen2.5
+arc-32,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-33,direct:qwen2.5:14b,C,C,1,45.053,direct,qwen2.5
+arc-33,direct:qwen2.5:7b,C,C,1,6.885,direct,qwen2.5
+arc-33,direct:mistral:7b, C,C,1,25.263,direct,mistral
+arc-33,direct:llama3.2:latest,C.,C,1,2.966,direct,llama3.2
+arc-33,direct:phi3.5:latest,C,C,1,2.24,direct,phi3.5
+arc-33,direct:gemma2:2b,C  ,C,1,8.759,direct,gemma2
+arc-33,sc:llama3.2:latest,vote C 5/5,C,1,2.112,self_consistency,llama3.2
+arc-33,sc:qwen2.5:7b,vote C 5/5,C,1,18.022,self_consistency,qwen2.5
+arc-33,persona:expert,C,C,1,2.962,persona,llama3.2
+arc-33,persona:skeptic,C,C,1,0.487,persona,llama3.2
+arc-33,persona:cautious,C.,C,1,0.49,persona,llama3.2
+arc-33,rag:llama3.2:latest,C.,C,1,0.498,rag,llama3.2
+arc-33,rag:qwen2.5:7b,C,C,1,0.37,rag,qwen2.5
+arc-33,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-34,direct:qwen2.5:14b,A,A,1,45.01,direct,qwen2.5
+arc-34,direct:qwen2.5:7b,A,A,1,6.299,direct,qwen2.5
+arc-34,direct:mistral:7b, A,A,1,25.212,direct,mistral
+arc-34,direct:llama3.2:latest,C.,C,1,3.215,direct,llama3.2
+arc-34,direct:phi3.5:latest,A,A,1,2.239,direct,phi3.5
+arc-34,direct:gemma2:2b,C  ,C,1,8.526,direct,gemma2
+arc-34,sc:llama3.2:latest,vote A 3/5,A,1,1.9,self_consistency,llama3.2
+arc-34,sc:qwen2.5:7b,vote A 5/5,A,1,13.718,self_consistency,qwen2.5
+arc-34,persona:expert,C,C,1,2.968,persona,llama3.2
+arc-34,persona:skeptic,A,A,1,0.443,persona,llama3.2
+arc-34,persona:cautious,A,A,1,0.484,persona,llama3.2
+arc-34,rag:llama3.2:latest,C.,C,1,0.506,rag,llama3.2
+arc-34,rag:qwen2.5:7b,A,A,1,0.369,rag,qwen2.5
+arc-34,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-35,direct:qwen2.5:14b,A,A,1,45.339,direct,qwen2.5
+arc-35,direct:qwen2.5:7b,D,D,1,6.428,direct,qwen2.5
+arc-35,direct:mistral:7b, A,A,1,25.28,direct,mistral
+arc-35,direct:llama3.2:latest,A.,A,1,2.947,direct,llama3.2
+arc-35,direct:phi3.5:latest,C,C,1,2.144,direct,phi3.5
+arc-35,direct:gemma2:2b,B  ,B,1,8.464,direct,gemma2
+arc-35,sc:llama3.2:latest,vote A 3/5,A,1,1.881,self_consistency,llama3.2
+arc-35,sc:qwen2.5:7b,vote D 4/5,D,1,13.599,self_consistency,qwen2.5
+arc-35,persona:expert,A,A,1,2.672,persona,llama3.2
+arc-35,persona:skeptic,A,A,1,0.476,persona,llama3.2
+arc-35,persona:cautious,A,A,1,0.47,persona,llama3.2
+arc-35,rag:llama3.2:latest,A.,A,1,0.441,rag,llama3.2
+arc-35,rag:qwen2.5:7b,D,D,1,0.335,rag,qwen2.5
+arc-35,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-36,direct:qwen2.5:14b,B,B,1,45.064,direct,qwen2.5
+arc-36,direct:qwen2.5:7b,B,B,1,6.321,direct,qwen2.5
+arc-36,direct:mistral:7b, A,A,1,25.285,direct,mistral
+arc-36,direct:llama3.2:latest,B.,B,1,3.28,direct,llama3.2
+arc-36,direct:phi3.5:latest,B,B,1,2.253,direct,phi3.5
+arc-36,direct:gemma2:2b,B  ,B,1,8.483,direct,gemma2
+arc-36,sc:llama3.2:latest,vote B 5/5,B,1,1.985,self_consistency,llama3.2
+arc-36,sc:qwen2.5:7b,vote B 5/5,B,1,13.573,self_consistency,qwen2.5
+arc-36,persona:expert,B,B,1,2.692,persona,llama3.2
+arc-36,persona:skeptic,B,B,1,0.499,persona,llama3.2
+arc-36,persona:cautious,B.,B,1,0.46,persona,llama3.2
+arc-36,rag:llama3.2:latest,B.,B,1,0.453,rag,llama3.2
+arc-36,rag:qwen2.5:7b,B,B,1,0.324,rag,qwen2.5
+arc-36,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-37,direct:qwen2.5:14b,B,B,1,50.298,direct,qwen2.5
+arc-37,direct:qwen2.5:7b,B,B,1,6.254,direct,qwen2.5
+arc-37,direct:mistral:7b, B,B,1,25.019,direct,mistral
+arc-37,direct:llama3.2:latest,A,A,1,2.664,direct,llama3.2
+arc-37,direct:phi3.5:latest,B,B,1,6.819,direct,phi3.5
+arc-37,direct:gemma2:2b,C  ,C,1,8.452,direct,gemma2
+arc-37,sc:llama3.2:latest,vote B 2/5,B,1,1.912,self_consistency,llama3.2
+arc-37,sc:qwen2.5:7b,vote B 5/5,B,1,13.042,self_consistency,qwen2.5
+arc-37,persona:expert,A,A,1,2.936,persona,llama3.2
+arc-37,persona:skeptic,A,A,1,0.453,persona,llama3.2
+arc-37,persona:cautious,A,A,1,0.469,persona,llama3.2
+arc-37,rag:llama3.2:latest,A,A,1,0.432,rag,llama3.2
+arc-37,rag:qwen2.5:7b,B,B,1,0.33,rag,qwen2.5
+arc-37,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-38,direct:qwen2.5:14b,C,C,1,45.084,direct,qwen2.5
+arc-38,direct:qwen2.5:7b,C,C,1,6.378,direct,qwen2.5
+arc-38,direct:mistral:7b, C,C,1,25.24,direct,mistral
+arc-38,direct:llama3.2:latest,C.,C,1,2.973,direct,llama3.2
+arc-38,direct:phi3.5:latest,C,C,1,7.021,direct,phi3.5
+arc-38,direct:gemma2:2b,C  ,C,1,8.235,direct,gemma2
+arc-38,sc:llama3.2:latest,vote C 5/5,C,1,1.905,self_consistency,llama3.2
+arc-38,sc:qwen2.5:7b,vote C 5/5,C,1,13.241,self_consistency,qwen2.5
+arc-38,persona:expert,C,C,1,2.937,persona,llama3.2
+arc-38,persona:skeptic,C,C,1,0.442,persona,llama3.2
+arc-38,persona:cautious,C,C,1,0.438,persona,llama3.2
+arc-38,rag:llama3.2:latest,C.,C,1,0.448,rag,llama3.2
+arc-38,rag:qwen2.5:7b,C,C,1,0.325,rag,qwen2.5
+arc-38,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-39,direct:qwen2.5:14b,B,B,1,45.211,direct,qwen2.5
+arc-39,direct:qwen2.5:7b,B,B,1,6.305,direct,qwen2.5
+arc-39,direct:mistral:7b, B,B,1,25.072,direct,mistral
+arc-39,direct:llama3.2:latest,B.,B,1,2.942,direct,llama3.2
+arc-39,direct:phi3.5:latest,B,B,1,7.074,direct,phi3.5
+arc-39,direct:gemma2:2b,B  ,B,1,8.214,direct,gemma2
+arc-39,sc:llama3.2:latest,vote B 5/5,B,1,1.948,self_consistency,llama3.2
+arc-39,sc:qwen2.5:7b,vote B 5/5,B,1,8.323,self_consistency,qwen2.5
+arc-39,persona:expert,B,B,1,2.929,persona,llama3.2
+arc-39,persona:skeptic,B,B,1,0.422,persona,llama3.2
+arc-39,persona:cautious,B.,B,1,0.434,persona,llama3.2
+arc-39,rag:llama3.2:latest,B.,B,1,0.432,rag,llama3.2
+arc-39,rag:qwen2.5:7b,B,B,1,0.34,rag,qwen2.5
+arc-39,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-40,direct:qwen2.5:14b,C,C,1,50.075,direct,qwen2.5
+arc-40,direct:qwen2.5:7b,C,C,1,6.307,direct,qwen2.5
+arc-40,direct:mistral:7b, C,C,1,25.244,direct,mistral
+arc-40,direct:llama3.2:latest,C.,C,1,2.935,direct,llama3.2
+arc-40,direct:phi3.5:latest,C,C,1,1.985,direct,phi3.5
+arc-40,direct:gemma2:2b,C  ,C,1,8.209,direct,gemma2
+arc-40,sc:llama3.2:latest,vote C 5/5,C,1,1.881,self_consistency,llama3.2
+arc-40,sc:qwen2.5:7b,vote C 5/5,C,1,18.034,self_consistency,qwen2.5
+arc-40,persona:expert,C,C,1,2.914,persona,llama3.2
+arc-40,persona:skeptic,C,C,1,0.448,persona,llama3.2
+arc-40,persona:cautious,C,C,1,0.442,persona,llama3.2
+arc-40,rag:llama3.2:latest,C.,C,1,0.442,rag,llama3.2
+arc-40,rag:qwen2.5:7b,C,C,1,0.336,rag,qwen2.5
+arc-40,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-41,direct:qwen2.5:14b,A,A,1,45.007,direct,qwen2.5
+arc-41,direct:qwen2.5:7b,A,A,1,6.574,direct,qwen2.5
+arc-41,direct:mistral:7b, A,A,1,25.228,direct,mistral
+arc-41,direct:llama3.2:latest,A.,A,1,2.934,direct,llama3.2
+arc-41,direct:phi3.5:latest,A,A,1,1.971,direct,phi3.5
+arc-41,direct:gemma2:2b,B  ,B,1,8.482,direct,gemma2
+arc-41,sc:llama3.2:latest,vote A 5/5,A,1,1.923,self_consistency,llama3.2
+arc-41,sc:qwen2.5:7b,vote A 5/5,A,1,12.936,self_consistency,qwen2.5
+arc-41,persona:expert,A,A,1,2.93,persona,llama3.2
+arc-41,persona:skeptic,A,A,1,0.431,persona,llama3.2
+arc-41,persona:cautious,A,A,1,0.452,persona,llama3.2
+arc-41,rag:llama3.2:latest,A.,A,1,0.44,rag,llama3.2
+arc-41,rag:qwen2.5:7b,A,A,1,0.334,rag,qwen2.5
+arc-41,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-42,direct:qwen2.5:14b,C,C,1,45.244,direct,qwen2.5
+arc-42,direct:qwen2.5:7b,C,C,1,6.336,direct,qwen2.5
+arc-42,direct:mistral:7b, C,C,1,25.221,direct,mistral
+arc-42,direct:llama3.2:latest,C.,C,1,2.965,direct,llama3.2
+arc-42,direct:phi3.5:latest,C,C,1,1.984,direct,phi3.5
+arc-42,direct:gemma2:2b,C  ,C,1,8.237,direct,gemma2
+arc-42,sc:llama3.2:latest,vote C 3/5,C,1,1.939,self_consistency,llama3.2
+arc-42,sc:qwen2.5:7b,vote C 5/5,C,1,13.583,self_consistency,qwen2.5
+arc-42,persona:expert,C,C,1,2.921,persona,llama3.2
+arc-42,persona:skeptic,C.,C,1,0.447,persona,llama3.2
+arc-42,persona:cautious,C.,C,1,0.453,persona,llama3.2
+arc-42,rag:llama3.2:latest,C.,C,1,0.445,rag,llama3.2
+arc-42,rag:qwen2.5:7b,C,C,1,0.344,rag,qwen2.5
+arc-42,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-43,direct:qwen2.5:14b,D,D,1,45.281,direct,qwen2.5
+arc-43,direct:qwen2.5:7b,D,D,1,6.362,direct,qwen2.5
+arc-43,direct:mistral:7b, D,D,1,25.251,direct,mistral
+arc-43,direct:llama3.2:latest,D.,D,1,2.931,direct,llama3.2
+arc-43,direct:phi3.5:latest,D,D,1,7.03,direct,phi3.5
+arc-43,direct:gemma2:2b,D  ,D,1,8.239,direct,gemma2
+arc-43,sc:llama3.2:latest,vote D 5/5,D,1,1.956,self_consistency,llama3.2
+arc-43,sc:qwen2.5:7b,vote D 5/5,D,1,13.085,self_consistency,qwen2.5
+arc-43,persona:expert,D.,D,1,2.926,persona,llama3.2
+arc-43,persona:skeptic,D.,D,1,0.441,persona,llama3.2
+arc-43,persona:cautious,D.,D,1,0.445,persona,llama3.2
+arc-43,rag:llama3.2:latest,D.,D,1,0.454,rag,llama3.2
+arc-43,rag:qwen2.5:7b,D,D,1,0.338,rag,qwen2.5
+arc-43,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-44,direct:qwen2.5:14b,B,B,1,45.159,direct,qwen2.5
+arc-44,direct:qwen2.5:7b,B,B,1,6.326,direct,qwen2.5
+arc-44,direct:mistral:7b, B,B,1,25.271,direct,mistral
+arc-44,direct:llama3.2:latest,B.,B,1,2.95,direct,llama3.2
+arc-44,direct:phi3.5:latest,B,B,1,2.039,direct,phi3.5
+arc-44,direct:gemma2:2b,D  ,D,1,8.492,direct,gemma2
+arc-44,sc:llama3.2:latest,vote B 5/5,B,1,1.94,self_consistency,llama3.2
+arc-44,sc:qwen2.5:7b,vote B 5/5,B,1,12.965,self_consistency,qwen2.5
+arc-44,persona:expert,A,A,1,2.979,persona,llama3.2
+arc-44,persona:skeptic,A,A,1,0.463,persona,llama3.2
+arc-44,persona:cautious,A,A,1,0.46,persona,llama3.2
+arc-44,rag:llama3.2:latest,B.,B,1,0.469,rag,llama3.2
+arc-44,rag:qwen2.5:7b,B,B,1,0.341,rag,qwen2.5
+arc-44,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-45,direct:qwen2.5:14b,B,B,1,50.204,direct,qwen2.5
+arc-45,direct:qwen2.5:7b,B,B,1,6.482,direct,qwen2.5
+arc-45,direct:mistral:7b, B,B,1,25.232,direct,mistral
+arc-45,direct:llama3.2:latest,B.,B,1,2.95,direct,llama3.2
+arc-45,direct:phi3.5:latest,B,B,1,1.962,direct,phi3.5
+arc-45,direct:gemma2:2b,B  ,B,1,8.192,direct,gemma2
+arc-45,sc:llama3.2:latest,vote B 5/5,B,1,1.949,self_consistency,llama3.2
+arc-45,sc:qwen2.5:7b,vote B 5/5,B,1,18.033,self_consistency,qwen2.5
+arc-45,persona:expert,B.,B,1,2.656,persona,llama3.2
+arc-45,persona:skeptic,B.,B,1,0.426,persona,llama3.2
+arc-45,persona:cautious,B.,B,1,0.44,persona,llama3.2
+arc-45,rag:llama3.2:latest,B.,B,1,0.423,rag,llama3.2
+arc-45,rag:qwen2.5:7b,B,B,1,0.333,rag,qwen2.5
+arc-45,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-46,direct:qwen2.5:14b,C,C,1,45.044,direct,qwen2.5
+arc-46,direct:qwen2.5:7b,C,C,1,6.305,direct,qwen2.5
+arc-46,direct:mistral:7b, C,C,1,25.237,direct,mistral
+arc-46,direct:llama3.2:latest,C.,C,1,2.9,direct,llama3.2
+arc-46,direct:phi3.5:latest,C,C,1,2.221,direct,phi3.5
+arc-46,direct:gemma2:2b,C  ,C,1,8.236,direct,gemma2
+arc-46,sc:llama3.2:latest,vote C 5/5,C,1,1.963,self_consistency,llama3.2
+arc-46,sc:qwen2.5:7b,vote C 5/5,C,1,12.954,self_consistency,qwen2.5
+arc-46,persona:expert,C,C,1,2.918,persona,llama3.2
+arc-46,persona:skeptic,C,C,1,0.433,persona,llama3.2
+arc-46,persona:cautious,C,C,1,0.424,persona,llama3.2
+arc-46,rag:llama3.2:latest,C.,C,1,0.463,rag,llama3.2
+arc-46,rag:qwen2.5:7b,C,C,1,0.334,rag,qwen2.5
+arc-46,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-47,direct:qwen2.5:14b,C,C,1,50.08,direct,qwen2.5
+arc-47,direct:qwen2.5:7b,C,C,1,6.361,direct,qwen2.5
+arc-47,direct:mistral:7b, C,C,1,25.216,direct,mistral
+arc-47,direct:llama3.2:latest,D.,D,1,2.929,direct,llama3.2
+arc-47,direct:phi3.5:latest,C,C,1,7.031,direct,phi3.5
+arc-47,direct:gemma2:2b,C  ,C,1,8.224,direct,gemma2
+arc-47,sc:llama3.2:latest,vote C 4/5,C,1,1.892,self_consistency,llama3.2
+arc-47,sc:qwen2.5:7b,vote C 5/5,C,1,17.729,self_consistency,qwen2.5
+arc-47,persona:expert,D,D,1,2.929,persona,llama3.2
+arc-47,persona:skeptic,D,D,1,0.408,persona,llama3.2
+arc-47,persona:cautious,D,D,1,0.442,persona,llama3.2
+arc-47,rag:llama3.2:latest,D.,D,1,0.447,rag,llama3.2
+arc-47,rag:qwen2.5:7b,C,C,1,0.348,rag,qwen2.5
+arc-47,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-48,direct:qwen2.5:14b,C,C,1,45.023,direct,qwen2.5
+arc-48,direct:qwen2.5:7b,C,C,1,6.593,direct,qwen2.5
+arc-48,direct:mistral:7b, A,A,1,24.982,direct,mistral
+arc-48,direct:llama3.2:latest,C.,C,1,2.943,direct,llama3.2
+arc-48,direct:phi3.5:latest,C,C,1,7.073,direct,phi3.5
+arc-48,direct:gemma2:2b,C  ,C,1,3.209,direct,gemma2
+arc-48,sc:llama3.2:latest,vote C 5/5,C,1,9.836,self_consistency,llama3.2
+arc-48,sc:qwen2.5:7b,vote C 5/5,C,1,18.228,self_consistency,qwen2.5
+arc-48,persona:expert,C.,C,1,2.955,persona,llama3.2
+arc-48,persona:skeptic,C.,C,1,0.434,persona,llama3.2
+arc-48,persona:cautious,C.,C,1,0.468,persona,llama3.2
+arc-48,rag:llama3.2:latest,C.,C,1,0.452,rag,llama3.2
+arc-48,rag:qwen2.5:7b,C,C,1,0.36,rag,qwen2.5
+arc-48,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-49,direct:qwen2.5:14b,B,B,1,45.018,direct,qwen2.5
+arc-49,direct:qwen2.5:7b,B,B,1,6.737,direct,qwen2.5
+arc-49,direct:mistral:7b, D,D,1,25.274,direct,mistral
+arc-49,direct:llama3.2:latest,A,A,1,3.518,direct,llama3.2
+arc-49,direct:phi3.5:latest,B,B,1,7.083,direct,phi3.5
+arc-49,direct:gemma2:2b,D  ,D,1,8.525,direct,gemma2
+arc-49,sc:llama3.2:latest,vote A 3/5,A,1,2.125,self_consistency,llama3.2
+arc-49,sc:qwen2.5:7b,vote B 5/5,B,1,13.308,self_consistency,qwen2.5
+arc-49,persona:expert,A,A,1,2.928,persona,llama3.2
+arc-49,persona:skeptic,A,A,1,0.444,persona,llama3.2
+arc-49,persona:cautious,A,A,1,0.442,persona,llama3.2
+arc-49,rag:llama3.2:latest,A.,A,1,0.466,rag,llama3.2
+arc-49,rag:qwen2.5:7b,B,B,1,0.327,rag,qwen2.5
+arc-49,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-50,direct:qwen2.5:14b,D,D,1,45.205,direct,qwen2.5
+arc-50,direct:qwen2.5:7b,D,D,1,6.897,direct,qwen2.5
+arc-50,direct:mistral:7b, C,C,1,25.331,direct,mistral
+arc-50,direct:llama3.2:latest,B.,B,1,2.968,direct,llama3.2
+arc-50,direct:phi3.5:latest,D,D,1,6.861,direct,phi3.5
+arc-50,direct:gemma2:2b,D  ,D,1,8.505,direct,gemma2
+arc-50,sc:llama3.2:latest,vote B 4/5,B,1,1.914,self_consistency,llama3.2
+arc-50,sc:qwen2.5:7b,vote D 5/5,D,1,18.092,self_consistency,qwen2.5
+arc-50,persona:expert,B,B,1,2.667,persona,llama3.2
+arc-50,persona:skeptic,B,B,1,0.468,persona,llama3.2
+arc-50,persona:cautious,B,B,1,0.453,persona,llama3.2
+arc-50,rag:llama3.2:latest,B.,B,1,0.488,rag,llama3.2
+arc-50,rag:qwen2.5:7b,D,D,1,0.332,rag,qwen2.5
+arc-50,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-51,direct:qwen2.5:14b,C,C,1,50.206,direct,qwen2.5
+arc-51,direct:qwen2.5:7b,C,C,1,6.672,direct,qwen2.5
+arc-51,direct:mistral:7b, C,C,1,24.981,direct,mistral
+arc-51,direct:llama3.2:latest,A.,A,1,2.956,direct,llama3.2
+arc-51,direct:phi3.5:latest,C,C,1,7.011,direct,phi3.5
+arc-51,direct:gemma2:2b,C  ,C,1,8.216,direct,gemma2
+arc-51,sc:llama3.2:latest,vote A 4/5,A,1,1.944,self_consistency,llama3.2
+arc-51,sc:qwen2.5:7b,vote C 5/5,C,1,18.403,self_consistency,qwen2.5
+arc-51,persona:expert,A,A,1,2.932,persona,llama3.2
+arc-51,persona:skeptic,A,A,1,0.46,persona,llama3.2
+arc-51,persona:cautious,A,A,1,0.453,persona,llama3.2
+arc-51,rag:llama3.2:latest,C.,C,1,0.456,rag,llama3.2
+arc-51,rag:qwen2.5:7b,C,C,1,0.329,rag,qwen2.5
+arc-51,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-52,direct:qwen2.5:14b,A,A,1,45.144,direct,qwen2.5
+arc-52,direct:qwen2.5:7b,A,A,1,6.351,direct,qwen2.5
+arc-52,direct:mistral:7b, A,A,1,24.978,direct,mistral
+arc-52,direct:llama3.2:latest,B.,B,1,3.241,direct,llama3.2
+arc-52,direct:phi3.5:latest,A,A,1,2.22,direct,phi3.5
+arc-52,direct:gemma2:2b,A  ,A,1,8.528,direct,gemma2
+arc-52,sc:llama3.2:latest,vote B 5/5,B,1,2.094,self_consistency,llama3.2
+arc-52,sc:qwen2.5:7b,vote A 5/5,A,1,18.11,self_consistency,qwen2.5
+arc-52,persona:expert,B,B,1,2.909,persona,llama3.2
+arc-52,persona:skeptic,B,B,1,0.426,persona,llama3.2
+arc-52,persona:cautious,B,B,1,0.435,persona,llama3.2
+arc-52,rag:llama3.2:latest,B.,B,1,0.44,rag,llama3.2
+arc-52,rag:qwen2.5:7b,A,A,1,0.341,rag,qwen2.5
+arc-52,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-53,direct:qwen2.5:14b,C,C,1,45.266,direct,qwen2.5
+arc-53,direct:qwen2.5:7b,A,A,1,6.66,direct,qwen2.5
+arc-53,direct:mistral:7b, C,C,1,25.267,direct,mistral
+arc-53,direct:llama3.2:latest,A,A,1,3.221,direct,llama3.2
+arc-53,direct:phi3.5:latest,B,B,1,2.328,direct,phi3.5
+arc-53,direct:gemma2:2b,B  ,B,1,8.519,direct,gemma2
+arc-53,sc:llama3.2:latest,vote A 3/5,A,1,2.056,self_consistency,llama3.2
+arc-53,sc:qwen2.5:7b,vote A 4/5,A,1,13.763,self_consistency,qwen2.5
+arc-53,persona:expert,A,A,1,3.167,persona,llama3.2
+arc-53,persona:skeptic,A,A,1,0.433,persona,llama3.2
+arc-53,persona:cautious,A,A,1,0.453,persona,llama3.2
+arc-53,rag:llama3.2:latest,A,A,1,0.439,rag,llama3.2
+arc-53,rag:qwen2.5:7b,A,A,1,0.351,rag,qwen2.5
+arc-53,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-54,direct:qwen2.5:14b,B,B,1,45.265,direct,qwen2.5
+arc-54,direct:qwen2.5:7b,C,C,1,6.725,direct,qwen2.5
+arc-54,direct:mistral:7b, B,B,1,25.278,direct,mistral
+arc-54,direct:llama3.2:latest,C.,C,1,3.267,direct,llama3.2
+arc-54,direct:phi3.5:latest,C,C,1,7.335,direct,phi3.5
+arc-54,direct:gemma2:2b,B  ,B,1,3.541,direct,gemma2
+arc-54,sc:llama3.2:latest,vote C 5/5,C,1,9.916,self_consistency,llama3.2
+arc-54,sc:qwen2.5:7b,vote C 4/5,C,1,18.056,self_consistency,qwen2.5
+arc-54,persona:expert,C,C,1,2.918,persona,llama3.2
+arc-54,persona:skeptic,C,C,1,0.449,persona,llama3.2
+arc-54,persona:cautious,C.,C,1,0.473,persona,llama3.2
+arc-54,rag:llama3.2:latest,C.,C,1,0.451,rag,llama3.2
+arc-54,rag:qwen2.5:7b,C,C,1,0.34,rag,qwen2.5
+arc-54,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-55,direct:qwen2.5:14b,B,B,1,45.355,direct,qwen2.5
+arc-55,direct:qwen2.5:7b,B,B,1,6.47,direct,qwen2.5
+arc-55,direct:mistral:7b, B,B,1,25.363,direct,mistral
+arc-55,direct:llama3.2:latest,B.,B,1,2.958,direct,llama3.2
+arc-55,direct:phi3.5:latest,B,B,1,2.535,direct,phi3.5
+arc-55,direct:gemma2:2b,B  ,B,1,3.275,direct,gemma2
+arc-55,sc:llama3.2:latest,vote B 5/5,B,1,5.109,self_consistency,llama3.2
+arc-55,sc:qwen2.5:7b,vote B 5/5,B,1,17.758,self_consistency,qwen2.5
+arc-55,persona:expert,B,B,1,2.686,persona,llama3.2
+arc-55,persona:skeptic,B,B,1,0.479,persona,llama3.2
+arc-55,persona:cautious,B,B,1,0.471,persona,llama3.2
+arc-55,rag:llama3.2:latest,B.,B,1,0.469,rag,llama3.2
+arc-55,rag:qwen2.5:7b,B,B,1,0.374,rag,qwen2.5
+arc-55,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-56,direct:qwen2.5:14b,C,C,1,45.063,direct,qwen2.5
+arc-56,direct:qwen2.5:7b,C,C,1,6.336,direct,qwen2.5
+arc-56,direct:mistral:7b, C,C,1,25.25,direct,mistral
+arc-56,direct:llama3.2:latest,C.,C,1,2.976,direct,llama3.2
+arc-56,direct:phi3.5:latest,C,C,1,2.133,direct,phi3.5
+arc-56,direct:gemma2:2b,D  ,D,1,8.224,direct,gemma2
+arc-56,sc:llama3.2:latest,vote C 5/5,C,1,1.933,self_consistency,llama3.2
+arc-56,sc:qwen2.5:7b,vote C 5/5,C,1,8.63,self_consistency,qwen2.5
+arc-56,persona:expert,C,C,1,2.906,persona,llama3.2
+arc-56,persona:skeptic,C,C,1,0.45,persona,llama3.2
+arc-56,persona:cautious,C,C,1,0.45,persona,llama3.2
+arc-56,rag:llama3.2:latest,C.,C,1,0.471,rag,llama3.2
+arc-56,rag:qwen2.5:7b,C,C,1,0.329,rag,qwen2.5
+arc-56,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-57,direct:qwen2.5:14b,A,A,1,45.283,direct,qwen2.5
+arc-57,direct:qwen2.5:7b,A,A,1,6.343,direct,qwen2.5
+arc-57,direct:mistral:7b, A,A,1,25.275,direct,mistral
+arc-57,direct:llama3.2:latest,A,A,1,2.941,direct,llama3.2
+arc-57,direct:phi3.5:latest,A,A,1,2.007,direct,phi3.5
+arc-57,direct:gemma2:2b,A  ,A,1,8.504,direct,gemma2
+arc-57,sc:llama3.2:latest,vote A 5/5,A,1,1.838,self_consistency,llama3.2
+arc-57,sc:qwen2.5:7b,vote A 5/5,A,1,12.986,self_consistency,qwen2.5
+arc-57,persona:expert,A,A,1,3.209,persona,llama3.2
+arc-57,persona:skeptic,A,A,1,0.449,persona,llama3.2
+arc-57,persona:cautious,A,A,1,0.447,persona,llama3.2
+arc-57,rag:llama3.2:latest,A,A,1,0.434,rag,llama3.2
+arc-57,rag:qwen2.5:7b,A,A,1,0.337,rag,qwen2.5
+arc-57,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-58,direct:qwen2.5:14b,A,A,1,45.067,direct,qwen2.5
+arc-58,direct:qwen2.5:7b,A,A,1,6.589,direct,qwen2.5
+arc-58,direct:mistral:7b, A,A,1,25.214,direct,mistral
+arc-58,direct:llama3.2:latest,A.,A,1,3.192,direct,llama3.2
+arc-58,direct:phi3.5:latest,A,A,1,1.969,direct,phi3.5
+arc-58,direct:gemma2:2b,A  ,A,1,8.216,direct,gemma2
+arc-58,sc:llama3.2:latest,vote A 4/5,A,1,1.95,self_consistency,llama3.2
+arc-58,sc:qwen2.5:7b,vote A 5/5,A,1,13.567,self_consistency,qwen2.5
+arc-58,persona:expert,A,A,1,2.879,persona,llama3.2
+arc-58,persona:skeptic,A,A,1,0.464,persona,llama3.2
+arc-58,persona:cautious,A.,A,1,0.435,persona,llama3.2
+arc-58,rag:llama3.2:latest,A.,A,1,0.462,rag,llama3.2
+arc-58,rag:qwen2.5:7b,A,A,1,0.35,rag,qwen2.5
+arc-58,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-59,direct:qwen2.5:14b,C,C,1,45.643,direct,qwen2.5
+arc-59,direct:qwen2.5:7b,C,C,1,6.439,direct,qwen2.5
+arc-59,direct:mistral:7b, D,D,1,25.075,direct,mistral
+arc-59,direct:llama3.2:latest,C.,C,1,2.976,direct,llama3.2
+arc-59,direct:phi3.5:latest,C,C,1,2.272,direct,phi3.5
+arc-59,direct:gemma2:2b,D  ,D,1,8.251,direct,gemma2
+arc-59,sc:llama3.2:latest,vote C 5/5,C,1,1.86,self_consistency,llama3.2
+arc-59,sc:qwen2.5:7b,vote C 5/5,C,1,13.285,self_consistency,qwen2.5
+arc-59,persona:expert,C,C,1,2.974,persona,llama3.2
+arc-59,persona:skeptic,C,C,1,0.476,persona,llama3.2
+arc-59,persona:cautious,C.,C,1,0.473,persona,llama3.2
+arc-59,rag:llama3.2:latest,C.,C,1,0.464,rag,llama3.2
+arc-59,rag:qwen2.5:7b,C,C,1,0.338,rag,qwen2.5
+arc-59,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-60,direct:qwen2.5:14b,D,D,1,51.232,direct,qwen2.5
+arc-60,direct:qwen2.5:7b,D,D,1,6.38,direct,qwen2.5
+arc-60,direct:mistral:7b, D,D,1,25.223,direct,mistral
+arc-60,direct:llama3.2:latest,A.,A,1,11.764,direct,llama3.2
+arc-60,direct:phi3.5:latest,D,D,1,18.622,direct,phi3.5
+arc-60,direct:gemma2:2b,D  ,D,1,17.04,direct,gemma2
+arc-60,sc:llama3.2:latest,vote D 3/5,D,1,1.944,self_consistency,llama3.2
+arc-60,sc:qwen2.5:7b,vote D 5/5,D,1,13.239,self_consistency,qwen2.5
+arc-60,persona:expert,A,A,1,2.912,persona,llama3.2
+arc-60,persona:skeptic,A,A,1,0.444,persona,llama3.2
+arc-60,persona:cautious,A,A,1,0.459,persona,llama3.2
+arc-60,rag:llama3.2:latest,A,A,1,0.429,rag,llama3.2
+arc-60,rag:qwen2.5:7b,D,D,1,0.334,rag,qwen2.5
+arc-60,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-61,direct:qwen2.5:14b,B,B,1,50.185,direct,qwen2.5
+arc-61,direct:qwen2.5:7b,B,B,1,6.617,direct,qwen2.5
+arc-61,direct:mistral:7b, B,B,1,25.219,direct,mistral
+arc-61,direct:llama3.2:latest,B.,B,1,2.922,direct,llama3.2
+arc-61,direct:phi3.5:latest,B,B,1,7.041,direct,phi3.5
+arc-61,direct:gemma2:2b,B  ,B,1,8.439,direct,gemma2
+arc-61,sc:llama3.2:latest,vote B 5/5,B,1,1.912,self_consistency,llama3.2
+arc-61,sc:qwen2.5:7b,vote B 5/5,B,1,13.198,self_consistency,qwen2.5
+arc-61,persona:expert,B,B,1,2.913,persona,llama3.2
+arc-61,persona:skeptic,B,B,1,0.446,persona,llama3.2
+arc-61,persona:cautious,B,B,1,0.438,persona,llama3.2
+arc-61,rag:llama3.2:latest,B.,B,1,0.445,rag,llama3.2
+arc-61,rag:qwen2.5:7b,B,B,1,0.333,rag,qwen2.5
+arc-61,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-62,direct:qwen2.5:14b,D,D,1,55.051,direct,qwen2.5
+arc-62,direct:qwen2.5:7b,D,D,1,6.701,direct,qwen2.5
+arc-62,direct:mistral:7b, D,D,1,25.245,direct,mistral
+arc-62,direct:llama3.2:latest,D.,D,1,11.765,direct,llama3.2
+arc-62,direct:phi3.5:latest,D,D,1,2.299,direct,phi3.5
+arc-62,direct:gemma2:2b,D  ,D,1,8.237,direct,gemma2
+arc-62,sc:llama3.2:latest,vote D 5/5,D,1,1.948,self_consistency,llama3.2
+arc-62,sc:qwen2.5:7b,vote D 5/5,D,1,13.213,self_consistency,qwen2.5
+arc-62,persona:expert,D,D,1,2.94,persona,llama3.2
+arc-62,persona:skeptic,D,D,1,0.451,persona,llama3.2
+arc-62,persona:cautious,D,D,1,0.473,persona,llama3.2
+arc-62,rag:llama3.2:latest,D.,D,1,0.449,rag,llama3.2
+arc-62,rag:qwen2.5:7b,D,D,1,0.355,rag,qwen2.5
+arc-62,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-63,direct:qwen2.5:14b,C,C,1,50.242,direct,qwen2.5
+arc-63,direct:qwen2.5:7b,C,C,1,6.356,direct,qwen2.5
+arc-63,direct:mistral:7b, C,C,1,25.229,direct,mistral
+arc-63,direct:llama3.2:latest,C.,C,1,2.962,direct,llama3.2
+arc-63,direct:phi3.5:latest,C,C,1,2.232,direct,phi3.5
+arc-63,direct:gemma2:2b,C  ,C,1,8.242,direct,gemma2
+arc-63,sc:llama3.2:latest,vote C 5/5,C,1,1.914,self_consistency,llama3.2
+arc-63,sc:qwen2.5:7b,vote C 5/5,C,1,17.78,self_consistency,qwen2.5
+arc-63,persona:expert,C,C,1,2.905,persona,llama3.2
+arc-63,persona:skeptic,C,C,1,0.454,persona,llama3.2
+arc-63,persona:cautious,C,C,1,0.431,persona,llama3.2
+arc-63,rag:llama3.2:latest,C.,C,1,0.476,rag,llama3.2
+arc-63,rag:qwen2.5:7b,C,C,1,0.364,rag,qwen2.5
+arc-63,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-64,direct:qwen2.5:14b,D,D,1,45.396,direct,qwen2.5
+arc-64,direct:qwen2.5:7b,D,D,1,6.459,direct,qwen2.5
+arc-64,direct:mistral:7b," A (They both move at the same rate) is not accurate as Volvox colonies are multicellular and do not have a single unit of movement like Paramecium.  B (They both move away from light) is not accurate for Paramecium, which can move towards or",A,1,27.422,direct,mistral
+arc-64,direct:llama3.2:latest,A.,A,1,2.976,direct,llama3.2
+arc-64,direct:phi3.5:latest,B,B,1,2.26,direct,phi3.5
+arc-64,direct:gemma2:2b,D  ,D,1,8.519,direct,gemma2
+arc-64,sc:llama3.2:latest,vote A 5/5,A,1,2.013,self_consistency,llama3.2
+arc-64,sc:qwen2.5:7b,vote D 5/5,D,1,13.481,self_consistency,qwen2.5
+arc-64,persona:expert,A,A,1,2.976,persona,llama3.2
+arc-64,persona:skeptic,A,A,1,0.451,persona,llama3.2
+arc-64,persona:cautious,A,A,1,0.47,persona,llama3.2
+arc-64,rag:llama3.2:latest,A.,A,1,0.464,rag,llama3.2
+arc-64,rag:qwen2.5:7b,D,D,1,0.337,rag,qwen2.5
+arc-64,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-65,direct:qwen2.5:14b,A,A,1,45.209,direct,qwen2.5
+arc-65,direct:qwen2.5:7b,A,A,1,6.357,direct,qwen2.5
+arc-65,direct:mistral:7b, A,A,1,25.246,direct,mistral
+arc-65,direct:llama3.2:latest,A.,A,1,2.952,direct,llama3.2
+arc-65,direct:phi3.5:latest,A,A,1,7.086,direct,phi3.5
+arc-65,direct:gemma2:2b,A  ,A,1,8.468,direct,gemma2
+arc-65,sc:llama3.2:latest,vote A 5/5,A,1,2.046,self_consistency,llama3.2
+arc-65,sc:qwen2.5:7b,vote A 5/5,A,1,13.017,self_consistency,qwen2.5
+arc-65,persona:expert,A,A,1,2.928,persona,llama3.2
+arc-65,persona:skeptic,A,A,1,0.457,persona,llama3.2
+arc-65,persona:cautious,A,A,1,0.456,persona,llama3.2
+arc-65,rag:llama3.2:latest,A.,A,1,0.476,rag,llama3.2
+arc-65,rag:qwen2.5:7b,A,A,1,0.342,rag,qwen2.5
+arc-65,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-66,direct:qwen2.5:14b,A,A,1,45.11,direct,qwen2.5
+arc-66,direct:qwen2.5:7b,A,A,1,6.655,direct,qwen2.5
+arc-66,direct:mistral:7b, A,A,1,25.267,direct,mistral
+arc-66,direct:llama3.2:latest,A,A,1,2.945,direct,llama3.2
+arc-66,direct:phi3.5:latest,A,A,1,2.244,direct,phi3.5
+arc-66,direct:gemma2:2b,D  ,D,1,8.487,direct,gemma2
+arc-66,sc:llama3.2:latest,vote A 5/5,A,1,1.9,self_consistency,llama3.2
+arc-66,sc:qwen2.5:7b,vote A 5/5,A,1,13.095,self_consistency,qwen2.5
+arc-66,persona:expert,A,A,1,2.963,persona,llama3.2
+arc-66,persona:skeptic,A,A,1,0.432,persona,llama3.2
+arc-66,persona:cautious,A,A,1,0.442,persona,llama3.2
+arc-66,rag:llama3.2:latest,A.,A,1,0.462,rag,llama3.2
+arc-66,rag:qwen2.5:7b,A,A,1,0.344,rag,qwen2.5
+arc-66,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-67,direct:qwen2.5:14b,D,D,1,45.285,direct,qwen2.5
+arc-67,direct:qwen2.5:7b,D,D,1,6.408,direct,qwen2.5
+arc-67,direct:mistral:7b, A,A,1,25.26,direct,mistral
+arc-67,direct:llama3.2:latest,D.,D,1,2.946,direct,llama3.2
+arc-67,direct:phi3.5:latest,D,D,1,2.006,direct,phi3.5
+arc-67,direct:gemma2:2b,D  ,D,1,8.242,direct,gemma2
+arc-67,sc:llama3.2:latest,vote D 3/5,D,1,1.957,self_consistency,llama3.2
+arc-67,sc:qwen2.5:7b,vote D 5/5,D,1,8.358,self_consistency,qwen2.5
+arc-67,persona:expert,D.,D,1,2.959,persona,llama3.2
+arc-67,persona:skeptic,D.,D,1,0.453,persona,llama3.2
+arc-67,persona:cautious,C,C,1,0.437,persona,llama3.2
+arc-67,rag:llama3.2:latest,D.,D,1,0.48,rag,llama3.2
+arc-67,rag:qwen2.5:7b,D,D,1,0.328,rag,qwen2.5
+arc-67,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-68,direct:qwen2.5:14b,B,B,1,45.049,direct,qwen2.5
+arc-68,direct:qwen2.5:7b,B,B,1,6.301,direct,qwen2.5
+arc-68,direct:mistral:7b, C,C,1,25.236,direct,mistral
+arc-68,direct:llama3.2:latest,B.,B,1,2.65,direct,llama3.2
+arc-68,direct:phi3.5:latest,D,D,1,7.274,direct,phi3.5
+arc-68,direct:gemma2:2b,C  ,C,1,3.18,direct,gemma2
+arc-68,sc:llama3.2:latest,vote B 3/5,B,1,9.491,self_consistency,llama3.2
+arc-68,sc:qwen2.5:7b,vote B 5/5,B,1,13.372,self_consistency,qwen2.5
+arc-68,persona:expert,B,B,1,3.177,persona,llama3.2
+arc-68,persona:skeptic,D.,D,1,0.456,persona,llama3.2
+arc-68,persona:cautious,B.,B,1,0.465,persona,llama3.2
+arc-68,rag:llama3.2:latest,B.,B,1,0.436,rag,llama3.2
+arc-68,rag:qwen2.5:7b,B,B,1,0.357,rag,qwen2.5
+arc-68,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-69,direct:qwen2.5:14b,C,C,1,45.124,direct,qwen2.5
+arc-69,direct:qwen2.5:7b,A,A,1,6.344,direct,qwen2.5
+arc-69,direct:mistral:7b, C,C,1,25.245,direct,mistral
+arc-69,direct:llama3.2:latest,C.,C,1,2.939,direct,llama3.2
+arc-69,direct:phi3.5:latest,B,B,1,2.02,direct,phi3.5
+arc-69,direct:gemma2:2b,C  ,C,1,8.22,direct,gemma2
+arc-69,sc:llama3.2:latest,vote C 4/5,C,1,1.971,self_consistency,llama3.2
+arc-69,sc:qwen2.5:7b,vote A 5/5,A,1,18.067,self_consistency,qwen2.5
+arc-69,persona:expert,C,C,1,2.914,persona,llama3.2
+arc-69,persona:skeptic,C,C,1,0.44,persona,llama3.2
+arc-69,persona:cautious,C,C,1,0.46,persona,llama3.2
+arc-69,rag:llama3.2:latest,C.,C,1,0.463,rag,llama3.2
+arc-69,rag:qwen2.5:7b,A,A,1,0.357,rag,qwen2.5
+arc-69,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-70,direct:qwen2.5:14b,C,C,1,45.116,direct,qwen2.5
+arc-70,direct:qwen2.5:7b,C,C,1,6.339,direct,qwen2.5
+arc-70,direct:mistral:7b, D,D,1,25.23,direct,mistral
+arc-70,direct:llama3.2:latest,C,C,1,2.926,direct,llama3.2
+arc-70,direct:phi3.5:latest,A,A,1,2.227,direct,phi3.5
+arc-70,direct:gemma2:2b,C  ,C,1,8.213,direct,gemma2
+arc-70,sc:llama3.2:latest,vote B 2/5,B,1,1.856,self_consistency,llama3.2
+arc-70,sc:qwen2.5:7b,vote C 4/5,C,1,17.956,self_consistency,qwen2.5
+arc-70,persona:expert,C,C,1,2.929,persona,llama3.2
+arc-70,persona:skeptic,C,C,1,0.46,persona,llama3.2
+arc-70,persona:cautious,C,C,1,0.438,persona,llama3.2
+arc-70,rag:llama3.2:latest,C,C,1,0.441,rag,llama3.2
+arc-70,rag:qwen2.5:7b,C,C,1,0.353,rag,qwen2.5
+arc-70,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-71,direct:qwen2.5:14b,C,C,1,50.307,direct,qwen2.5
+arc-71,direct:qwen2.5:7b,C,C,1,6.364,direct,qwen2.5
+arc-71,direct:mistral:7b, C,C,1,25.235,direct,mistral
+arc-71,direct:llama3.2:latest,C,C,1,2.909,direct,llama3.2
+arc-71,direct:phi3.5:latest,C,C,1,6.975,direct,phi3.5
+arc-71,direct:gemma2:2b,C  ,C,1,8.481,direct,gemma2
+arc-71,sc:llama3.2:latest,vote C 5/5,C,1,1.875,self_consistency,llama3.2
+arc-71,sc:qwen2.5:7b,vote C 5/5,C,1,12.975,self_consistency,qwen2.5
+arc-71,persona:expert,C,C,1,2.905,persona,llama3.2
+arc-71,persona:skeptic,C,C,1,0.453,persona,llama3.2
+arc-71,persona:cautious,C,C,1,0.443,persona,llama3.2
+arc-71,rag:llama3.2:latest,C.,C,1,0.431,rag,llama3.2
+arc-71,rag:qwen2.5:7b,C,C,1,0.362,rag,qwen2.5
+arc-71,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-72,direct:qwen2.5:14b,B,B,1,45.139,direct,qwen2.5
+arc-72,direct:qwen2.5:7b,B,B,1,6.387,direct,qwen2.5
+arc-72,direct:mistral:7b, B,B,1,25.303,direct,mistral
+arc-72,direct:llama3.2:latest,B.,B,1,3.22,direct,llama3.2
+arc-72,direct:phi3.5:latest,B,B,1,2.259,direct,phi3.5
+arc-72,direct:gemma2:2b,B  ,B,1,8.227,direct,gemma2
+arc-72,sc:llama3.2:latest,vote B 3/5,B,1,1.919,self_consistency,llama3.2
+arc-72,sc:qwen2.5:7b,vote B 5/5,B,1,13.631,self_consistency,qwen2.5
+arc-72,persona:expert,A,A,1,2.919,persona,llama3.2
+arc-72,persona:skeptic,A,A,1,0.431,persona,llama3.2
+arc-72,persona:cautious,A,A,1,0.451,persona,llama3.2
+arc-72,rag:llama3.2:latest,B.,B,1,0.45,rag,llama3.2
+arc-72,rag:qwen2.5:7b,B,B,1,0.338,rag,qwen2.5
+arc-72,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-73,direct:qwen2.5:14b,D,D,1,50.01,direct,qwen2.5
+arc-73,direct:qwen2.5:7b,D,D,1,6.612,direct,qwen2.5
+arc-73,direct:mistral:7b, D,D,1,25.251,direct,mistral
+arc-73,direct:llama3.2:latest,D.,D,1,2.938,direct,llama3.2
+arc-73,direct:phi3.5:latest,D,D,1,12.016,direct,phi3.5
+arc-73,direct:gemma2:2b,D  ,D,1,3.487,direct,gemma2
+arc-73,sc:llama3.2:latest,vote D 5/5,D,1,9.766,self_consistency,llama3.2
+arc-73,sc:qwen2.5:7b,vote D 5/5,D,1,17.679,self_consistency,qwen2.5
+arc-73,persona:expert,D.,D,1,2.677,persona,llama3.2
+arc-73,persona:skeptic,D.,D,1,0.437,persona,llama3.2
+arc-73,persona:cautious,D.,D,1,0.447,persona,llama3.2
+arc-73,rag:llama3.2:latest,D.,D,1,0.44,rag,llama3.2
+arc-73,rag:qwen2.5:7b,D,D,1,0.321,rag,qwen2.5
+arc-73,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-74,direct:qwen2.5:14b,D,D,1,45.076,direct,qwen2.5
+arc-74,direct:qwen2.5:7b,D,D,1,6.329,direct,qwen2.5
+arc-74,direct:mistral:7b, D,D,1,25.241,direct,mistral
+arc-74,direct:llama3.2:latest,D.,D,1,2.971,direct,llama3.2
+arc-74,direct:phi3.5:latest,D,D,1,2.218,direct,phi3.5
+arc-74,direct:gemma2:2b,D  ,D,1,8.216,direct,gemma2
+arc-74,sc:llama3.2:latest,vote D 5/5,D,1,1.911,self_consistency,llama3.2
+arc-74,sc:qwen2.5:7b,vote D 5/5,D,1,13.321,self_consistency,qwen2.5
+arc-74,persona:expert,D,D,1,2.903,persona,llama3.2
+arc-74,persona:skeptic,D,D,1,0.446,persona,llama3.2
+arc-74,persona:cautious,D,D,1,0.44,persona,llama3.2
+arc-74,rag:llama3.2:latest,D.,D,1,0.451,rag,llama3.2
+arc-74,rag:qwen2.5:7b,D,D,1,0.353,rag,qwen2.5
+arc-74,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-75,direct:qwen2.5:14b,A,A,1,50.178,direct,qwen2.5
+arc-75,direct:qwen2.5:7b,A,A,1,6.393,direct,qwen2.5
+arc-75,direct:mistral:7b, A,A,1,25.245,direct,mistral
+arc-75,direct:llama3.2:latest,A,A,1,2.933,direct,llama3.2
+arc-75,direct:phi3.5:latest,A,A,1,1.992,direct,phi3.5
+arc-75,direct:gemma2:2b,C  ,C,1,8.487,direct,gemma2
+arc-75,sc:llama3.2:latest,vote A 3/5,A,1,1.851,self_consistency,llama3.2
+arc-75,sc:qwen2.5:7b,vote A 5/5,A,1,12.937,self_consistency,qwen2.5
+arc-75,persona:expert,A,A,1,2.932,persona,llama3.2
+arc-75,persona:skeptic,A,A,1,0.443,persona,llama3.2
+arc-75,persona:cautious,A,A,1,0.432,persona,llama3.2
+arc-75,rag:llama3.2:latest,A.,A,1,0.443,rag,llama3.2
+arc-75,rag:qwen2.5:7b,A,A,1,0.358,rag,qwen2.5
+arc-75,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-76,direct:qwen2.5:14b,B,B,1,45.196,direct,qwen2.5
+arc-76,direct:qwen2.5:7b,B,B,1,6.939,direct,qwen2.5
+arc-76,direct:mistral:7b, B,B,1,25.281,direct,mistral
+arc-76,direct:llama3.2:latest,B.,B,1,3.297,direct,llama3.2
+arc-76,direct:phi3.5:latest,B,B,1,2.294,direct,phi3.5
+arc-76,direct:gemma2:2b,B  ,B,1,8.537,direct,gemma2
+arc-76,sc:llama3.2:latest,vote B 5/5,B,1,2.036,self_consistency,llama3.2
+arc-76,sc:qwen2.5:7b,vote B 5/5,B,1,13.017,self_consistency,qwen2.5
+arc-76,persona:expert,B,B,1,2.907,persona,llama3.2
+arc-76,persona:skeptic,B,B,1,0.461,persona,llama3.2
+arc-76,persona:cautious,B,B,1,0.461,persona,llama3.2
+arc-76,rag:llama3.2:latest,B.,B,1,0.441,rag,llama3.2
+arc-76,rag:qwen2.5:7b,B,B,1,0.33,rag,qwen2.5
+arc-76,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-77,direct:qwen2.5:14b,B,B,1,45.5,direct,qwen2.5
+arc-77,direct:qwen2.5:7b,B,B,1,6.739,direct,qwen2.5
+arc-77,direct:mistral:7b, A,A,1,25.268,direct,mistral
+arc-77,direct:llama3.2:latest,B,B,1,2.95,direct,llama3.2
+arc-77,direct:phi3.5:latest,B,B,1,7.002,direct,phi3.5
+arc-77,direct:gemma2:2b,A  ,A,1,8.497,direct,gemma2
+arc-77,sc:llama3.2:latest,vote B 4/5,B,1,1.947,self_consistency,llama3.2
+arc-77,sc:qwen2.5:7b,vote B 5/5,B,1,13.28,self_consistency,qwen2.5
+arc-77,persona:expert,B,B,1,2.948,persona,llama3.2
+arc-77,persona:skeptic,B,B,1,0.429,persona,llama3.2
+arc-77,persona:cautious,B,B,1,0.45,persona,llama3.2
+arc-77,rag:llama3.2:latest,B,B,1,0.432,rag,llama3.2
+arc-77,rag:qwen2.5:7b,B,B,1,0.342,rag,qwen2.5
+arc-77,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-78,direct:qwen2.5:14b,B,B,1,45.186,direct,qwen2.5
+arc-78,direct:qwen2.5:7b,B,B,1,6.38,direct,qwen2.5
+arc-78,direct:mistral:7b, C,C,1,25.267,direct,mistral
+arc-78,direct:llama3.2:latest,A.,A,1,3.248,direct,llama3.2
+arc-78,direct:phi3.5:latest,B,B,1,2.303,direct,phi3.5
+arc-78,direct:gemma2:2b,C  ,C,1,8.564,direct,gemma2
+arc-78,sc:llama3.2:latest,vote A 4/5,A,1,2.158,self_consistency,llama3.2
+arc-78,sc:qwen2.5:7b,vote B 5/5,B,1,13.908,self_consistency,qwen2.5
+arc-78,persona:expert,A,A,1,3.243,persona,llama3.2
+arc-78,persona:skeptic,A,A,1,0.492,persona,llama3.2
+arc-78,persona:cautious,A,A,1,0.476,persona,llama3.2
+arc-78,rag:llama3.2:latest,A.,A,1,0.48,rag,llama3.2
+arc-78,rag:qwen2.5:7b,B,B,1,0.339,rag,qwen2.5
+arc-78,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-79,direct:qwen2.5:14b,A,A,1,45.188,direct,qwen2.5
+arc-79,direct:qwen2.5:7b,A,A,1,6.406,direct,qwen2.5
+arc-79,direct:mistral:7b, A,A,1,25.213,direct,mistral
+arc-79,direct:llama3.2:latest,B.,B,1,3.197,direct,llama3.2
+arc-79,direct:phi3.5:latest,B,B,1,2.01,direct,phi3.5
+arc-79,direct:gemma2:2b,A  ,A,1,8.247,direct,gemma2
+arc-79,sc:llama3.2:latest,vote B 2/5,B,1,1.922,self_consistency,llama3.2
+arc-79,sc:qwen2.5:7b,vote A 5/5,A,1,13.249,self_consistency,qwen2.5
+arc-79,persona:expert,B,B,1,2.981,persona,llama3.2
+arc-79,persona:skeptic,C,C,1,0.455,persona,llama3.2
+arc-79,persona:cautious,C,C,1,0.442,persona,llama3.2
+arc-79,rag:llama3.2:latest,B.,B,1,0.441,rag,llama3.2
+arc-79,rag:qwen2.5:7b,A,A,1,0.348,rag,qwen2.5
+arc-79,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-80,direct:qwen2.5:14b,D,D,1,45.209,direct,qwen2.5
+arc-80,direct:qwen2.5:7b,D,D,1,6.294,direct,qwen2.5
+arc-80,direct:mistral:7b, D,D,1,25.209,direct,mistral
+arc-80,direct:llama3.2:latest,D.,D,1,2.922,direct,llama3.2
+arc-80,direct:phi3.5:latest,D,D,1,6.976,direct,phi3.5
+arc-80,direct:gemma2:2b,D  ,D,1,8.238,direct,gemma2
+arc-80,sc:llama3.2:latest,vote D 5/5,D,1,1.984,self_consistency,llama3.2
+arc-80,sc:qwen2.5:7b,vote D 5/5,D,1,13.399,self_consistency,qwen2.5
+arc-80,persona:expert,D,D,1,2.914,persona,llama3.2
+arc-80,persona:skeptic,D,D,1,0.437,persona,llama3.2
+arc-80,persona:cautious,D.,D,1,0.462,persona,llama3.2
+arc-80,rag:llama3.2:latest,D.,D,1,0.426,rag,llama3.2
+arc-80,rag:qwen2.5:7b,D,D,1,0.345,rag,qwen2.5
+arc-80,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-81,direct:qwen2.5:14b,C,C,1,45.226,direct,qwen2.5
+arc-81,direct:qwen2.5:7b,C,C,1,6.319,direct,qwen2.5
+arc-81,direct:mistral:7b, C,C,1,25.261,direct,mistral
+arc-81,direct:llama3.2:latest,C.,C,1,2.943,direct,llama3.2
+arc-81,direct:phi3.5:latest,C,C,1,2.027,direct,phi3.5
+arc-81,direct:gemma2:2b,C  ,C,1,8.495,direct,gemma2
+arc-81,sc:llama3.2:latest,vote C 5/5,C,1,1.912,self_consistency,llama3.2
+arc-81,sc:qwen2.5:7b,vote C 5/5,C,1,13.211,self_consistency,qwen2.5
+arc-81,persona:expert,C.,C,1,2.929,persona,llama3.2
+arc-81,persona:skeptic,C.,C,1,0.437,persona,llama3.2
+arc-81,persona:cautious,C.,C,1,0.464,persona,llama3.2
+arc-81,rag:llama3.2:latest,C.,C,1,0.462,rag,llama3.2
+arc-81,rag:qwen2.5:7b,C,C,1,0.355,rag,qwen2.5
+arc-81,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-82,direct:qwen2.5:14b,C,C,1,50.211,direct,qwen2.5
+arc-82,direct:qwen2.5:7b,C,C,1,6.249,direct,qwen2.5
+arc-82,direct:mistral:7b, C,C,1,25.239,direct,mistral
+arc-82,direct:llama3.2:latest,B.,B,1,2.926,direct,llama3.2
+arc-82,direct:phi3.5:latest,C,C,1,2.238,direct,phi3.5
+arc-82,direct:gemma2:2b,B  ,B,1,8.182,direct,gemma2
+arc-82,sc:llama3.2:latest,vote B 3/5,B,1,1.967,self_consistency,llama3.2
+arc-82,sc:qwen2.5:7b,vote C 5/5,C,1,13.091,self_consistency,qwen2.5
+arc-82,persona:expert,B.,B,1,2.916,persona,llama3.2
+arc-82,persona:skeptic,B.,B,1,0.443,persona,llama3.2
+arc-82,persona:cautious,B.,B,1,0.461,persona,llama3.2
+arc-82,rag:llama3.2:latest,B.,B,1,0.431,rag,llama3.2
+arc-82,rag:qwen2.5:7b,C,C,1,0.339,rag,qwen2.5
+arc-82,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-83,direct:qwen2.5:14b,D,D,1,45.107,direct,qwen2.5
+arc-83,direct:qwen2.5:7b,D,D,1,6.384,direct,qwen2.5
+arc-83,direct:mistral:7b, D,D,1,25.213,direct,mistral
+arc-83,direct:llama3.2:latest,D.,D,1,2.945,direct,llama3.2
+arc-83,direct:phi3.5:latest,D,D,1,6.971,direct,phi3.5
+arc-83,direct:gemma2:2b,D  ,D,1,8.487,direct,gemma2
+arc-83,sc:llama3.2:latest,vote D 5/5,D,1,1.981,self_consistency,llama3.2
+arc-83,sc:qwen2.5:7b,vote D 5/5,D,1,18.237,self_consistency,qwen2.5
+arc-83,persona:expert,D,D,1,2.919,persona,llama3.2
+arc-83,persona:skeptic,D.,D,1,0.466,persona,llama3.2
+arc-83,persona:cautious,D.,D,1,0.462,persona,llama3.2
+arc-83,rag:llama3.2:latest,D.,D,1,0.429,rag,llama3.2
+arc-83,rag:qwen2.5:7b,D,D,1,0.333,rag,qwen2.5
+arc-83,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-84,direct:qwen2.5:14b,D,D,1,45.56,direct,qwen2.5
+arc-84,direct:qwen2.5:7b,D,D,1,6.747,direct,qwen2.5
+arc-84,direct:mistral:7b, D,D,1,25.294,direct,mistral
+arc-84,direct:llama3.2:latest,D.,D,1,2.943,direct,llama3.2
+arc-84,direct:phi3.5:latest,C,C,1,7.051,direct,phi3.5
+arc-84,direct:gemma2:2b,C  ,C,1,8.274,direct,gemma2
+arc-84,sc:llama3.2:latest,vote D 5/5,D,1,1.99,self_consistency,llama3.2
+arc-84,sc:qwen2.5:7b,vote D 5/5,D,1,18.137,self_consistency,qwen2.5
+arc-84,persona:expert,D,D,1,2.972,persona,llama3.2
+arc-84,persona:skeptic,D,D,1,0.469,persona,llama3.2
+arc-84,persona:cautious,D.,D,1,0.476,persona,llama3.2
+arc-84,rag:llama3.2:latest,D.,D,1,0.464,rag,llama3.2
+arc-84,rag:qwen2.5:7b,D,D,1,0.328,rag,qwen2.5
+arc-84,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-85,direct:qwen2.5:14b,A,A,1,45.058,direct,qwen2.5
+arc-85,direct:qwen2.5:7b,A,A,1,6.452,direct,qwen2.5
+arc-85,direct:mistral:7b, A,A,1,25.238,direct,mistral
+arc-85,direct:llama3.2:latest,A.,A,1,3.195,direct,llama3.2
+arc-85,direct:phi3.5:latest,A,A,1,7.272,direct,phi3.5
+arc-85,direct:gemma2:2b,D  ,D,1,3.51,direct,gemma2
+arc-85,sc:llama3.2:latest,vote A 5/5,A,1,9.944,self_consistency,llama3.2
+arc-85,sc:qwen2.5:7b,vote A 5/5,A,1,13.448,self_consistency,qwen2.5
+arc-85,persona:expert,A,A,1,2.658,persona,llama3.2
+arc-85,persona:skeptic,A,A,1,0.46,persona,llama3.2
+arc-85,persona:cautious,A,A,1,0.442,persona,llama3.2
+arc-85,rag:llama3.2:latest,A.,A,1,0.463,rag,llama3.2
+arc-85,rag:qwen2.5:7b,A,A,1,0.346,rag,qwen2.5
+arc-85,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-86,direct:qwen2.5:14b,A,A,1,50.663,direct,qwen2.5
+arc-86,direct:qwen2.5:7b,A,A,1,6.761,direct,qwen2.5
+arc-86,direct:mistral:7b, A,A,1,25.329,direct,mistral
+arc-86,direct:llama3.2:latest,A.,A,1,2.998,direct,llama3.2
+arc-86,direct:phi3.5:latest,A,A,1,2.058,direct,phi3.5
+arc-86,direct:gemma2:2b,C  ,C,1,8.26,direct,gemma2
+arc-86,sc:llama3.2:latest,vote A 5/5,A,1,1.919,self_consistency,llama3.2
+arc-86,sc:qwen2.5:7b,vote A 5/5,A,1,17.963,self_consistency,qwen2.5
+arc-86,persona:expert,A,A,1,2.959,persona,llama3.2
+arc-86,persona:skeptic,A,A,1,0.465,persona,llama3.2
+arc-86,persona:cautious,A.,A,1,0.488,persona,llama3.2
+arc-86,rag:llama3.2:latest,A.,A,1,0.487,rag,llama3.2
+arc-86,rag:qwen2.5:7b,A,A,1,0.334,rag,qwen2.5
+arc-86,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-87,direct:qwen2.5:14b,D,D,1,50.364,direct,qwen2.5
+arc-87,direct:qwen2.5:7b,D,D,1,6.378,direct,qwen2.5
+arc-87,direct:mistral:7b, B,B,1,25.28,direct,mistral
+arc-87,direct:llama3.2:latest,B.,B,1,2.945,direct,llama3.2
+arc-87,direct:phi3.5:latest,D,D,1,2.167,direct,phi3.5
+arc-87,direct:gemma2:2b,D  ,D,1,8.494,direct,gemma2
+arc-87,sc:llama3.2:latest,vote B 5/5,B,1,1.969,self_consistency,llama3.2
+arc-87,sc:qwen2.5:7b,vote D 5/5,D,1,8.79,self_consistency,qwen2.5
+arc-87,persona:expert,B,B,1,2.94,persona,llama3.2
+arc-87,persona:skeptic,B,B,1,0.452,persona,llama3.2
+arc-87,persona:cautious,B,B,1,0.442,persona,llama3.2
+arc-87,rag:llama3.2:latest,B.,B,1,0.446,rag,llama3.2
+arc-87,rag:qwen2.5:7b,D,D,1,0.35,rag,qwen2.5
+arc-87,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-88,direct:qwen2.5:14b,B,B,1,45.17,direct,qwen2.5
+arc-88,direct:qwen2.5:7b,B,B,1,6.701,direct,qwen2.5
+arc-88,direct:mistral:7b, A,A,1,25.343,direct,mistral
+arc-88,direct:llama3.2:latest,A.,A,1,2.978,direct,llama3.2
+arc-88,direct:phi3.5:latest,B,B,1,2.251,direct,phi3.5
+arc-88,direct:gemma2:2b,B  ,B,1,8.478,direct,gemma2
+arc-88,sc:llama3.2:latest,vote A 4/5,A,1,1.938,self_consistency,llama3.2
+arc-88,sc:qwen2.5:7b,vote B 5/5,B,1,12.985,self_consistency,qwen2.5
+arc-88,persona:expert,A ,A,1,2.959,persona,llama3.2
+arc-88,persona:skeptic,A,A,1,0.446,persona,llama3.2
+arc-88,persona:cautious,A,A,1,0.453,persona,llama3.2
+arc-88,rag:llama3.2:latest,A.,A,1,0.447,rag,llama3.2
+arc-88,rag:qwen2.5:7b,B,B,1,0.333,rag,qwen2.5
+arc-88,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-89,direct:qwen2.5:14b,C,C,1,45.025,direct,qwen2.5
+arc-89,direct:qwen2.5:7b,C,C,1,6.437,direct,qwen2.5
+arc-89,direct:mistral:7b, C,C,1,25.227,direct,mistral
+arc-89,direct:llama3.2:latest,B.,B,1,3.205,direct,llama3.2
+arc-89,direct:phi3.5:latest,C,C,1,1.992,direct,phi3.5
+arc-89,direct:gemma2:2b,C  ,C,1,8.486,direct,gemma2
+arc-89,sc:llama3.2:latest,vote D 4/5,D,1,1.978,self_consistency,llama3.2
+arc-89,sc:qwen2.5:7b,vote C 5/5,C,1,13.492,self_consistency,qwen2.5
+arc-89,persona:expert,B,B,1,2.934,persona,llama3.2
+arc-89,persona:skeptic,B,B,1,0.435,persona,llama3.2
+arc-89,persona:cautious,D.,D,1,0.461,persona,llama3.2
+arc-89,rag:llama3.2:latest,B.,B,1,0.445,rag,llama3.2
+arc-89,rag:qwen2.5:7b,C,C,1,0.353,rag,qwen2.5
+arc-89,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-90,direct:qwen2.5:14b,A,A,1,45.009,direct,qwen2.5
+arc-90,direct:qwen2.5:7b,A,A,1,6.775,direct,qwen2.5
+arc-90,direct:mistral:7b, A,A,1,25.235,direct,mistral
+arc-90,direct:llama3.2:latest,A.,A,1,2.948,direct,llama3.2
+arc-90,direct:phi3.5:latest,A,A,1,7.141,direct,phi3.5
+arc-90,direct:gemma2:2b,A  ,A,1,8.799,direct,gemma2
+arc-90,sc:llama3.2:latest,vote A 5/5,A,1,2.062,self_consistency,llama3.2
+arc-90,sc:qwen2.5:7b,vote A 5/5,A,1,17.815,self_consistency,qwen2.5
+arc-90,persona:expert,A,A,1,2.91,persona,llama3.2
+arc-90,persona:skeptic,A,A,1,0.429,persona,llama3.2
+arc-90,persona:cautious,A,A,1,0.441,persona,llama3.2
+arc-90,rag:llama3.2:latest,A.,A,1,0.46,rag,llama3.2
+arc-90,rag:qwen2.5:7b,A,A,1,0.357,rag,qwen2.5
+arc-90,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-91,direct:qwen2.5:14b,D,D,1,50.287,direct,qwen2.5
+arc-91,direct:qwen2.5:7b,A,A,1,6.671,direct,qwen2.5
+arc-91,direct:mistral:7b, A,A,1,25.264,direct,mistral
+arc-91,direct:llama3.2:latest,A.,A,1,2.949,direct,llama3.2
+arc-91,direct:phi3.5:latest,A,A,1,2.03,direct,phi3.5
+arc-91,direct:gemma2:2b,A  ,A,1,8.225,direct,gemma2
+arc-91,sc:llama3.2:latest,vote A 5/5,A,1,1.94,self_consistency,llama3.2
+arc-91,sc:qwen2.5:7b,vote A 5/5,A,1,13.239,self_consistency,qwen2.5
+arc-91,persona:expert,A,A,1,2.674,persona,llama3.2
+arc-91,persona:skeptic,A,A,1,0.458,persona,llama3.2
+arc-91,persona:cautious,A,A,1,0.461,persona,llama3.2
+arc-91,rag:llama3.2:latest,A.,A,1,0.465,rag,llama3.2
+arc-91,rag:qwen2.5:7b,A,A,1,0.359,rag,qwen2.5
+arc-91,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-92,direct:qwen2.5:14b,D,D,1,45.24,direct,qwen2.5
+arc-92,direct:qwen2.5:7b,D,D,1,6.342,direct,qwen2.5
+arc-92,direct:mistral:7b, D,D,1,25.254,direct,mistral
+arc-92,direct:llama3.2:latest,D.,D,1,3.216,direct,llama3.2
+arc-92,direct:phi3.5:latest,D,D,1,12.047,direct,phi3.5
+arc-92,direct:gemma2:2b,D  ,D,1,3.262,direct,gemma2
+arc-92,sc:llama3.2:latest,vote D 3/5,D,1,9.471,self_consistency,llama3.2
+arc-92,sc:qwen2.5:7b,vote D 5/5,D,1,18.076,self_consistency,qwen2.5
+arc-92,persona:expert,A,A,1,2.963,persona,llama3.2
+arc-92,persona:skeptic,A,A,1,0.45,persona,llama3.2
+arc-92,persona:cautious,A,A,1,0.435,persona,llama3.2
+arc-92,rag:llama3.2:latest,D.,D,1,0.461,rag,llama3.2
+arc-92,rag:qwen2.5:7b,D,D,1,0.36,rag,qwen2.5
+arc-92,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-93,direct:qwen2.5:14b,A,A,1,45.355,direct,qwen2.5
+arc-93,direct:qwen2.5:7b,A,A,1,6.664,direct,qwen2.5
+arc-93,direct:mistral:7b, A,A,1,25.359,direct,mistral
+arc-93,direct:llama3.2:latest,A.,A,1,3.009,direct,llama3.2
+arc-93,direct:phi3.5:latest,A,A,1,2.057,direct,phi3.5
+arc-93,direct:gemma2:2b,A  ,A,1,8.542,direct,gemma2
+arc-93,sc:llama3.2:latest,vote A 5/5,A,1,1.985,self_consistency,llama3.2
+arc-93,sc:qwen2.5:7b,vote A 5/5,A,1,13.159,self_consistency,qwen2.5
+arc-93,persona:expert,A,A,1,2.969,persona,llama3.2
+arc-93,persona:skeptic,A,A,1,0.465,persona,llama3.2
+arc-93,persona:cautious,A,A,1,0.476,persona,llama3.2
+arc-93,rag:llama3.2:latest,A.,A,1,0.478,rag,llama3.2
+arc-93,rag:qwen2.5:7b,A,A,1,0.336,rag,qwen2.5
+arc-93,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-94,direct:qwen2.5:14b,B,B,1,45.118,direct,qwen2.5
+arc-94,direct:qwen2.5:7b,B,B,1,6.466,direct,qwen2.5
+arc-94,direct:mistral:7b, B,B,1,25.27,direct,mistral
+arc-94,direct:llama3.2:latest,B.,B,1,2.964,direct,llama3.2
+arc-94,direct:phi3.5:latest,B,B,1,2.031,direct,phi3.5
+arc-94,direct:gemma2:2b,B  ,B,1,8.478,direct,gemma2
+arc-94,sc:llama3.2:latest,vote B 5/5,B,1,1.997,self_consistency,llama3.2
+arc-94,sc:qwen2.5:7b,vote B 5/5,B,1,13.238,self_consistency,qwen2.5
+arc-94,persona:expert,B,B,1,2.95,persona,llama3.2
+arc-94,persona:skeptic,B,B,1,0.442,persona,llama3.2
+arc-94,persona:cautious,B.,B,1,0.45,persona,llama3.2
+arc-94,rag:llama3.2:latest,B.,B,1,0.46,rag,llama3.2
+arc-94,rag:qwen2.5:7b,B,B,1,0.346,rag,qwen2.5
+arc-94,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-95,direct:qwen2.5:14b,C,C,1,45.15,direct,qwen2.5
+arc-95,direct:qwen2.5:7b,C,C,1,6.716,direct,qwen2.5
+arc-95,direct:mistral:7b, C,C,1,25.252,direct,mistral
+arc-95,direct:llama3.2:latest,B.,B,1,2.933,direct,llama3.2
+arc-95,direct:phi3.5:latest,C,C,1,6.995,direct,phi3.5
+arc-95,direct:gemma2:2b,C  ,C,1,8.229,direct,gemma2
+arc-95,sc:llama3.2:latest,vote B 5/5,B,1,2.023,self_consistency,llama3.2
+arc-95,sc:qwen2.5:7b,vote C 5/5,C,1,18.028,self_consistency,qwen2.5
+arc-95,persona:expert,B,B,1,2.923,persona,llama3.2
+arc-95,persona:skeptic,B.,B,1,0.474,persona,llama3.2
+arc-95,persona:cautious,B.,B,1,0.462,persona,llama3.2
+arc-95,rag:llama3.2:latest,B.,B,1,0.443,rag,llama3.2
+arc-95,rag:qwen2.5:7b,C,C,1,0.335,rag,qwen2.5
+arc-95,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-96,direct:qwen2.5:14b,C,C,1,50.34,direct,qwen2.5
+arc-96,direct:qwen2.5:7b,C,C,1,6.36,direct,qwen2.5
+arc-96,direct:mistral:7b, C,C,1,25.271,direct,mistral
+arc-96,direct:llama3.2:latest,C.,C,1,3.214,direct,llama3.2
+arc-96,direct:phi3.5:latest,C,C,1,7.29,direct,phi3.5
+arc-96,direct:gemma2:2b,C  ,C,1,3.228,direct,gemma2
+arc-96,sc:llama3.2:latest,vote C 5/5,C,1,9.543,self_consistency,llama3.2
+arc-96,sc:qwen2.5:7b,vote C 5/5,C,1,17.991,self_consistency,qwen2.5
+arc-96,persona:expert,C,C,1,2.943,persona,llama3.2
+arc-96,persona:skeptic,C.,C,1,0.449,persona,llama3.2
+arc-96,persona:cautious,C.,C,1,0.467,persona,llama3.2
+arc-96,rag:llama3.2:latest,C.,C,1,0.456,rag,llama3.2
+arc-96,rag:qwen2.5:7b,C,C,1,0.333,rag,qwen2.5
+arc-96,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-97,direct:qwen2.5:14b,B,B,1,45.075,direct,qwen2.5
+arc-97,direct:qwen2.5:7b,B,B,1,6.334,direct,qwen2.5
+arc-97,direct:mistral:7b, A,A,1,25.228,direct,mistral
+arc-97,direct:llama3.2:latest,B.,B,1,2.925,direct,llama3.2
+arc-97,direct:phi3.5:latest,B,B,1,2.252,direct,phi3.5
+arc-97,direct:gemma2:2b,B  ,B,1,8.227,direct,gemma2
+arc-97,sc:llama3.2:latest,vote A 3/5,A,1,1.926,self_consistency,llama3.2
+arc-97,sc:qwen2.5:7b,vote B 5/5,B,1,18.236,self_consistency,qwen2.5
+arc-97,persona:expert,A,A,1,2.921,persona,llama3.2
+arc-97,persona:skeptic,A,A,1,0.463,persona,llama3.2
+arc-97,persona:cautious,A,A,1,0.44,persona,llama3.2
+arc-97,rag:llama3.2:latest,B.,B,1,0.464,rag,llama3.2
+arc-97,rag:qwen2.5:7b,B,B,1,0.348,rag,qwen2.5
+arc-97,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-98,direct:qwen2.5:14b,B,B,1,45.068,direct,qwen2.5
+arc-98,direct:qwen2.5:7b,B,B,1,6.631,direct,qwen2.5
+arc-98,direct:mistral:7b, B,B,1,25.256,direct,mistral
+arc-98,direct:llama3.2:latest,A.,A,1,3.218,direct,llama3.2
+arc-98,direct:phi3.5:latest,B,B,1,2.035,direct,phi3.5
+arc-98,direct:gemma2:2b,B  ,B,1,8.481,direct,gemma2
+arc-98,sc:llama3.2:latest,vote A 5/5,A,1,1.886,self_consistency,llama3.2
+arc-98,sc:qwen2.5:7b,vote B 5/5,B,1,13.393,self_consistency,qwen2.5
+arc-98,persona:expert,A,A,1,2.916,persona,llama3.2
+arc-98,persona:skeptic,A,A,1,0.46,persona,llama3.2
+arc-98,persona:cautious,A,A,1,0.44,persona,llama3.2
+arc-98,rag:llama3.2:latest,A.,A,1,0.461,rag,llama3.2
+arc-98,rag:qwen2.5:7b,B,B,1,0.357,rag,qwen2.5
+arc-98,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-99,direct:qwen2.5:14b,B,B,1,45.194,direct,qwen2.5
+arc-99,direct:qwen2.5:7b,B,B,1,6.597,direct,qwen2.5
+arc-99,direct:mistral:7b, B,B,1,25.254,direct,mistral
+arc-99,direct:llama3.2:latest,B.,B,1,2.944,direct,llama3.2
+arc-99,direct:phi3.5:latest,B,B,1,2.228,direct,phi3.5
+arc-99,direct:gemma2:2b,B  ,B,1,8.198,direct,gemma2
+arc-99,sc:llama3.2:latest,vote B 5/5,B,1,1.899,self_consistency,llama3.2
+arc-99,sc:qwen2.5:7b,vote B 5/5,B,1,13.183,self_consistency,qwen2.5
+arc-99,persona:expert,B,B,1,2.93,persona,llama3.2
+arc-99,persona:skeptic,B,B,1,0.441,persona,llama3.2
+arc-99,persona:cautious,B,B,1,0.437,persona,llama3.2
+arc-99,rag:llama3.2:latest,B.,B,1,0.453,rag,llama3.2
+arc-99,rag:qwen2.5:7b,B,B,1,0.35,rag,qwen2.5
+arc-99,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-100,direct:qwen2.5:14b,C,C,1,45.341,direct,qwen2.5
+arc-100,direct:qwen2.5:7b,C,C,1,6.391,direct,qwen2.5
+arc-100,direct:mistral:7b, C,C,1,25.334,direct,mistral
+arc-100,direct:llama3.2:latest,C.,C,1,2.988,direct,llama3.2
+arc-100,direct:phi3.5:latest,C,C,1,2.032,direct,phi3.5
+arc-100,direct:gemma2:2b,C  ,C,1,8.236,direct,gemma2
+arc-100,sc:llama3.2:latest,vote C 5/5,C,1,1.963,self_consistency,llama3.2
+arc-100,sc:qwen2.5:7b,vote C 5/5,C,1,18.133,self_consistency,qwen2.5
+arc-100,persona:expert,C,C,1,2.945,persona,llama3.2
+arc-100,persona:skeptic,C,C,1,0.473,persona,llama3.2
+arc-100,persona:cautious,C.,C,1,0.488,persona,llama3.2
+arc-100,rag:llama3.2:latest,C.,C,1,0.457,rag,llama3.2
+arc-100,rag:qwen2.5:7b,C,C,1,0.341,rag,qwen2.5
+arc-100,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-101,direct:qwen2.5:14b,D,D,1,50.252,direct,qwen2.5
+arc-101,direct:qwen2.5:7b,D,D,1,6.665,direct,qwen2.5
+arc-101,direct:mistral:7b, D,D,1,25.282,direct,mistral
+arc-101,direct:llama3.2:latest,A,A,1,2.936,direct,llama3.2
+arc-101,direct:phi3.5:latest,D,D,1,2.041,direct,phi3.5
+arc-101,direct:gemma2:2b,D  ,D,1,8.235,direct,gemma2
+arc-101,sc:llama3.2:latest,vote A 5/5,A,1,1.923,self_consistency,llama3.2
+arc-101,sc:qwen2.5:7b,vote D 5/5,D,1,13.277,self_consistency,qwen2.5
+arc-101,persona:expert,A,A,1,2.925,persona,llama3.2
+arc-101,persona:skeptic,A,A,1,0.434,persona,llama3.2
+arc-101,persona:cautious,A,A,1,0.454,persona,llama3.2
+arc-101,rag:llama3.2:latest,A,A,1,0.468,rag,llama3.2
+arc-101,rag:qwen2.5:7b,D,D,1,0.341,rag,qwen2.5
+arc-101,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-102,direct:qwen2.5:14b,A,A,1,45.262,direct,qwen2.5
+arc-102,direct:qwen2.5:7b,A,A,1,6.596,direct,qwen2.5
+arc-102,direct:mistral:7b, A,A,1,25.239,direct,mistral
+arc-102,direct:llama3.2:latest,B.,B,1,2.936,direct,llama3.2
+arc-102,direct:phi3.5:latest,A,A,1,2.252,direct,phi3.5
+arc-102,direct:gemma2:2b,B  ,B,1,8.48,direct,gemma2
+arc-102,sc:llama3.2:latest,vote B 5/5,B,1,1.911,self_consistency,llama3.2
+arc-102,sc:qwen2.5:7b,vote A 5/5,A,1,13.599,self_consistency,qwen2.5
+arc-102,persona:expert,B,B,1,2.928,persona,llama3.2
+arc-102,persona:skeptic,B.,B,1,0.461,persona,llama3.2
+arc-102,persona:cautious,B.,B,1,0.46,persona,llama3.2
+arc-102,rag:llama3.2:latest,B.,B,1,0.439,rag,llama3.2
+arc-102,rag:qwen2.5:7b,A,A,1,0.36,rag,qwen2.5
+arc-102,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-103,direct:qwen2.5:14b,B,B,1,50.249,direct,qwen2.5
+arc-103,direct:qwen2.5:7b,B,B,1,6.649,direct,qwen2.5
+arc-103,direct:mistral:7b, B,B,1,25.23,direct,mistral
+arc-103,direct:llama3.2:latest,B.,B,1,2.928,direct,llama3.2
+arc-103,direct:phi3.5:latest,B,B,1,2.028,direct,phi3.5
+arc-103,direct:gemma2:2b,B  ,B,1,8.46,direct,gemma2
+arc-103,sc:llama3.2:latest,vote B 5/5,B,1,1.941,self_consistency,llama3.2
+arc-103,sc:qwen2.5:7b,vote B 5/5,B,1,13.452,self_consistency,qwen2.5
+arc-103,persona:expert,B.,B,1,2.943,persona,llama3.2
+arc-103,persona:skeptic,B.,B,1,0.454,persona,llama3.2
+arc-103,persona:cautious,B.,B,1,0.456,persona,llama3.2
+arc-103,rag:llama3.2:latest,B.,B,1,0.442,rag,llama3.2
+arc-103,rag:qwen2.5:7b,B,B,1,0.345,rag,qwen2.5
+arc-103,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-104,direct:qwen2.5:14b,C,C,1,45.096,direct,qwen2.5
+arc-104,direct:qwen2.5:7b,C,C,1,6.398,direct,qwen2.5
+arc-104,direct:mistral:7b, C,C,1,25.234,direct,mistral
+arc-104,direct:llama3.2:latest,C.,C,1,3.215,direct,llama3.2
+arc-104,direct:phi3.5:latest,C,C,1,7.022,direct,phi3.5
+arc-104,direct:gemma2:2b,C  ,C,1,8.217,direct,gemma2
+arc-104,sc:llama3.2:latest,vote C 3/5,C,1,1.95,self_consistency,llama3.2
+arc-104,sc:qwen2.5:7b,vote C 5/5,C,1,13.001,self_consistency,qwen2.5
+arc-104,persona:expert,C,C,1,2.94,persona,llama3.2
+arc-104,persona:skeptic,C,C,1,0.433,persona,llama3.2
+arc-104,persona:cautious,C.,C,1,0.457,persona,llama3.2
+arc-104,rag:llama3.2:latest,C.,C,1,0.431,rag,llama3.2
+arc-104,rag:qwen2.5:7b,C,C,1,0.334,rag,qwen2.5
+arc-104,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-105,direct:qwen2.5:14b,B,B,1,45.076,direct,qwen2.5
+arc-105,direct:qwen2.5:7b,B,B,1,6.372,direct,qwen2.5
+arc-105,direct:mistral:7b, B,B,1,25.297,direct,mistral
+arc-105,direct:llama3.2:latest,B.,B,1,3.23,direct,llama3.2
+arc-105,direct:phi3.5:latest,B,B,1,7.094,direct,phi3.5
+arc-105,direct:gemma2:2b,B  ,B,1,8.236,direct,gemma2
+arc-105,sc:llama3.2:latest,vote B 5/5,B,1,1.972,self_consistency,llama3.2
+arc-105,sc:qwen2.5:7b,vote B 5/5,B,1,13.666,self_consistency,qwen2.5
+arc-105,persona:expert,B,B,1,2.938,persona,llama3.2
+arc-105,persona:skeptic,A,A,1,0.448,persona,llama3.2
+arc-105,persona:cautious,B.,B,1,0.484,persona,llama3.2
+arc-105,rag:llama3.2:latest,B.,B,1,0.457,rag,llama3.2
+arc-105,rag:qwen2.5:7b,B,B,1,0.347,rag,qwen2.5
+arc-105,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-106,direct:qwen2.5:14b,D,D,1,45.097,direct,qwen2.5
+arc-106,direct:qwen2.5:7b,D,D,1,6.366,direct,qwen2.5
+arc-106,direct:mistral:7b, D,D,1,25.241,direct,mistral
+arc-106,direct:llama3.2:latest,D.,D,1,3.215,direct,llama3.2
+arc-106,direct:phi3.5:latest,D,D,1,7.277,direct,phi3.5
+arc-106,direct:gemma2:2b,D  ,D,1,3.221,direct,gemma2
+arc-106,sc:llama3.2:latest,vote D 5/5,D,1,9.617,self_consistency,llama3.2
+arc-106,sc:qwen2.5:7b,vote D 5/5,D,1,13.32,self_consistency,qwen2.5
+arc-106,persona:expert,D,D,1,2.93,persona,llama3.2
+arc-106,persona:skeptic,D,D,1,0.472,persona,llama3.2
+arc-106,persona:cautious,D,D,1,0.481,persona,llama3.2
+arc-106,rag:llama3.2:latest,D.,D,1,0.481,rag,llama3.2
+arc-106,rag:qwen2.5:7b,D,D,1,0.37,rag,qwen2.5
+arc-106,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-107,direct:qwen2.5:14b,B,B,1,45.349,direct,qwen2.5
+arc-107,direct:qwen2.5:7b,B,B,1,6.367,direct,qwen2.5
+arc-107,direct:mistral:7b, B,B,1,25.267,direct,mistral
+arc-107,direct:llama3.2:latest,B.,B,1,2.959,direct,llama3.2
+arc-107,direct:phi3.5:latest,B,B,1,2.161,direct,phi3.5
+arc-107,direct:gemma2:2b,B  ,B,1,8.231,direct,gemma2
+arc-107,sc:llama3.2:latest,vote B 3/5,B,1,1.93,self_consistency,llama3.2
+arc-107,sc:qwen2.5:7b,vote B 5/5,B,1,13.373,self_consistency,qwen2.5
+arc-107,persona:expert,B,B,1,2.933,persona,llama3.2
+arc-107,persona:skeptic,B,B,1,0.474,persona,llama3.2
+arc-107,persona:cautious,B,B,1,0.452,persona,llama3.2
+arc-107,rag:llama3.2:latest,B.,B,1,0.459,rag,llama3.2
+arc-107,rag:qwen2.5:7b,B,B,1,0.341,rag,qwen2.5
+arc-107,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-108,direct:qwen2.5:14b,D,D,1,45.138,direct,qwen2.5
+arc-108,direct:qwen2.5:7b,D,D,1,6.388,direct,qwen2.5
+arc-108,direct:mistral:7b, D,D,1,25.241,direct,mistral
+arc-108,direct:llama3.2:latest,D.,D,1,3.208,direct,llama3.2
+arc-108,direct:phi3.5:latest,D,D,1,7.329,direct,phi3.5
+arc-108,direct:gemma2:2b,D  ,D,1,3.241,direct,gemma2
+arc-108,sc:llama3.2:latest,vote D 5/5,D,1,4.87,self_consistency,llama3.2
+arc-108,sc:qwen2.5:7b,vote D 5/5,D,1,13.584,self_consistency,qwen2.5
+arc-108,persona:expert,D.,D,1,2.941,persona,llama3.2
+arc-108,persona:skeptic,D.,D,1,0.451,persona,llama3.2
+arc-108,persona:cautious,D.,D,1,0.441,persona,llama3.2
+arc-108,rag:llama3.2:latest,D.,D,1,0.446,rag,llama3.2
+arc-108,rag:qwen2.5:7b,D,D,1,0.332,rag,qwen2.5
+arc-108,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-109,direct:qwen2.5:14b,A,A,1,45.085,direct,qwen2.5
+arc-109,direct:qwen2.5:7b,A,A,1,6.573,direct,qwen2.5
+arc-109,direct:mistral:7b, A,A,1,25.224,direct,mistral
+arc-109,direct:llama3.2:latest,D.,D,1,2.93,direct,llama3.2
+arc-109,direct:phi3.5:latest,A,A,1,7.002,direct,phi3.5
+arc-109,direct:gemma2:2b,D  ,D,1,8.498,direct,gemma2
+arc-109,sc:llama3.2:latest,vote D 3/5,D,1,1.972,self_consistency,llama3.2
+arc-109,sc:qwen2.5:7b,vote A 5/5,A,1,17.812,self_consistency,qwen2.5
+arc-109,persona:expert,D,D,1,2.904,persona,llama3.2
+arc-109,persona:skeptic,D.,D,1,0.451,persona,llama3.2
+arc-109,persona:cautious,A,A,1,0.445,persona,llama3.2
+arc-109,rag:llama3.2:latest,D.,D,1,0.45,rag,llama3.2
+arc-109,rag:qwen2.5:7b,A,A,1,0.348,rag,qwen2.5
+arc-109,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-110,direct:qwen2.5:14b,A,A,1,45.152,direct,qwen2.5
+arc-110,direct:qwen2.5:7b,A,A,1,6.546,direct,qwen2.5
+arc-110,direct:mistral:7b, A,A,1,25.34,direct,mistral
+arc-110,direct:llama3.2:latest,C.,C,1,2.982,direct,llama3.2
+arc-110,direct:phi3.5:latest,C,C,1,2.067,direct,phi3.5
+arc-110,direct:gemma2:2b,C  ,C,1,8.517,direct,gemma2
+arc-110,sc:llama3.2:latest,vote C 5/5,C,1,2.147,self_consistency,llama3.2
+arc-110,sc:qwen2.5:7b,vote A 5/5,A,1,8.947,self_consistency,qwen2.5
+arc-110,persona:expert,C,C,1,3.544,persona,llama3.2
+arc-110,persona:skeptic,C,C,1,0.519,persona,llama3.2
+arc-110,persona:cautious,C,C,1,0.516,persona,llama3.2
+arc-110,rag:llama3.2:latest,C.,C,1,0.506,rag,llama3.2
+arc-110,rag:qwen2.5:7b,A,A,1,0.359,rag,qwen2.5
+arc-110,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-111,direct:qwen2.5:14b,A,A,1,45.534,direct,qwen2.5
+arc-111,direct:qwen2.5:7b,A,A,1,6.62,direct,qwen2.5
+arc-111,direct:mistral:7b, C,C,1,25.255,direct,mistral
+arc-111,direct:llama3.2:latest,A.,A,1,2.949,direct,llama3.2
+arc-111,direct:phi3.5:latest,A,A,1,2.008,direct,phi3.5
+arc-111,direct:gemma2:2b,A  ,A,1,8.223,direct,gemma2
+arc-111,sc:llama3.2:latest,vote A 4/5,A,1,1.97,self_consistency,llama3.2
+arc-111,sc:qwen2.5:7b,vote A 5/5,A,1,8.724,self_consistency,qwen2.5
+arc-111,persona:expert,A,A,1,2.925,persona,llama3.2
+arc-111,persona:skeptic,A,A,1,0.47,persona,llama3.2
+arc-111,persona:cautious,A.,A,1,0.465,persona,llama3.2
+arc-111,rag:llama3.2:latest,A.,A,1,0.422,rag,llama3.2
+arc-111,rag:qwen2.5:7b,A,A,1,0.354,rag,qwen2.5
+arc-111,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-112,direct:qwen2.5:14b,A,A,1,45.051,direct,qwen2.5
+arc-112,direct:qwen2.5:7b,A,A,1,6.701,direct,qwen2.5
+arc-112,direct:mistral:7b, C,C,1,25.27,direct,mistral
+arc-112,direct:llama3.2:latest,A.,A,1,3.212,direct,llama3.2
+arc-112,direct:phi3.5:latest,A,A,1,1.991,direct,phi3.5
+arc-112,direct:gemma2:2b,A  ,A,1,8.46,direct,gemma2
+arc-112,sc:llama3.2:latest,vote A 4/5,A,1,1.923,self_consistency,llama3.2
+arc-112,sc:qwen2.5:7b,vote A 5/5,A,1,18.301,self_consistency,qwen2.5
+arc-112,persona:expert,A,A,1,2.937,persona,llama3.2
+arc-112,persona:skeptic,A,A,1,0.44,persona,llama3.2
+arc-112,persona:cautious,A,A,1,0.442,persona,llama3.2
+arc-112,rag:llama3.2:latest,A.,A,1,0.473,rag,llama3.2
+arc-112,rag:qwen2.5:7b,A,A,1,0.333,rag,qwen2.5
+arc-112,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-113,direct:qwen2.5:14b,A,A,1,50.259,direct,qwen2.5
+arc-113,direct:qwen2.5:7b,A,A,1,6.624,direct,qwen2.5
+arc-113,direct:mistral:7b, A,A,1,25.239,direct,mistral
+arc-113,direct:llama3.2:latest,A.,A,1,2.94,direct,llama3.2
+arc-113,direct:phi3.5:latest,A,A,1,7.004,direct,phi3.5
+arc-113,direct:gemma2:2b,A  ,A,1,8.238,direct,gemma2
+arc-113,sc:llama3.2:latest,vote A 5/5,A,1,2.016,self_consistency,llama3.2
+arc-113,sc:qwen2.5:7b,vote A 5/5,A,1,18.072,self_consistency,qwen2.5
+arc-113,persona:expert,A,A,1,3.17,persona,llama3.2
+arc-113,persona:skeptic,A,A,1,0.457,persona,llama3.2
+arc-113,persona:cautious,A,A,1,0.441,persona,llama3.2
+arc-113,rag:llama3.2:latest,A.,A,1,0.453,rag,llama3.2
+arc-113,rag:qwen2.5:7b,A,A,1,0.344,rag,qwen2.5
+arc-113,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-114,direct:qwen2.5:14b,B,B,1,45.124,direct,qwen2.5
+arc-114,direct:qwen2.5:7b,B,B,1,6.654,direct,qwen2.5
+arc-114,direct:mistral:7b, B,B,1,25.262,direct,mistral
+arc-114,direct:llama3.2:latest,B.,B,1,3.214,direct,llama3.2
+arc-114,direct:phi3.5:latest,B,B,1,2.22,direct,phi3.5
+arc-114,direct:gemma2:2b,A  ,A,1,8.503,direct,gemma2
+arc-114,sc:llama3.2:latest,vote B 5/5,B,1,1.913,self_consistency,llama3.2
+arc-114,sc:qwen2.5:7b,vote B 5/5,B,1,13.358,self_consistency,qwen2.5
+arc-114,persona:expert,B.,B,1,2.918,persona,llama3.2
+arc-114,persona:skeptic,B.,B,1,0.435,persona,llama3.2
+arc-114,persona:cautious,B.,B,1,0.441,persona,llama3.2
+arc-114,rag:llama3.2:latest,B.,B,1,0.433,rag,llama3.2
+arc-114,rag:qwen2.5:7b,B,B,1,0.351,rag,qwen2.5
+arc-114,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-115,direct:qwen2.5:14b,D,D,1,45.441,direct,qwen2.5
+arc-115,direct:qwen2.5:7b,D,D,1,6.664,direct,qwen2.5
+arc-115,direct:mistral:7b, D,D,1,25.257,direct,mistral
+arc-115,direct:llama3.2:latest,D.,D,1,3.214,direct,llama3.2
+arc-115,direct:phi3.5:latest,D,D,1,1.991,direct,phi3.5
+arc-115,direct:gemma2:2b,D  ,D,1,8.732,direct,gemma2
+arc-115,sc:llama3.2:latest,vote D 5/5,D,1,1.991,self_consistency,llama3.2
+arc-115,sc:qwen2.5:7b,vote D 5/5,D,1,13.403,self_consistency,qwen2.5
+arc-115,persona:expert,D,D,1,2.917,persona,llama3.2
+arc-115,persona:skeptic,D,D,1,0.444,persona,llama3.2
+arc-115,persona:cautious,D,D,1,0.436,persona,llama3.2
+arc-115,rag:llama3.2:latest,D.,D,1,0.464,rag,llama3.2
+arc-115,rag:qwen2.5:7b,D,D,1,0.35,rag,qwen2.5
+arc-115,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-116,direct:qwen2.5:14b,B,B,1,45.295,direct,qwen2.5
+arc-116,direct:qwen2.5:7b,B,B,1,6.644,direct,qwen2.5
+arc-116,direct:mistral:7b, A,A,1,25.234,direct,mistral
+arc-116,direct:llama3.2:latest,B.,B,1,2.935,direct,llama3.2
+arc-116,direct:phi3.5:latest,B,B,1,7.022,direct,phi3.5
+arc-116,direct:gemma2:2b,B  ,B,1,8.481,direct,gemma2
+arc-116,sc:llama3.2:latest,vote B 4/5,B,1,1.95,self_consistency,llama3.2
+arc-116,sc:qwen2.5:7b,vote B 5/5,B,1,8.585,self_consistency,qwen2.5
+arc-116,persona:expert,A,A,1,2.934,persona,llama3.2
+arc-116,persona:skeptic,A,A,1,0.433,persona,llama3.2
+arc-116,persona:cautious,B.,B,1,0.468,persona,llama3.2
+arc-116,rag:llama3.2:latest,B.,B,1,0.463,rag,llama3.2
+arc-116,rag:qwen2.5:7b,B,B,1,0.345,rag,qwen2.5
+arc-116,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-117,direct:qwen2.5:14b,C,C,1,45.271,direct,qwen2.5
+arc-117,direct:qwen2.5:7b,C,C,1,6.662,direct,qwen2.5
+arc-117,direct:mistral:7b, C,C,1,25.237,direct,mistral
+arc-117,direct:llama3.2:latest,C.,C,1,2.929,direct,llama3.2
+arc-117,direct:phi3.5:latest,C,C,1,2.015,direct,phi3.5
+arc-117,direct:gemma2:2b,C  ,C,1,8.225,direct,gemma2
+arc-117,sc:llama3.2:latest,vote C 5/5,C,1,1.886,self_consistency,llama3.2
+arc-117,sc:qwen2.5:7b,vote C 5/5,C,1,13.185,self_consistency,qwen2.5
+arc-117,persona:expert,C,C,1,3.188,persona,llama3.2
+arc-117,persona:skeptic,C,C,1,0.431,persona,llama3.2
+arc-117,persona:cautious,C,C,1,0.444,persona,llama3.2
+arc-117,rag:llama3.2:latest,C.,C,1,0.451,rag,llama3.2
+arc-117,rag:qwen2.5:7b,C,C,1,0.346,rag,qwen2.5
+arc-117,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-118,direct:qwen2.5:14b,B,B,1,45.315,direct,qwen2.5
+arc-118,direct:qwen2.5:7b,B,B,1,6.471,direct,qwen2.5
+arc-118,direct:mistral:7b, B,B,1,25.252,direct,mistral
+arc-118,direct:llama3.2:latest,B.,B,1,2.931,direct,llama3.2
+arc-118,direct:phi3.5:latest,B,B,1,2.012,direct,phi3.5
+arc-118,direct:gemma2:2b,C  ,C,1,8.209,direct,gemma2
+arc-118,sc:llama3.2:latest,vote B 4/5,B,1,1.927,self_consistency,llama3.2
+arc-118,sc:qwen2.5:7b,vote B 5/5,B,1,17.951,self_consistency,qwen2.5
+arc-118,persona:expert,B,B,1,3.235,persona,llama3.2
+arc-118,persona:skeptic,B,B,1,0.454,persona,llama3.2
+arc-118,persona:cautious,A,A,1,0.505,persona,llama3.2
+arc-118,rag:llama3.2:latest,B.,B,1,0.481,rag,llama3.2
+arc-118,rag:qwen2.5:7b,B,B,1,0.369,rag,qwen2.5
+arc-118,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-119,direct:qwen2.5:14b,C,C,1,45.242,direct,qwen2.5
+arc-119,direct:qwen2.5:7b,C,C,1,6.38,direct,qwen2.5
+arc-119,direct:mistral:7b, A,A,1,25.244,direct,mistral
+arc-119,direct:llama3.2:latest,C.,C,1,3.235,direct,llama3.2
+arc-119,direct:phi3.5:latest,C,C,1,2.018,direct,phi3.5
+arc-119,direct:gemma2:2b,C  ,C,1,8.504,direct,gemma2
+arc-119,sc:llama3.2:latest,vote C 5/5,C,1,1.973,self_consistency,llama3.2
+arc-119,sc:qwen2.5:7b,vote C 5/5,C,1,13.051,self_consistency,qwen2.5
+arc-119,persona:expert,C,C,1,2.979,persona,llama3.2
+arc-119,persona:skeptic,C,C,1,0.457,persona,llama3.2
+arc-119,persona:cautious,C.,C,1,0.468,persona,llama3.2
+arc-119,rag:llama3.2:latest,C.,C,1,0.454,rag,llama3.2
+arc-119,rag:qwen2.5:7b,C,C,1,0.33,rag,qwen2.5
+arc-119,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-120,direct:qwen2.5:14b,A,A,1,50.176,direct,qwen2.5
+arc-120,direct:qwen2.5:7b,A,A,1,6.392,direct,qwen2.5
+arc-120,direct:mistral:7b, A,A,1,25.241,direct,mistral
+arc-120,direct:llama3.2:latest,A.,A,1,2.709,direct,llama3.2
+arc-120,direct:phi3.5:latest,A,A,1,2.248,direct,phi3.5
+arc-120,direct:gemma2:2b,A  ,A,1,8.242,direct,gemma2
+arc-120,sc:llama3.2:latest,vote A 5/5,A,1,1.915,self_consistency,llama3.2
+arc-120,sc:qwen2.5:7b,vote A 5/5,A,1,17.713,self_consistency,qwen2.5
+arc-120,persona:expert,A,A,1,2.943,persona,llama3.2
+arc-120,persona:skeptic,A,A,1,0.471,persona,llama3.2
+arc-120,persona:cautious,A,A,1,0.478,persona,llama3.2
+arc-120,rag:llama3.2:latest,A.,A,1,0.46,rag,llama3.2
+arc-120,rag:qwen2.5:7b,A,A,1,0.358,rag,qwen2.5
+arc-120,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-121,direct:qwen2.5:14b,A,A,1,45.228,direct,qwen2.5
+arc-121,direct:qwen2.5:7b,A,A,1,6.35,direct,qwen2.5
+arc-121,direct:mistral:7b, A,A,1,25.22,direct,mistral
+arc-121,direct:llama3.2:latest,A.,A,1,2.917,direct,llama3.2
+arc-121,direct:phi3.5:latest,A,A,1,2.23,direct,phi3.5
+arc-121,direct:gemma2:2b,A  ,A,1,8.476,direct,gemma2
+arc-121,sc:llama3.2:latest,vote A 4/5,A,1,2.018,self_consistency,llama3.2
+arc-121,sc:qwen2.5:7b,vote A 5/5,A,1,13.24,self_consistency,qwen2.5
+arc-121,persona:expert,A.,A,1,2.937,persona,llama3.2
+arc-121,persona:skeptic,A.,A,1,0.465,persona,llama3.2
+arc-121,persona:cautious,A.,A,1,0.478,persona,llama3.2
+arc-121,rag:llama3.2:latest,A.,A,1,0.44,rag,llama3.2
+arc-121,rag:qwen2.5:7b,A,A,1,0.356,rag,qwen2.5
+arc-121,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-122,direct:qwen2.5:14b,D,D,1,45.263,direct,qwen2.5
+arc-122,direct:qwen2.5:7b,D,D,1,6.712,direct,qwen2.5
+arc-122,direct:mistral:7b," A (discourage landfills) is not a direct result of surface mining. Instead, it might lead to an increase in waste disposal sites due to the removal of land for mining operations.  B (increase Earth's surface area) is incorrect because surface mining reduces the Earth'",A,1,27.377,direct,mistral
+arc-122,direct:llama3.2:latest,D.,D,1,2.949,direct,llama3.2
+arc-122,direct:phi3.5:latest,A,A,1,2.236,direct,phi3.5
+arc-122,direct:gemma2:2b,D  ,D,1,8.508,direct,gemma2
+arc-122,sc:llama3.2:latest,vote D 3/5,D,1,1.953,self_consistency,llama3.2
+arc-122,sc:qwen2.5:7b,vote D 5/5,D,1,8.451,self_consistency,qwen2.5
+arc-122,persona:expert,D.,D,1,2.972,persona,llama3.2
+arc-122,persona:skeptic,D.,D,1,0.465,persona,llama3.2
+arc-122,persona:cautious,A.,A,1,0.456,persona,llama3.2
+arc-122,rag:llama3.2:latest,D.,D,1,0.447,rag,llama3.2
+arc-122,rag:qwen2.5:7b,D,D,1,0.338,rag,qwen2.5
+arc-122,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-123,direct:qwen2.5:14b,A,A,1,45.222,direct,qwen2.5
+arc-123,direct:qwen2.5:7b,A,A,1,6.377,direct,qwen2.5
+arc-123,direct:mistral:7b, A,A,1,25.267,direct,mistral
+arc-123,direct:llama3.2:latest,A.,A,1,12.041,direct,llama3.2
+arc-123,direct:phi3.5:latest,A,A,1,13.889,direct,phi3.5
+arc-123,direct:gemma2:2b,A  ,A,1,17.045,direct,gemma2
+arc-123,sc:llama3.2:latest,vote A 5/5,A,1,1.964,self_consistency,llama3.2
+arc-123,sc:qwen2.5:7b,vote A 5/5,A,1,13.601,self_consistency,qwen2.5
+arc-123,persona:expert,A,A,1,2.97,persona,llama3.2
+arc-123,persona:skeptic,A,A,1,0.472,persona,llama3.2
+arc-123,persona:cautious,A,A,1,0.454,persona,llama3.2
+arc-123,rag:llama3.2:latest,A.,A,1,0.443,rag,llama3.2
+arc-123,rag:qwen2.5:7b,A,A,1,0.326,rag,qwen2.5
+arc-123,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-124,direct:qwen2.5:14b,B,B,1,45.365,direct,qwen2.5
+arc-124,direct:qwen2.5:7b,B,B,1,6.313,direct,qwen2.5
+arc-124,direct:mistral:7b, A,A,1,25.267,direct,mistral
+arc-124,direct:llama3.2:latest,B.,B,1,2.975,direct,llama3.2
+arc-124,direct:phi3.5:latest,B,B,1,2.278,direct,phi3.5
+arc-124,direct:gemma2:2b,B  ,B,1,8.466,direct,gemma2
+arc-124,sc:llama3.2:latest,vote B 5/5,B,1,2.0,self_consistency,llama3.2
+arc-124,sc:qwen2.5:7b,vote B 5/5,B,1,13.213,self_consistency,qwen2.5
+arc-124,persona:expert,B,B,1,2.92,persona,llama3.2
+arc-124,persona:skeptic,B,B,1,0.451,persona,llama3.2
+arc-124,persona:cautious,B,B,1,0.452,persona,llama3.2
+arc-124,rag:llama3.2:latest,B.,B,1,0.436,rag,llama3.2
+arc-124,rag:qwen2.5:7b,B,B,1,0.353,rag,qwen2.5
+arc-124,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-125,direct:qwen2.5:14b,D,D,1,45.061,direct,qwen2.5
+arc-125,direct:qwen2.5:7b,D,D,1,6.59,direct,qwen2.5
+arc-125,direct:mistral:7b, D,D,1,25.248,direct,mistral
+arc-125,direct:llama3.2:latest,D.,D,1,3.247,direct,llama3.2
+arc-125,direct:phi3.5:latest,D,D,1,2.025,direct,phi3.5
+arc-125,direct:gemma2:2b,D  ,D,1,8.764,direct,gemma2
+arc-125,sc:llama3.2:latest,vote D 5/5,D,1,2.069,self_consistency,llama3.2
+arc-125,sc:qwen2.5:7b,vote D 5/5,D,1,13.913,self_consistency,qwen2.5
+arc-125,persona:expert,D.,D,1,3.255,persona,llama3.2
+arc-125,persona:skeptic,D.,D,1,0.487,persona,llama3.2
+arc-125,persona:cautious,D.,D,1,0.459,persona,llama3.2
+arc-125,rag:llama3.2:latest,D.,D,1,0.474,rag,llama3.2
+arc-125,rag:qwen2.5:7b,D,D,1,0.358,rag,qwen2.5
+arc-125,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-126,direct:qwen2.5:14b,A,A,1,50.568,direct,qwen2.5
+arc-126,direct:qwen2.5:7b,A,A,1,6.321,direct,qwen2.5
+arc-126,direct:mistral:7b, D,D,1,25.205,direct,mistral
+arc-126,direct:llama3.2:latest,D.,D,1,2.91,direct,llama3.2
+arc-126,direct:phi3.5:latest,D,D,1,7.028,direct,phi3.5
+arc-126,direct:gemma2:2b,D  ,D,1,8.491,direct,gemma2
+arc-126,sc:llama3.2:latest,vote D 3/5,D,1,1.915,self_consistency,llama3.2
+arc-126,sc:qwen2.5:7b,vote A 5/5,A,1,18.109,self_consistency,qwen2.5
+arc-126,persona:expert,D,D,1,3.199,persona,llama3.2
+arc-126,persona:skeptic,D,D,1,0.437,persona,llama3.2
+arc-126,persona:cautious,D,D,1,0.456,persona,llama3.2
+arc-126,rag:llama3.2:latest,D.,D,1,0.446,rag,llama3.2
+arc-126,rag:qwen2.5:7b,A,A,1,0.365,rag,qwen2.5
+arc-126,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-127,direct:qwen2.5:14b,B,B,1,45.508,direct,qwen2.5
+arc-127,direct:qwen2.5:7b,B,B,1,6.653,direct,qwen2.5
+arc-127,direct:mistral:7b, B,B,1,25.218,direct,mistral
+arc-127,direct:llama3.2:latest,B.,B,1,3.202,direct,llama3.2
+arc-127,direct:phi3.5:latest,B,B,1,2.226,direct,phi3.5
+arc-127,direct:gemma2:2b,A  ,A,1,8.476,direct,gemma2
+arc-127,sc:llama3.2:latest,vote B 3/5,B,1,2.024,self_consistency,llama3.2
+arc-127,sc:qwen2.5:7b,vote B 5/5,B,1,13.7,self_consistency,qwen2.5
+arc-127,persona:expert,B,B,1,2.942,persona,llama3.2
+arc-127,persona:skeptic,B,B,1,0.452,persona,llama3.2
+arc-127,persona:cautious,B,B,1,0.465,persona,llama3.2
+arc-127,rag:llama3.2:latest,B.,B,1,0.473,rag,llama3.2
+arc-127,rag:qwen2.5:7b,B,B,1,0.357,rag,qwen2.5
+arc-127,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-128,direct:qwen2.5:14b,D,D,1,45.501,direct,qwen2.5
+arc-128,direct:qwen2.5:7b,D,D,1,6.625,direct,qwen2.5
+arc-128,direct:mistral:7b, D,D,1,25.216,direct,mistral
+arc-128,direct:llama3.2:latest,D.,D,1,2.943,direct,llama3.2
+arc-128,direct:phi3.5:latest,D,D,1,1.99,direct,phi3.5
+arc-128,direct:gemma2:2b,D  ,D,1,8.232,direct,gemma2
+arc-128,sc:llama3.2:latest,vote D 5/5,D,1,2.047,self_consistency,llama3.2
+arc-128,sc:qwen2.5:7b,vote D 5/5,D,1,13.864,self_consistency,qwen2.5
+arc-128,persona:expert,D,D,1,2.978,persona,llama3.2
+arc-128,persona:skeptic,D,D,1,0.453,persona,llama3.2
+arc-128,persona:cautious,D,D,1,0.461,persona,llama3.2
+arc-128,rag:llama3.2:latest,D.,D,1,0.49,rag,llama3.2
+arc-128,rag:qwen2.5:7b,D,D,1,0.398,rag,qwen2.5
+arc-128,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-129,direct:qwen2.5:14b,C,C,1,45.444,direct,qwen2.5
+arc-129,direct:qwen2.5:7b,C,C,1,6.828,direct,qwen2.5
+arc-129,direct:mistral:7b, C,C,1,25.247,direct,mistral
+arc-129,direct:llama3.2:latest,C.,C,1,2.936,direct,llama3.2
+arc-129,direct:phi3.5:latest,C,C,1,2.236,direct,phi3.5
+arc-129,direct:gemma2:2b,A  ,A,1,8.234,direct,gemma2
+arc-129,sc:llama3.2:latest,vote C 5/5,C,1,1.968,self_consistency,llama3.2
+arc-129,sc:qwen2.5:7b,vote C 5/5,C,1,13.559,self_consistency,qwen2.5
+arc-129,persona:expert,C,C,1,2.924,persona,llama3.2
+arc-129,persona:skeptic,C,C,1,0.463,persona,llama3.2
+arc-129,persona:cautious,C.,C,1,0.461,persona,llama3.2
+arc-129,rag:llama3.2:latest,C.,C,1,0.472,rag,llama3.2
+arc-129,rag:qwen2.5:7b,C,C,1,0.34,rag,qwen2.5
+arc-129,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-130,direct:qwen2.5:14b,B,B,1,45.365,direct,qwen2.5
+arc-130,direct:qwen2.5:7b,B,B,1,6.65,direct,qwen2.5
+arc-130,direct:mistral:7b, A,A,1,25.235,direct,mistral
+arc-130,direct:llama3.2:latest,B,B,1,3.155,direct,llama3.2
+arc-130,direct:phi3.5:latest,B,B,1,2.219,direct,phi3.5
+arc-130,direct:gemma2:2b,B  ,B,1,8.254,direct,gemma2
+arc-130,sc:llama3.2:latest,vote B 5/5,B,1,1.963,self_consistency,llama3.2
+arc-130,sc:qwen2.5:7b,vote B 5/5,B,1,17.723,self_consistency,qwen2.5
+arc-130,persona:expert,B,B,1,2.91,persona,llama3.2
+arc-130,persona:skeptic,B,B,1,0.428,persona,llama3.2
+arc-130,persona:cautious,B,B,1,0.452,persona,llama3.2
+arc-130,rag:llama3.2:latest,B,B,1,0.455,rag,llama3.2
+arc-130,rag:qwen2.5:7b,B,B,1,0.347,rag,qwen2.5
+arc-130,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-131,direct:qwen2.5:14b,C,C,1,45.424,direct,qwen2.5
+arc-131,direct:qwen2.5:7b,C,C,1,6.695,direct,qwen2.5
+arc-131,direct:mistral:7b, C,C,1,25.224,direct,mistral
+arc-131,direct:llama3.2:latest,C,C,1,2.936,direct,llama3.2
+arc-131,direct:phi3.5:latest,C,C,1,2.239,direct,phi3.5
+arc-131,direct:gemma2:2b,C  ,C,1,8.483,direct,gemma2
+arc-131,sc:llama3.2:latest,vote C 4/5,C,1,1.885,self_consistency,llama3.2
+arc-131,sc:qwen2.5:7b,vote C 5/5,C,1,18.019,self_consistency,qwen2.5
+arc-131,persona:expert,A,A,1,2.929,persona,llama3.2
+arc-131,persona:skeptic,A,A,1,0.434,persona,llama3.2
+arc-131,persona:cautious,C,C,1,0.444,persona,llama3.2
+arc-131,rag:llama3.2:latest,C,C,1,0.45,rag,llama3.2
+arc-131,rag:qwen2.5:7b,C,C,1,0.349,rag,qwen2.5
+arc-131,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-132,direct:qwen2.5:14b,D,D,1,45.414,direct,qwen2.5
+arc-132,direct:qwen2.5:7b,D,D,1,6.345,direct,qwen2.5
+arc-132,direct:mistral:7b, D,D,1,25.213,direct,mistral
+arc-132,direct:llama3.2:latest,D.,D,1,3.207,direct,llama3.2
+arc-132,direct:phi3.5:latest,D,D,1,2.005,direct,phi3.5
+arc-132,direct:gemma2:2b,D  ,D,1,8.238,direct,gemma2
+arc-132,sc:llama3.2:latest,vote D 5/5,D,1,1.989,self_consistency,llama3.2
+arc-132,sc:qwen2.5:7b,vote D 5/5,D,1,13.091,self_consistency,qwen2.5
+arc-132,persona:expert,D.,D,1,2.931,persona,llama3.2
+arc-132,persona:skeptic,D.,D,1,0.45,persona,llama3.2
+arc-132,persona:cautious,D.,D,1,0.478,persona,llama3.2
+arc-132,rag:llama3.2:latest,D.,D,1,0.436,rag,llama3.2
+arc-132,rag:qwen2.5:7b,D,D,1,0.356,rag,qwen2.5
+arc-132,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-133,direct:qwen2.5:14b,B,B,1,45.283,direct,qwen2.5
+arc-133,direct:qwen2.5:7b,B,B,1,6.664,direct,qwen2.5
+arc-133,direct:mistral:7b, B,B,1,25.242,direct,mistral
+arc-133,direct:llama3.2:latest,B.,B,1,3.18,direct,llama3.2
+arc-133,direct:phi3.5:latest,B,B,1,1.976,direct,phi3.5
+arc-133,direct:gemma2:2b,B  ,B,1,8.238,direct,gemma2
+arc-133,sc:llama3.2:latest,vote B 3/5,B,1,2.044,self_consistency,llama3.2
+arc-133,sc:qwen2.5:7b,vote B 5/5,B,1,8.465,self_consistency,qwen2.5
+arc-133,persona:expert,B,B,1,2.937,persona,llama3.2
+arc-133,persona:skeptic,B,B,1,0.45,persona,llama3.2
+arc-133,persona:cautious,B.,B,1,0.466,persona,llama3.2
+arc-133,rag:llama3.2:latest,B.,B,1,0.441,rag,llama3.2
+arc-133,rag:qwen2.5:7b,B,B,1,0.323,rag,qwen2.5
+arc-133,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-134,direct:qwen2.5:14b,B,B,1,45.07,direct,qwen2.5
+arc-134,direct:qwen2.5:7b,A,A,1,6.616,direct,qwen2.5
+arc-134,direct:mistral:7b, A,A,1,25.248,direct,mistral
+arc-134,direct:llama3.2:latest,B.,B,1,2.968,direct,llama3.2
+arc-134,direct:phi3.5:latest,A,A,1,1.994,direct,phi3.5
+arc-134,direct:gemma2:2b,B  ,B,1,8.287,direct,gemma2
+arc-134,sc:llama3.2:latest,vote B 5/5,B,1,2.027,self_consistency,llama3.2
+arc-134,sc:qwen2.5:7b,vote A 3/5,A,1,13.372,self_consistency,qwen2.5
+arc-134,persona:expert,B,B,1,2.938,persona,llama3.2
+arc-134,persona:skeptic,B,B,1,0.438,persona,llama3.2
+arc-134,persona:cautious,B.,B,1,0.468,persona,llama3.2
+arc-134,rag:llama3.2:latest,B.,B,1,0.435,rag,llama3.2
+arc-134,rag:qwen2.5:7b,A,A,1,0.341,rag,qwen2.5
+arc-134,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-135,direct:qwen2.5:14b,B,B,1,45.516,direct,qwen2.5
+arc-135,direct:qwen2.5:7b,B,B,1,6.679,direct,qwen2.5
+arc-135,direct:mistral:7b, B,B,1,25.248,direct,mistral
+arc-135,direct:llama3.2:latest,B.,B,1,3.208,direct,llama3.2
+arc-135,direct:phi3.5:latest,B,B,1,1.972,direct,phi3.5
+arc-135,direct:gemma2:2b,B  ,B,1,8.472,direct,gemma2
+arc-135,sc:llama3.2:latest,vote B 4/5,B,1,1.992,self_consistency,llama3.2
+arc-135,sc:qwen2.5:7b,vote B 5/5,B,1,18.134,self_consistency,qwen2.5
+arc-135,persona:expert,B,B,1,2.955,persona,llama3.2
+arc-135,persona:skeptic,B,B,1,0.458,persona,llama3.2
+arc-135,persona:cautious,B,B,1,0.458,persona,llama3.2
+arc-135,rag:llama3.2:latest,B.,B,1,0.465,rag,llama3.2
+arc-135,rag:qwen2.5:7b,B,B,1,0.355,rag,qwen2.5
+arc-135,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-136,direct:qwen2.5:14b,B,B,1,50.602,direct,qwen2.5
+arc-136,direct:qwen2.5:7b,B,B,1,6.757,direct,qwen2.5
+arc-136,direct:mistral:7b, B,B,1,25.286,direct,mistral
+arc-136,direct:llama3.2:latest,B.,B,1,3.279,direct,llama3.2
+arc-136,direct:phi3.5:latest,B,B,1,2.316,direct,phi3.5
+arc-136,direct:gemma2:2b,B  ,B,1,8.525,direct,gemma2
+arc-136,sc:llama3.2:latest,vote B 5/5,B,1,2.092,self_consistency,llama3.2
+arc-136,sc:qwen2.5:7b,vote B 5/5,B,1,13.624,self_consistency,qwen2.5
+arc-136,persona:expert,B,B,1,3.232,persona,llama3.2
+arc-136,persona:skeptic,B,B,1,0.47,persona,llama3.2
+arc-136,persona:cautious,B,B,1,0.497,persona,llama3.2
+arc-136,rag:llama3.2:latest,B.,B,1,0.494,rag,llama3.2
+arc-136,rag:qwen2.5:7b,B,B,1,0.371,rag,qwen2.5
+arc-136,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-137,direct:qwen2.5:14b,B,B,1,50.711,direct,qwen2.5
+arc-137,direct:qwen2.5:7b,B,B,1,6.703,direct,qwen2.5
+arc-137,direct:mistral:7b, B,B,1,25.261,direct,mistral
+arc-137,direct:llama3.2:latest,B,B,1,2.949,direct,llama3.2
+arc-137,direct:phi3.5:latest,B,B,1,2.215,direct,phi3.5
+arc-137,direct:gemma2:2b,B  ,B,1,8.217,direct,gemma2
+arc-137,sc:llama3.2:latest,vote B 5/5,B,1,1.926,self_consistency,llama3.2
+arc-137,sc:qwen2.5:7b,vote B 5/5,B,1,8.471,self_consistency,qwen2.5
+arc-137,persona:expert,B,B,1,2.92,persona,llama3.2
+arc-137,persona:skeptic,B,B,1,0.472,persona,llama3.2
+arc-137,persona:cautious,B,B,1,0.451,persona,llama3.2
+arc-137,rag:llama3.2:latest,B.,B,1,0.464,rag,llama3.2
+arc-137,rag:qwen2.5:7b,B,B,1,0.337,rag,qwen2.5
+arc-137,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-138,direct:qwen2.5:14b,A,A,1,45.381,direct,qwen2.5
+arc-138,direct:qwen2.5:7b,A,A,1,6.659,direct,qwen2.5
+arc-138,direct:mistral:7b, A,A,1,25.248,direct,mistral
+arc-138,direct:llama3.2:latest,A.,A,1,2.954,direct,llama3.2
+arc-138,direct:phi3.5:latest,A,A,1,7.019,direct,phi3.5
+arc-138,direct:gemma2:2b,A  ,A,1,8.229,direct,gemma2
+arc-138,sc:llama3.2:latest,vote A 5/5,A,1,1.954,self_consistency,llama3.2
+arc-138,sc:qwen2.5:7b,vote A 5/5,A,1,13.351,self_consistency,qwen2.5
+arc-138,persona:expert,A,A,1,2.932,persona,llama3.2
+arc-138,persona:skeptic,A,A,1,0.444,persona,llama3.2
+arc-138,persona:cautious,A,A,1,0.451,persona,llama3.2
+arc-138,rag:llama3.2:latest,A.,A,1,0.449,rag,llama3.2
+arc-138,rag:qwen2.5:7b,A,A,1,0.332,rag,qwen2.5
+arc-138,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-139,direct:qwen2.5:14b,B,B,1,45.289,direct,qwen2.5
+arc-139,direct:qwen2.5:7b,B,B,1,6.363,direct,qwen2.5
+arc-139,direct:mistral:7b, A,A,1,25.262,direct,mistral
+arc-139,direct:llama3.2:latest,A.,A,1,2.945,direct,llama3.2
+arc-139,direct:phi3.5:latest,A,A,1,7.336,direct,phi3.5
+arc-139,direct:gemma2:2b,A  ,A,1,3.483,direct,gemma2
+arc-139,sc:llama3.2:latest,vote A 5/5,A,1,4.814,self_consistency,llama3.2
+arc-139,sc:qwen2.5:7b,vote B 5/5,B,1,13.404,self_consistency,qwen2.5
+arc-139,persona:expert,A,A,1,2.91,persona,llama3.2
+arc-139,persona:skeptic,A,A,1,0.459,persona,llama3.2
+arc-139,persona:cautious,A.,A,1,0.467,persona,llama3.2
+arc-139,rag:llama3.2:latest,A.,A,1,0.44,rag,llama3.2
+arc-139,rag:qwen2.5:7b,B,B,1,0.337,rag,qwen2.5
+arc-139,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-140,direct:qwen2.5:14b,D,D,1,67.244,direct,qwen2.5
+arc-140,direct:qwen2.5:7b,D,D,1,6.834,direct,qwen2.5
+arc-140,direct:mistral:7b, D,D,1,25.249,direct,mistral
+arc-140,direct:llama3.2:latest,D.,D,1,2.965,direct,llama3.2
+arc-140,direct:phi3.5:latest,D,D,1,2.006,direct,phi3.5
+arc-140,direct:gemma2:2b,D  ,D,1,8.497,direct,gemma2
+arc-140,sc:llama3.2:latest,vote D 5/5,D,1,2.038,self_consistency,llama3.2
+arc-140,sc:qwen2.5:7b,vote D 5/5,D,1,13.125,self_consistency,qwen2.5
+arc-140,persona:expert,D,D,1,2.931,persona,llama3.2
+arc-140,persona:skeptic,D,D,1,0.445,persona,llama3.2
+arc-140,persona:cautious,D,D,1,0.445,persona,llama3.2
+arc-140,rag:llama3.2:latest,D.,D,1,0.474,rag,llama3.2
+arc-140,rag:qwen2.5:7b,D,D,1,0.328,rag,qwen2.5
+arc-140,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-141,direct:qwen2.5:14b,C,C,1,45.073,direct,qwen2.5
+arc-141,direct:qwen2.5:7b,C,C,1,6.293,direct,qwen2.5
+arc-141,direct:mistral:7b, C,C,1,25.25,direct,mistral
+arc-141,direct:llama3.2:latest,C.,C,1,2.969,direct,llama3.2
+arc-141,direct:phi3.5:latest,C,C,1,1.983,direct,phi3.5
+arc-141,direct:gemma2:2b,C  ,C,1,8.489,direct,gemma2
+arc-141,sc:llama3.2:latest,vote C 5/5,C,1,1.973,self_consistency,llama3.2
+arc-141,sc:qwen2.5:7b,vote C 5/5,C,1,12.971,self_consistency,qwen2.5
+arc-141,persona:expert,C,C,1,2.954,persona,llama3.2
+arc-141,persona:skeptic,C,C,1,0.465,persona,llama3.2
+arc-141,persona:cautious,C,C,1,0.469,persona,llama3.2
+arc-141,rag:llama3.2:latest,C.,C,1,0.461,rag,llama3.2
+arc-141,rag:qwen2.5:7b,C,C,1,0.353,rag,qwen2.5
+arc-141,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-142,direct:qwen2.5:14b,A,A,1,45.487,direct,qwen2.5
+arc-142,direct:qwen2.5:7b,A,A,1,6.38,direct,qwen2.5
+arc-142,direct:mistral:7b, A,A,1,25.264,direct,mistral
+arc-142,direct:llama3.2:latest,A.,A,1,3.176,direct,llama3.2
+arc-142,direct:phi3.5:latest,A,A,1,7.062,direct,phi3.5
+arc-142,direct:gemma2:2b,A  ,A,1,8.214,direct,gemma2
+arc-142,sc:llama3.2:latest,vote A 5/5,A,1,2.0,self_consistency,llama3.2
+arc-142,sc:qwen2.5:7b,vote A 5/5,A,1,13.123,self_consistency,qwen2.5
+arc-142,persona:expert,A.,A,1,2.944,persona,llama3.2
+arc-142,persona:skeptic,A,A,1,0.433,persona,llama3.2
+arc-142,persona:cautious,A.,A,1,0.477,persona,llama3.2
+arc-142,rag:llama3.2:latest,A.,A,1,0.45,rag,llama3.2
+arc-142,rag:qwen2.5:7b,A,A,1,0.354,rag,qwen2.5
+arc-142,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-143,direct:qwen2.5:14b,A,A,1,45.555,direct,qwen2.5
+arc-143,direct:qwen2.5:7b,D,D,1,6.416,direct,qwen2.5
+arc-143,direct:mistral:7b, A,A,1,25.266,direct,mistral
+arc-143,direct:llama3.2:latest,A.,A,1,2.956,direct,llama3.2
+arc-143,direct:phi3.5:latest,A,A,1,2.046,direct,phi3.5
+arc-143,direct:gemma2:2b,D  ,D,1,8.223,direct,gemma2
+arc-143,sc:llama3.2:latest,vote A 5/5,A,1,1.987,self_consistency,llama3.2
+arc-143,sc:qwen2.5:7b,vote D 5/5,D,1,18.076,self_consistency,qwen2.5
+arc-143,persona:expert,A.,A,1,3.237,persona,llama3.2
+arc-143,persona:skeptic,A.,A,1,0.502,persona,llama3.2
+arc-143,persona:cautious,A.,A,1,0.469,persona,llama3.2
+arc-143,rag:llama3.2:latest,A.,A,1,0.466,rag,llama3.2
+arc-143,rag:qwen2.5:7b,D,D,1,0.335,rag,qwen2.5
+arc-143,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-144,direct:qwen2.5:14b,A,A,1,45.285,direct,qwen2.5
+arc-144,direct:qwen2.5:7b,A,A,1,6.413,direct,qwen2.5
+arc-144,direct:mistral:7b, A,A,1,25.221,direct,mistral
+arc-144,direct:llama3.2:latest,A.,A,1,2.935,direct,llama3.2
+arc-144,direct:phi3.5:latest,A,A,1,2.238,direct,phi3.5
+arc-144,direct:gemma2:2b,A  ,A,1,8.205,direct,gemma2
+arc-144,sc:llama3.2:latest,vote A 5/5,A,1,1.923,self_consistency,llama3.2
+arc-144,sc:qwen2.5:7b,vote A 5/5,A,1,17.749,self_consistency,qwen2.5
+arc-144,persona:expert,A,A,1,2.94,persona,llama3.2
+arc-144,persona:skeptic,A,A,1,0.47,persona,llama3.2
+arc-144,persona:cautious,A,A,1,0.435,persona,llama3.2
+arc-144,rag:llama3.2:latest,A.,A,1,0.44,rag,llama3.2
+arc-144,rag:qwen2.5:7b,A,A,1,0.349,rag,qwen2.5
+arc-144,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-145,direct:qwen2.5:14b,C,C,1,45.196,direct,qwen2.5
+arc-145,direct:qwen2.5:7b,C,C,1,6.668,direct,qwen2.5
+arc-145,direct:mistral:7b, C,C,1,25.292,direct,mistral
+arc-145,direct:llama3.2:latest,C.,C,1,2.973,direct,llama3.2
+arc-145,direct:phi3.5:latest,C,C,1,2.266,direct,phi3.5
+arc-145,direct:gemma2:2b,C  ,C,1,8.512,direct,gemma2
+arc-145,sc:llama3.2:latest,vote C 5/5,C,1,1.941,self_consistency,llama3.2
+arc-145,sc:qwen2.5:7b,vote C 5/5,C,1,13.496,self_consistency,qwen2.5
+arc-145,persona:expert,C,C,1,2.97,persona,llama3.2
+arc-145,persona:skeptic,C,C,1,0.469,persona,llama3.2
+arc-145,persona:cautious,C.,C,1,0.48,persona,llama3.2
+arc-145,rag:llama3.2:latest,C.,C,1,0.479,rag,llama3.2
+arc-145,rag:qwen2.5:7b,C,C,1,0.334,rag,qwen2.5
+arc-145,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-146,direct:qwen2.5:14b,C,C,1,50.538,direct,qwen2.5
+arc-146,direct:qwen2.5:7b,B,B,1,6.649,direct,qwen2.5
+arc-146,direct:mistral:7b, C,C,1,25.219,direct,mistral
+arc-146,direct:llama3.2:latest,C.,C,1,2.912,direct,llama3.2
+arc-146,direct:phi3.5:latest,B,B,1,7.023,direct,phi3.5
+arc-146,direct:gemma2:2b,C  ,C,1,8.206,direct,gemma2
+arc-146,sc:llama3.2:latest,vote C 4/5,C,1,1.982,self_consistency,llama3.2
+arc-146,sc:qwen2.5:7b,vote B 5/5,B,1,13.279,self_consistency,qwen2.5
+arc-146,persona:expert,C,C,1,2.913,persona,llama3.2
+arc-146,persona:skeptic,C,C,1,0.43,persona,llama3.2
+arc-146,persona:cautious,C,C,1,0.45,persona,llama3.2
+arc-146,rag:llama3.2:latest,C.,C,1,0.45,rag,llama3.2
+arc-146,rag:qwen2.5:7b,B,B,1,0.344,rag,qwen2.5
+arc-146,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-147,direct:qwen2.5:14b,A,A,1,45.238,direct,qwen2.5
+arc-147,direct:qwen2.5:7b,A,A,1,6.388,direct,qwen2.5
+arc-147,direct:mistral:7b, A,A,1,25.236,direct,mistral
+arc-147,direct:llama3.2:latest,A.,A,1,2.939,direct,llama3.2
+arc-147,direct:phi3.5:latest,A,A,1,2.009,direct,phi3.5
+arc-147,direct:gemma2:2b,C  ,C,1,8.217,direct,gemma2
+arc-147,sc:llama3.2:latest,vote A 5/5,A,1,1.948,self_consistency,llama3.2
+arc-147,sc:qwen2.5:7b,vote A 5/5,A,1,13.617,self_consistency,qwen2.5
+arc-147,persona:expert,A,A,1,2.921,persona,llama3.2
+arc-147,persona:skeptic,A,A,1,0.459,persona,llama3.2
+arc-147,persona:cautious,A.,A,1,0.474,persona,llama3.2
+arc-147,rag:llama3.2:latest,A.,A,1,0.449,rag,llama3.2
+arc-147,rag:qwen2.5:7b,A,A,1,0.339,rag,qwen2.5
+arc-147,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-148,direct:qwen2.5:14b,C,C,1,45.115,direct,qwen2.5
+arc-148,direct:qwen2.5:7b,C,C,1,6.529,direct,qwen2.5
+arc-148,direct:mistral:7b, C,C,1,25.229,direct,mistral
+arc-148,direct:llama3.2:latest,D.,D,1,2.939,direct,llama3.2
+arc-148,direct:phi3.5:latest,C,C,1,1.996,direct,phi3.5
+arc-148,direct:gemma2:2b,D  ,D,1,8.216,direct,gemma2
+arc-148,sc:llama3.2:latest,vote D 4/5,D,1,1.955,self_consistency,llama3.2
+arc-148,sc:qwen2.5:7b,vote C 5/5,C,1,13.22,self_consistency,qwen2.5
+arc-148,persona:expert,D,D,1,2.885,persona,llama3.2
+arc-148,persona:skeptic,C,C,1,0.436,persona,llama3.2
+arc-148,persona:cautious,D,D,1,0.439,persona,llama3.2
+arc-148,rag:llama3.2:latest,D.,D,1,0.462,rag,llama3.2
+arc-148,rag:qwen2.5:7b,C,C,1,0.349,rag,qwen2.5
+arc-148,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-149,direct:qwen2.5:14b,A,A,1,45.343,direct,qwen2.5
+arc-149,direct:qwen2.5:7b,A,A,1,6.398,direct,qwen2.5
+arc-149,direct:mistral:7b, A,A,1,25.241,direct,mistral
+arc-149,direct:llama3.2:latest,A.,A,1,3.246,direct,llama3.2
+arc-149,direct:phi3.5:latest,A,A,1,7.296,direct,phi3.5
+arc-149,direct:gemma2:2b,A  ,A,1,3.51,direct,gemma2
+arc-149,sc:llama3.2:latest,vote A 5/5,A,1,9.826,self_consistency,llama3.2
+arc-149,sc:qwen2.5:7b,vote A 5/5,A,1,18.151,self_consistency,qwen2.5
+arc-149,persona:expert,A.,A,1,2.971,persona,llama3.2
+arc-149,persona:skeptic,A.,A,1,0.451,persona,llama3.2
+arc-149,persona:cautious,A.,A,1,0.468,persona,llama3.2
+arc-149,rag:llama3.2:latest,A.,A,1,0.449,rag,llama3.2
+arc-149,rag:qwen2.5:7b,A,A,1,0.333,rag,qwen2.5
+arc-149,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-150,direct:qwen2.5:14b,C,C,1,45.414,direct,qwen2.5
+arc-150,direct:qwen2.5:7b,C,C,1,6.7,direct,qwen2.5
+arc-150,direct:mistral:7b, A,A,1,25.255,direct,mistral
+arc-150,direct:llama3.2:latest,C.,C,1,3.216,direct,llama3.2
+arc-150,direct:phi3.5:latest,C,C,1,2.253,direct,phi3.5
+arc-150,direct:gemma2:2b,C  ,C,1,8.233,direct,gemma2
+arc-150,sc:llama3.2:latest,vote C 5/5,C,1,1.991,self_consistency,llama3.2
+arc-150,sc:qwen2.5:7b,vote C 5/5,C,1,17.992,self_consistency,qwen2.5
+arc-150,persona:expert,C.,C,1,2.943,persona,llama3.2
+arc-150,persona:skeptic,C.,C,1,0.443,persona,llama3.2
+arc-150,persona:cautious,C.,C,1,0.458,persona,llama3.2
+arc-150,rag:llama3.2:latest,C.,C,1,0.441,rag,llama3.2
+arc-150,rag:qwen2.5:7b,C,C,1,0.345,rag,qwen2.5
+arc-150,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-151,direct:qwen2.5:14b,D,D,1,45.223,direct,qwen2.5
+arc-151,direct:qwen2.5:7b,D,D,1,6.32,direct,qwen2.5
+arc-151,direct:mistral:7b, D,D,1,25.224,direct,mistral
+arc-151,direct:llama3.2:latest,D.,D,1,2.943,direct,llama3.2
+arc-151,direct:phi3.5:latest,D,D,1,2.221,direct,phi3.5
+arc-151,direct:gemma2:2b,D  ,D,1,8.209,direct,gemma2
+arc-151,sc:llama3.2:latest,vote D 5/5,D,1,1.966,self_consistency,llama3.2
+arc-151,sc:qwen2.5:7b,vote D 5/5,D,1,18.02,self_consistency,qwen2.5
+arc-151,persona:expert,D,D,1,2.921,persona,llama3.2
+arc-151,persona:skeptic,D,D,1,0.443,persona,llama3.2
+arc-151,persona:cautious,D,D,1,0.456,persona,llama3.2
+arc-151,rag:llama3.2:latest,D.,D,1,0.434,rag,llama3.2
+arc-151,rag:qwen2.5:7b,D,D,1,0.357,rag,qwen2.5
+arc-151,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-152,direct:qwen2.5:14b,D,D,1,45.224,direct,qwen2.5
+arc-152,direct:qwen2.5:7b,C,C,1,6.332,direct,qwen2.5
+arc-152,direct:mistral:7b, D,D,1,25.221,direct,mistral
+arc-152,direct:llama3.2:latest,D.,D,1,2.932,direct,llama3.2
+arc-152,direct:phi3.5:latest,A,A,1,2.216,direct,phi3.5
+arc-152,direct:gemma2:2b,D  ,D,1,8.196,direct,gemma2
+arc-152,sc:llama3.2:latest,vote D 5/5,D,1,2.0,self_consistency,llama3.2
+arc-152,sc:qwen2.5:7b,vote C 5/5,C,1,13.609,self_consistency,qwen2.5
+arc-152,persona:expert,D,D,1,2.929,persona,llama3.2
+arc-152,persona:skeptic,D.,D,1,0.463,persona,llama3.2
+arc-152,persona:cautious,D.,D,1,0.458,persona,llama3.2
+arc-152,rag:llama3.2:latest,D.,D,1,0.448,rag,llama3.2
+arc-152,rag:qwen2.5:7b,C,C,1,0.337,rag,qwen2.5
+arc-152,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-153,direct:qwen2.5:14b,C,C,1,50.563,direct,qwen2.5
+arc-153,direct:qwen2.5:7b,C,C,1,6.378,direct,qwen2.5
+arc-153,direct:mistral:7b, C,C,1,25.296,direct,mistral
+arc-153,direct:llama3.2:latest,C.,C,1,2.955,direct,llama3.2
+arc-153,direct:phi3.5:latest,C,C,1,7.03,direct,phi3.5
+arc-153,direct:gemma2:2b,C  ,C,1,8.514,direct,gemma2
+arc-153,sc:llama3.2:latest,vote C 5/5,C,1,1.931,self_consistency,llama3.2
+arc-153,sc:qwen2.5:7b,vote C 5/5,C,1,8.295,self_consistency,qwen2.5
+arc-153,persona:expert,C,C,1,2.953,persona,llama3.2
+arc-153,persona:skeptic,C,C,1,0.447,persona,llama3.2
+arc-153,persona:cautious,C.,C,1,0.47,persona,llama3.2
+arc-153,rag:llama3.2:latest,C.,C,1,0.443,rag,llama3.2
+arc-153,rag:qwen2.5:7b,C,C,1,0.337,rag,qwen2.5
+arc-153,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-154,direct:qwen2.5:14b,B,B,1,45.177,direct,qwen2.5
+arc-154,direct:qwen2.5:7b,B,B,1,6.64,direct,qwen2.5
+arc-154,direct:mistral:7b, B,B,1,25.258,direct,mistral
+arc-154,direct:llama3.2:latest,B.,B,1,2.969,direct,llama3.2
+arc-154,direct:phi3.5:latest,B,B,1,7.034,direct,phi3.5
+arc-154,direct:gemma2:2b,B  ,B,1,8.522,direct,gemma2
+arc-154,sc:llama3.2:latest,vote B 4/5,B,1,1.988,self_consistency,llama3.2
+arc-154,sc:qwen2.5:7b,vote B 5/5,B,1,13.638,self_consistency,qwen2.5
+arc-154,persona:expert,B,B,1,3.5,persona,llama3.2
+arc-154,persona:skeptic,B,B,1,0.446,persona,llama3.2
+arc-154,persona:cautious,B,B,1,0.458,persona,llama3.2
+arc-154,rag:llama3.2:latest,B.,B,1,0.471,rag,llama3.2
+arc-154,rag:qwen2.5:7b,B,B,1,0.339,rag,qwen2.5
+arc-154,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-155,direct:qwen2.5:14b,D,D,1,45.531,direct,qwen2.5
+arc-155,direct:qwen2.5:7b,D,D,1,6.709,direct,qwen2.5
+arc-155,direct:mistral:7b, D,D,1,25.245,direct,mistral
+arc-155,direct:llama3.2:latest,D.,D,1,2.922,direct,llama3.2
+arc-155,direct:phi3.5:latest,D,D,1,6.98,direct,phi3.5
+arc-155,direct:gemma2:2b,D  ,D,1,8.506,direct,gemma2
+arc-155,sc:llama3.2:latest,vote D 4/5,D,1,1.965,self_consistency,llama3.2
+arc-155,sc:qwen2.5:7b,vote D 5/5,D,1,18.528,self_consistency,qwen2.5
+arc-155,persona:expert,D.,D,1,2.947,persona,llama3.2
+arc-155,persona:skeptic,D,D,1,0.438,persona,llama3.2
+arc-155,persona:cautious,D.,D,1,0.461,persona,llama3.2
+arc-155,rag:llama3.2:latest,D.,D,1,0.449,rag,llama3.2
+arc-155,rag:qwen2.5:7b,D,D,1,0.348,rag,qwen2.5
+arc-155,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-156,direct:qwen2.5:14b,C,C,1,45.465,direct,qwen2.5
+arc-156,direct:qwen2.5:7b,B,B,1,6.605,direct,qwen2.5
+arc-156,direct:mistral:7b, B,B,1,25.229,direct,mistral
+arc-156,direct:llama3.2:latest,B.,B,1,3.176,direct,llama3.2
+arc-156,direct:phi3.5:latest,B,B,1,12.014,direct,phi3.5
+arc-156,direct:gemma2:2b,B  ,B,1,3.505,direct,gemma2
+arc-156,sc:llama3.2:latest,vote B 4/5,B,1,9.565,self_consistency,llama3.2
+arc-156,sc:qwen2.5:7b,vote B 5/5,B,1,13.723,self_consistency,qwen2.5
+arc-156,persona:expert,B,B,1,2.926,persona,llama3.2
+arc-156,persona:skeptic,B,B,1,0.448,persona,llama3.2
+arc-156,persona:cautious,B,B,1,0.445,persona,llama3.2
+arc-156,rag:llama3.2:latest,B.,B,1,0.468,rag,llama3.2
+arc-156,rag:qwen2.5:7b,B,B,1,0.362,rag,qwen2.5
+arc-156,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-157,direct:qwen2.5:14b,B,B,1,50.508,direct,qwen2.5
+arc-157,direct:qwen2.5:7b,B,B,1,6.592,direct,qwen2.5
+arc-157,direct:mistral:7b, B,B,1,25.205,direct,mistral
+arc-157,direct:llama3.2:latest,B.,B,1,3.238,direct,llama3.2
+arc-157,direct:phi3.5:latest,B,B,1,7.341,direct,phi3.5
+arc-157,direct:gemma2:2b,B  ,B,1,3.249,direct,gemma2
+arc-157,sc:llama3.2:latest,vote B 5/5,B,1,9.511,self_consistency,llama3.2
+arc-157,sc:qwen2.5:7b,vote B 5/5,B,1,18.185,self_consistency,qwen2.5
+arc-157,persona:expert,B,B,1,2.936,persona,llama3.2
+arc-157,persona:skeptic,B,B,1,0.443,persona,llama3.2
+arc-157,persona:cautious,B.,B,1,0.474,persona,llama3.2
+arc-157,rag:llama3.2:latest,B.,B,1,0.445,rag,llama3.2
+arc-157,rag:qwen2.5:7b,B,B,1,0.372,rag,qwen2.5
+arc-157,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-158,direct:qwen2.5:14b,C,C,1,45.127,direct,qwen2.5
+arc-158,direct:qwen2.5:7b,C,C,1,6.608,direct,qwen2.5
+arc-158,direct:mistral:7b, C,C,1,25.218,direct,mistral
+arc-158,direct:llama3.2:latest,C.,C,1,3.217,direct,llama3.2
+arc-158,direct:phi3.5:latest,C,C,1,7.072,direct,phi3.5
+arc-158,direct:gemma2:2b,C  ,C,1,8.474,direct,gemma2
+arc-158,sc:llama3.2:latest,vote C 5/5,C,1,1.942,self_consistency,llama3.2
+arc-158,sc:qwen2.5:7b,vote C 5/5,C,1,13.642,self_consistency,qwen2.5
+arc-158,persona:expert,C,C,1,2.923,persona,llama3.2
+arc-158,persona:skeptic,C,C,1,0.457,persona,llama3.2
+arc-158,persona:cautious,C.,C,1,0.445,persona,llama3.2
+arc-158,rag:llama3.2:latest,C.,C,1,0.456,rag,llama3.2
+arc-158,rag:qwen2.5:7b,C,C,1,0.372,rag,qwen2.5
+arc-158,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw
+arc-159,direct:qwen2.5:14b,B,B,1,45.336,direct,qwen2.5
+arc-159,direct:qwen2.5:7b,B,B,1,6.621,direct,qwen2.5
+arc-159,direct:mistral:7b, B,B,1,25.215,direct,mistral
+arc-159,direct:llama3.2:latest,B.,B,1,2.944,direct,llama3.2
+arc-159,direct:phi3.5:latest,B,B,1,2.21,direct,phi3.5
+arc-159,direct:gemma2:2b,B  ,B,1,8.243,direct,gemma2
+arc-159,sc:llama3.2:latest,vote B 4/5,B,1,1.907,self_consistency,llama3.2
+arc-159,sc:qwen2.5:7b,vote B 5/5,B,1,13.419,self_consistency,qwen2.5
+arc-159,persona:expert,B,B,1,2.937,persona,llama3.2
+arc-159,persona:skeptic,B,B,1,0.429,persona,llama3.2
+arc-159,persona:cautious,B,B,1,0.442,persona,llama3.2
+arc-159,rag:llama3.2:latest,B.,B,1,0.448,rag,llama3.2
+arc-159,rag:qwen2.5:7b,B,B,1,0.359,rag,qwen2.5
+arc-159,openclaw,,<ABSTAIN>,0,0.0,cli,openclaw

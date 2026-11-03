@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper below."
+title: "BP-TD: Dependence-Aware Belief Propagation for Unsupervised Truth Discovery among AI Agents"
+abstract: >-
+  Code and cached data for BP-TD, a dependence-aware variational message-passing
+  method for unsupervised truth discovery over pools of heterogeneous LLM agents.
+  BP-TD runs mean-field variational message passing on a one-coin Dawid-Skene model
+  over the agent-question-value graph, with a per-agent decorrelation weight that
+  discounts agents sharing a base model or an empirical agreement cluster.
+type: software
+authors:
+  - family-names: "Berti-Equille"
+    given-names: "Laure"
+    affiliation: "IRD, ESPACE-DEV, Montpellier, France"
+    email: "laure.berti@ird.fr"
+license: MIT
+version: "2.0.0"
+doi: "10.5281/zenodo.21294747"
+date-released: "2026-11-03"
+repository-code: "https://github.com/LaureBerti/BPTD"
+keywords:
+  - truth discovery
+  - belief propagation
+  - LLM agents
+  - source dependence
+  - data quality
+  - ensembling
+preferred-citation:
+  type: conference-paper
+  title: "Where Is the Truth When AI Agents Disagree? Dependence-Aware Belief Propagation for Unsupervised Truth Discovery"
+  authors:
+    - family-names: "Berti-Equille"
+      given-names: "Laure"
+      affiliation: "IRD, ESPACE-DEV, Montpellier, France"
+  collection-title: "Proceedings of the IEEE International Conference on Big Data (BigData 2026)"
+  year: 2026
+  notes: "Paper accepted at IEEE BigData 2026 (short paper)."

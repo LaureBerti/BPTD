@@ -1,0 +1,12 @@
+dataset,method,mean_acc,sd_acc,diff_vs_mv,holm_p_vs_mv,diff_vs_bptd,holm_p_bptd_vs,n_splits
+arc,MajorityVote,0.8472,0.0341,0.0,nan,-0.0053,1.0,40
+arc,BP-TD-cooccur,0.8419,0.0411,-0.0053,1.0,0.0,nan,40
+arc,"CARE-SVD(pub,γ=1)",0.8472,0.0341,0.0,1.0,-0.0053,1.0,40
+arc,"CARE-SVD(pub,γ-val)",0.8472,0.0341,0.0,1.0,-0.0053,1.0,40
+arc,"CARE-SVD(ridge,γ=1)",0.8672,0.0759,0.02,1.0,-0.0253,1.0,40
+arc,"CARE-SVD(ridge,γ-val)",0.8594,0.0866,0.0122,1.0,-0.0175,1.0,40
+arc,ISP,0.8531,0.0339,0.0059,1.0,-0.0112,1.0,40
+arc,OW-I,0.8522,0.0379,0.005,1.0,-0.0103,1.0,40
+arc,_care_failures(pub),520,,,,,,
+arc,_care_failures(ridge),0,,,,,,
+arc,_chosen,"{'BP': {0.8: 17, 0.5: 8, 0.2: 7}, 'pub': {0.1: 40}, 'ridge': {0.2: 18, 0.1: 12, 0.5: 3}}",,,,,,

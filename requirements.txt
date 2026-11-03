@@ -1,0 +1,13 @@
+# BP-TD — reproduce every reported number from the cached answers (CPU only)
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+hydra-core>=1.3
+omegaconf>=2.3
+cvxpy>=1.4          # only for the CARE comparison (experiments, exp=concurrent)
+
+# Optional: only to RE-HARVEST agent answers (not needed to reproduce the paper)
+# openai>=1.0
+# datasets>=2.16
+# scikit-learn       # RAG TF-IDF retriever
+# vllm               # batched GPU harvest backend (Linux + NVIDIA only)

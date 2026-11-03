@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+*.log
+# third-party code without a licence (fetched by scripts/get_care.sh, never committed)
+experiments/third_party/
+outputs/hydra_logs/
+outputs/figures/
+logs/
+.env

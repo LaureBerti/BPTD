@@ -1,0 +1,184 @@
+# Author: Laure Berti-Equille (laure.berti@ird.fr)
+# Paper:  Berti-Equille, L. (2026). Where Is the Truth When AI Agents Disagree?
+#         Dependence-Aware Belief Propagation for Unsupervised Truth Discovery.
+#         Paper accepted at IEEE BigData 2026.
+agents:
+  specs:
+  - name: direct:qwen2.5:14b
+    type: direct
+    model: qwen2.5:14b
+    k: 5
+    temperature: 0.7
+    persona: ''
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  - name: direct:qwen2.5:7b
+    type: direct
+    model: qwen2.5:7b
+    k: 5
+    temperature: 0.7
+    persona: ''
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  - name: direct:mistral:7b
+    type: direct
+    model: mistral:7b
+    k: 5
+    temperature: 0.7
+    persona: ''
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  - name: direct:llama3.2:latest
+    type: direct
+    model: llama3.2:latest
+    k: 5
+    temperature: 0.7
+    persona: ''
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  - name: direct:phi3.5:latest
+    type: direct
+    model: phi3.5:latest
+    k: 5
+    temperature: 0.7
+    persona: ''
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  - name: direct:gemma2:2b
+    type: direct
+    model: gemma2:2b
+    k: 5
+    temperature: 0.7
+    persona: ''
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  - name: sc:llama3.2:latest
+    type: self_consistency
+    model: llama3.2:latest
+    k: 5
+    temperature: 0.7
+    persona: ''
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  - name: sc:qwen2.5:7b
+    type: self_consistency
+    model: qwen2.5:7b
+    k: 5
+    temperature: 0.7
+    persona: ''
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  - name: persona:expert
+    type: persona
+    model: llama3.2:latest
+    k: 5
+    temperature: 0.7
+    persona: You are a meticulous domain expert. Answer factual questions precisely.
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  - name: persona:skeptic
+    type: persona
+    model: llama3.2:latest
+    k: 5
+    temperature: 0.7
+    persona: You are a careful skeptic. Distrust common misconceptions; reason before
+      answering.
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  - name: persona:cautious
+    type: persona
+    model: llama3.2:latest
+    k: 5
+    temperature: 0.7
+    persona: You are a cautious assistant. Prefer the most defensible, well-evidenced
+      option.
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  - name: rag:llama3.2:latest
+    type: rag
+    model: llama3.2:latest
+    k: 5
+    temperature: 0.7
+    persona: ''
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  - name: rag:qwen2.5:7b
+    type: rag
+    model: qwen2.5:7b
+    k: 5
+    temperature: 0.7
+    persona: ''
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  - name: openclaw
+    type: cli
+    model: llama3.2:latest
+    k: 5
+    temperature: 0.7
+    persona: ''
+    rag_top_k: 3
+    command: []
+    request_timeout_s: 120.0
+  models:
+  - qwen2.5:14b
+  - deepseek-r1:latest
+  - qwen2.5:7b
+  - mistral:7b
+  - llama3.2:latest
+  - phi3.5:latest
+  - gemma2:2b
+  - deepseek-r1:1.5b
+  api_base: http://localhost:11434/v1
+  api_key: ollama
+  temperature: 0.0
+  max_tokens: 64
+  request_timeout_s: 120.0
+data:
+  name: synthetic
+  folder: data
+  max_questions: 500
+  syn_n_questions: 500
+  syn_n_agents: 8
+  syn_n_values: 4
+  syn_reliability_low: 0.3
+  syn_reliability_high: 0.92
+  syn_missing_rate: 0.05
+  syn_seed: 7
+bp:
+  signed: true
+  dependence_aware: true
+  dep_mode: cooccur
+  dep_threshold: 0.5
+  mode: loopy
+  max_iter: 100
+  eps: 0.0001
+  damping: 0.3
+  alpha0: 2.0
+  beta0: 1.0
+  sign_lambda: 0.4
+  seed_fraction: 0.0
+  seed_rng: 42
+output:
+  dir: outputs
+  prefix: bptd
+  dpi: 150
+mode: compare
+seeds:
+- 42
+- 123
+- 7
+- 2024
+- 31
