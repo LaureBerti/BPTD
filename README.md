@@ -129,7 +129,20 @@ batched backend (`agents.backend=vllm`, one model per process via `BPTD_VLLM_ONL
   year      = {2026},
   note      = {Short paper}
 }
+
+@misc{bertiequille2026bptdextended,
+  title         = {Where Is the Truth When {AI} Agents Disagree? Dependence-Aware Belief Propagation
+                   for Unsupervised Truth Discovery (Extended Version)},
+  author        = {Berti-Equille, Laure},
+  year          = {2026},
+  eprint        = {2611.04805},
+  archivePrefix = {arXiv},
+  doi           = {10.48550/arXiv.2611.04805}
+}
 ```
+
+Extended version with all analyses: arXiv [2611.04805](https://arxiv.org/abs/2611.04805)
+(DOI [10.48550/arXiv.2611.04805](https://doi.org/10.48550/arXiv.2611.04805)).
 
 Source code: <https://github.com/LaureBerti/BPTD>.
 Code and data archive: Zenodo, DOI [10.5281/zenodo.21294747](https://doi.org/10.5281/zenodo.21294747)

@@ -18,6 +18,13 @@ version: "2.0.0"
 doi: "10.5281/zenodo.21294747"
 date-released: "2026-11-03"
 repository-code: "https://github.com/LaureBerti/BPTD"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21294747"
+    description: "Zenodo archive of the code and data (all versions)"
+  - type: doi
+    value: "10.48550/arXiv.2611.04805"
+    description: "Extended version of the paper on arXiv"
 keywords:
   - truth discovery
   - belief propagation
@@ -35,3 +42,13 @@ preferred-citation:
   collection-title: "Proceedings of the IEEE International Conference on Big Data (BigData 2026)"
   year: 2026
   notes: "Paper accepted at IEEE BigData 2026 (short paper)."
+references:
+  - type: article
+    title: "Where Is the Truth When AI Agents Disagree? Dependence-Aware Belief Propagation for Unsupervised Truth Discovery (Extended Version)"
+    authors:
+      - family-names: "Berti-Equille"
+        given-names: "Laure"
+    year: 2026
+    repository: "arXiv"
+    doi: "10.48550/arXiv.2611.04805"
+    url: "https://arxiv.org/abs/2611.04805"

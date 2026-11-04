@@ -10,10 +10,27 @@
       "orcid": "0000-0002-8046-0570"
     }
   ],
-  "description": "<p>Code and cached agent answers for the paper <em>Where Is the Truth When AI Agents Disagree? Dependence-Aware Belief Propagation for Unsupervised Truth Discovery</em> by Laure Berti-Equille, accepted at the 2026 IEEE International Conference on Big Data (IEEE BigData 2026), short paper.</p><p>BP-TD infers the true answers of disagreeing LLM agents and each agent's reliability without labels, using mean-field variational inference on a one-coin Dawid-Skene model with per-agent decorrelation weights (from base-model provenance or answer co-occurrence). Every number in the paper recomputes on CPU from the bundled answers; the result CSVs behind the paper are included.</p><p>Source repository: <a href=\"https://github.com/LaureBerti/BPTD\">https://github.com/LaureBerti/BPTD</a></p>",
-  "keywords": ["truth discovery", "LLM agents", "source dependence", "variational inference", "data quality", "ensembling"],
+  "description": "<p>Code and cached agent answers for the paper <em>Where Is the Truth When AI Agents Disagree? Dependence-Aware Belief Propagation for Unsupervised Truth Discovery</em> by Laure Berti-Equille, accepted at the 2026 IEEE International Conference on Big Data (IEEE BigData 2026), short paper.</p><p>BP-TD infers the true answers of disagreeing LLM agents and each agent's reliability without labels, using mean-field variational inference on a one-coin Dawid-Skene model with per-agent decorrelation weights (from base-model provenance or answer co-occurrence). Every number in the paper recomputes on CPU from the bundled answers; the result CSVs behind the paper are included.</p><p>Extended version of the paper: arXiv:2611.04805, <a href=\"https://doi.org/10.48550/arXiv.2611.04805\">https://doi.org/10.48550/arXiv.2611.04805</a></p><p>Source repository: <a href=\"https://github.com/LaureBerti/BPTD\">https://github.com/LaureBerti/BPTD</a></p>",
+  "keywords": [
+    "truth discovery",
+    "LLM agents",
+    "source dependence",
+    "variational inference",
+    "data quality",
+    "ensembling"
+  ],
   "related_identifiers": [
-    {"identifier": "https://github.com/LaureBerti/BPTD", "relation": "isSupplementTo", "scheme": "url"}
+    {
+      "identifier": "https://github.com/LaureBerti/BPTD",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.48550/arXiv.2611.04805",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    }
   ],
   "notes": "Paper accepted at IEEE BigData 2026. Add the proceedings DOI as a related identifier (relation: isSupplementTo) once it is assigned."
 }
